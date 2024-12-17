@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LandingPageController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -11,9 +12,10 @@ Route::get('/', function () {
     return view('under_construction');
 });
 
-Route::get('/landingpage', function () {
-    return view('landingpage');
-});
+//Route::get('/landingpage', function () {
+//    return view('landingpage');
+//});
+Route::get('/landingpage', [LandingPageController::class, 'show'])->name('landingpage');
 
 Route::get('/links', function () {
     return view('links');
