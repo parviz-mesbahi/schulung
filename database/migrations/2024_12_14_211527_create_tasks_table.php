@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('tasks', function (Blueprint $table) {
             $table->id();
             $table->foreignID('lesson_id')->constrained()->cascadeOnDelete();
+//            $table->foreignId('lesson_id')->constrained('lesson')->onDelete('cascade');
             $table->string('category');
             $table->text('question');
             $table->text('answer')->nullable();
