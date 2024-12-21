@@ -24,6 +24,17 @@ Route::get('/links', function () {
     return view('links');
 });
 
+Route::get('/test', function () {
+    return view('landingpage2');
+});
+Route::get('/home', function () {
+return view('home');
+});
+
+Route::get('/java', function () {
+    return view('java');
+});
+
 //Route::get('/impressum', function () {
 //    return view('impressum');
 //});

@@ -20,7 +20,7 @@
     @endif
 </head>
 <body>
-<h1>Landing Page</h1>
+<h1>Datenschutz</h1>
 <li> <a href="{{ url('/links') }}">Links</a></li>
 <h1>=============</h1>
 <div>
