@@ -226,158 +226,199 @@
                     Gravida quam mi erat tortor neque molestie. Auctor aliquet at porttitor a enim nunc suscipit tincidunt nunc
                 </p>
             </div>
-            <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4">
-                <div class="rounded-3xl p-8 ring-1 ring-gray-200">
-                    <h2 id="tier-hobby" class="text-lg/8 font-semibold text-gray-900">Hobby</h2>
-                    <p class="mt-4 text-sm/6 text-gray-600">The essentials to provide your best work for clients.</p>
+            <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4 px-24">
+                <div class="rounded-3xl p-8 ring-2 ring-gray-200">
+{{--                    <h2 id="tier-hobby" class="text-lg/8 font-semibold text-gray-900">Java</h2>--}}
+                    <h2 id="tier-hobby" class="text-lg/8 font-semibold text-indigo-600">Java</h2>
+                    <p class="mt-4 text-sm/6 text-gray-600">Eine weltweit verbreitete, objektorientierte Programmiersprache.</p>
                     <p class="mt-6 flex items-baseline gap-x-1">
                         <!-- Price, update based on frequency toggle state -->
-                        <span class="text-4xl font-semibold tracking-tight text-gray-900">$19</span>
+                        <span class="text-4xl font-semibold tracking-tight text-gray-900">5</span>
                         <!-- Payment frequency, update based on frequency toggle state -->
-                        <span class="text-sm/6 font-semibold text-gray-600">/month</span>
+                        <span class="text-sm/6 font-semibold text-gray-600">/Tage</span>
                     </p>
-                    <a href="#" aria-describedby="tier-hobby" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Buy plan</a>
+                    <a href="#" aria-describedby="tier-hobby" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Zum Kurs</a>
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600">
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                                 <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                             </svg>
-                            5 products
+                            Klassen und Objekte
                         </li>
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                                 <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                             </svg>
-                            Up to 1,000 subscribers
+                            Vererbung
                         </li>
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                                 <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                             </svg>
-                            Basic analytics
+                            Polymorphismus
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+                            </svg>
+                            Exception Handling
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+                            </svg>
+                            Collections
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+                            </svg>
+                            Lambda-Ausdrücke
                         </li>
                     </ul>
                 </div>
-                <div class="rounded-3xl p-8 ring-1 ring-gray-200">
-                    <h2 id="tier-freelancer" class="text-lg/8 font-semibold text-gray-900">Freelancer</h2>
-                    <p class="mt-4 text-sm/6 text-gray-600">The essentials to provide your best work for clients.</p>
+                <div class="rounded-3xl p-8 ring-2 ring-gray-200">
+{{--                    <h2 id="tier-startup" class="text-lg/8 font-semibold text-gray-900">Algorithmen</h2>--}}
+                    <h2 id="tier-startup" class="text-lg/8 font-semibold text-indigo-600"> Algorithmen</h2>
+                    <p class="mt-4 text-sm/6 text-gray-600">Eine Folge präziser Anweisungen zur Lösung eines Problems.</p>
                     <p class="mt-6 flex items-baseline gap-x-1">
                         <!-- Price, update based on frequency toggle state -->
-                        <span class="text-4xl font-semibold tracking-tight text-gray-900">$29</span>
+                        <span class="text-4xl font-semibold tracking-tight text-gray-900">3</span>
                         <!-- Payment frequency, update based on frequency toggle state -->
-                        <span class="text-sm/6 font-semibold text-gray-600">/month</span>
+                        <span class="text-sm/6 font-semibold text-gray-600">/Tage</span>
                     </p>
-                    <a href="#" aria-describedby="tier-freelancer" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Buy plan</a>
+                    <a href="#" aria-describedby="tier-freelancer" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Zum Kurs</a>
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600">
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                                 <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                             </svg>
-                            5 products
+                            Definition
                         </li>
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                                 <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                             </svg>
-                            Up to 1,000 subscribers
+                            Struktogramm
+                        </li>                        <li class="flex gap-x-3">
+                            <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+                            </svg>
+                            Datenstrukturen
                         </li>
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                                 <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                             </svg>
-                            Basic analytics
+                            Sortieralgorithmen
                         </li>
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                                 <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                             </svg>
-                            48-hour support response time
+                            Suchalgorithmen
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+                            </svg>
+                            Komplexität und Analyse
                         </li>
                     </ul>
                 </div>
-                <div class="rounded-3xl p-8 ring-2 ring-indigo-600">
-                    <h2 id="tier-startup" class="text-lg/8 font-semibold text-indigo-600">Startup</h2>
-                    <p class="mt-4 text-sm/6 text-gray-600">A plan that scales with your rapidly growing business.</p>
+{{--                <div class="rounded-3xl p-8 ring-2 ring-indigo-600">--}}
+                <div class="rounded-3xl p-8 ring-2 ring-gray-200">
+                    <h2 id="tier-startup" class="text-lg/8 font-semibold text-indigo-600">Datenbanken</h2>
+                    <p class="mt-4 text-sm/6 text-gray-600">Daten sammeln, organisieren, strukturieren und effizient speichern.</p>
                     <p class="mt-6 flex items-baseline gap-x-1">
                         <!-- Price, update based on frequency toggle state -->
-                        <span class="text-4xl font-semibold tracking-tight text-gray-900">$59</span>
+                        <span class="text-4xl font-semibold tracking-tight text-gray-900">3</span>
                         <!-- Payment frequency, update based on frequency toggle state -->
-                        <span class="text-sm/6 font-semibold text-gray-600">/month</span>
+                        <span class="text-sm/6 font-semibold text-gray-600">/Tage</span>
                     </p>
-                    <a href="#" aria-describedby="tier-startup" class="mt-6 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Buy plan</a>
+{{--                    <a href="#" aria-describedby="tier-startup" class="mt-6 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Zum Kurs</a>--}}
+                        <a href="#" aria-describedby="tier-startup" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Zum Kurs</a>
+
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600">
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                                 <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                             </svg>
-                            25 products
+                            Datenbanksysteme
                         </li>
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                                 <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                             </svg>
-                            Up to 10,000 subscribers
+                            Datenbankdesign
                         </li>
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                                 <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                             </svg>
-                            Advanced analytics
+                            SQL (Query Language)
                         </li>
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                                 <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                             </svg>
-                            24-hour support response time
+                            Indizes und Performance
                         </li>
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                                 <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                             </svg>
-                            Marketing automations
+                            Transaktionen
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+                            </svg>
+                            Datensicherheit
                         </li>
                     </ul>
                 </div>
-                <div class="rounded-3xl p-8 ring-1 ring-gray-200">
-                    <h2 id="tier-enterprise" class="text-lg/8 font-semibold text-gray-900">Enterprise</h2>
-                    <p class="mt-4 text-sm/6 text-gray-600">Dedicated support and infrastructure for your company.</p>
+                <div class="rounded-3xl p-8 ring-2 ring-gray-200">
+{{--                    <h2 id="tier-enterprise" class="text-lg/8 font-semibold text-gray-900">Spring Boot</h2>--}}
+                    <h2 id="tier-enterprise" class="text-lg/8 font-semibold text-indigo-600">Spring Boot</h2>
+                    <p class="mt-4 text-sm/6 text-gray-600">Ein Framework für die Entwicklung von Java-Webanwendungen.</p>
                     <p class="mt-6 flex items-baseline gap-x-1">
                         <!-- Price, update based on frequency toggle state -->
-                        <span class="text-4xl font-semibold tracking-tight text-gray-900">$99</span>
+                        <span class="text-4xl font-semibold tracking-tight text-gray-900">5</span>
                         <!-- Payment frequency, update based on frequency toggle state -->
-                        <span class="text-sm/6 font-semibold text-gray-600">/month</span>
+                        <span class="text-sm/6 font-semibold text-gray-600">/Tage</span>
                     </p>
-                    <a href="#" aria-describedby="tier-enterprise" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Buy plan</a>
+                    <a href="#" aria-describedby="tier-enterprise" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Zum Kurs</a>
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600">
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                                 <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                             </svg>
-                            Unlimited products
+                            Spring Boot Basics
                         </li>
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                                 <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                             </svg>
-                            Unlimited subscribers
+                            Dependency Injection
                         </li>
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                                 <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                             </svg>
-                            Advanced analytics
+                            Datenbankintegration
                         </li>
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                                 <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                             </svg>
-                            1-hour, dedicated support response time
+                            Authentifizierung
                         </li>
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                                 <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
                             </svg>
-                            Marketing automations
+                            RESTful Web Services
                         </li>
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
