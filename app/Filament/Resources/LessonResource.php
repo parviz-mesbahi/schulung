@@ -10,6 +10,7 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
+use Filament\Forms\Components\RichEditor;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
@@ -39,10 +40,28 @@ class LessonResource extends Resource
                 Forms\Components\MarkdownEditor::make('content')
                     ->required()
                     ->label('Content'),
-//                Forms\Components\RichEditor::make('content')
-//                    ->required()
-//                    ->label('Content')
-//                    ->placeholder('content here'),
+                Forms\Components\RichEditor::make('content')
+                    ->required()
+                    ->label('Content'),
+
+                RichEditor::make('description')
+                    ->toolbarButtons([
+                        'attachFiles',
+                        'blockquote',
+                        'bold',
+                        'bulletList',
+                        'codeBlock',
+                        'h2',
+                        'h3',
+                        'italic',
+                        'link',
+                        'orderedList',
+                        'redo',
+                        'strike',
+                        'underline',
+                        'undo',
+                    ])
+                    ->label('description'),
             ])->columns(1);
     }
 

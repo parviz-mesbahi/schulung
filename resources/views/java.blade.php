@@ -9,5 +9,7 @@
 @endsection
 
 @section('content')
-    <p>This is my body content XXX. </p>
+    @foreach ($data as $info)
+        <p>{!! $info->content !!}</p>
+    @endforeach
 @endsection

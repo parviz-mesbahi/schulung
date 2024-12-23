@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\View\View;
 
+
 class WebPageController extends Controller
 {
     /**
@@ -43,6 +44,28 @@ class WebPageController extends Controller
             ->get();
         return view('landingpage')->with(['data' => $data]);
     }
+
+    public function java(Request $request)
+    {
+        $path =$request->getPathInfo() ;
+        $segments = explode('/', trim($path, '/'));
+        $name = $segments[0]; // java
+        $number = $segments[1]; // 1, 2, 3
+
+        $data = DB::table('lessons')
+            ->select('content')
+            ->where('title' , $name)
+            ->where('number' , $number)
+            ->get();
+
+        $content = Purifier::clean($request->input('content'), [
+            'HTML.Allowed' => 'ul,ol,li,b,strong,i,em,p,br',
+        ]);
+
+        return view('java')->with(['data' => $data]);
+    }
+
+
 
 
     /**

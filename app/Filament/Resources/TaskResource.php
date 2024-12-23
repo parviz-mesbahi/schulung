@@ -25,8 +25,8 @@ class TaskResource extends Resource
             ->schema([
                 Forms\Components\Select::make('lesson_id') // Add relationship dropdown
                 ->label('Related Lesson')
-//                    ->relationship('lesson', 'number')
-                    ->relationship('lesson', 'title')
+//                    ->relationship('lessons', 'number')
+                    ->relationship('lessons', 'title')
                     ->required(),
                 Forms\Components\TextInput::make('category')
                     ->required()

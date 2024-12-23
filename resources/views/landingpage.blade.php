@@ -24,19 +24,19 @@
     <li> <a href="{{ url('/links') }}">Links</a></li>
     <h1>=============</h1>
     <div>
-        @if ($data->isEmpty())
-            <p>No content available.</p>
-        @else
+{{--        @if ($data->isEmpty())--}}
+{{--            <p>No content available.</p>--}}
+{{--        @else--}}
 
-            @foreach ($data as $item)
-                <div>
-                    title: {{ $item->title }} -> content {{ $item->content }}
-                </div>
-                <hr>
-            @endforeach
-        @endif
+{{--            @foreach ($data as $item)--}}
+{{--                <div>--}}
+{{--                    title: {{ $item->title }} -> content {{ $item->content }}--}}
+{{--                </div>--}}
+{{--                <hr>--}}
+{{--            @endforeach--}}
+{{--        @endif--}}
 
-{{--        <h1>{{$data}}</h1>--}}
+        <h1>{{$data}}</h1>
     </div>
     </body>
 </html>

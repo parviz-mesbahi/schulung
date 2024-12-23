@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LessonController;
 use App\Http\Controllers\WebPageController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
@@ -19,10 +20,8 @@ Route::get('/impressum', [WebPageController::class, 'impressum'])->name('impress
 Route::get('/links', [WebPageController::class, 'links'])->name('links');
 
 
+Route::resource('lessons', LessonController::class);
 
-Route::get('/links', function () {
-    return view('links');
-});
 
 Route::get('/test', function () {
     return view('landingpage2');
@@ -31,17 +30,13 @@ Route::get('/home', function () {
 return view('home');
 });
 
-Route::get('/java', function () {
-    return view('java');
-});
-
-//Route::get('/impressum', function () {
-//    return view('impressum');
+//Route::get('/java', function () {
+//    return view('java');
 //});
 
-//Route::get('/datenschutz', function () {
-//    return view('datenschutz');
-//});
+Route::get('/java/{id}', [WebPageController::class, 'java'])->name('java');
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
