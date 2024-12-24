@@ -64,9 +64,7 @@ class WebPageController extends Controller
 
         return view('java')->with(['data' => $data]);
     }
-
-
-
+}
 
     /**
      * Update the user's profile information.
@@ -104,4 +102,4 @@ class WebPageController extends Controller
 //
 //        return Redirect::to('/');
 //    }
-}
+//}

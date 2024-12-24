@@ -16,22 +16,11 @@
         <input type="text" name="description" value="{{ $lesson->description ?? '' }}">
 
         <label>Content</label>
-        <textarea id="content" name="content" style="display: none;">{{ $lesson->content ?? '' }}</textarea>
+{{--        <textarea id="content" name="content" style="display: none;">{{ $lesson->content ?? '' }}</textarea>--}}
+        <textarea id="content" name="content">{{ $lesson->content ?? '' }}</textarea>
         <div id="mk-editor-container"></div>
 
         <button type="submit">{{ isset($lesson) ? 'Update' : 'Create' }}</button>
     </form>
 @endsection
 
-@section('scripts')
-    <script>
-        // Initialize the Markdown Editor
-        const editor = new MdEditor({
-            el: document.getElementById('mk-editor-container'),
-            value: document.getElementById('mk-editor').value,
-            onChange(value) {
-                document.getElementById('mk-editor').value = value;
-            },
-        });
-    </script>
-@endsection

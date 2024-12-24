@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind Template</title>
     <script src="https://cdn.tailwindcss.com"></script>
-{{--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/md-editor-v3/dist/style.css">--}}
-{{--    <script src="https://cdn.jsdelivr.net/npm/md-editor-v3"></script>--}}
 
-{{--    <script src="https://cdn.ckeditor.com/ckeditor5/34.0.0/classic/ckeditor.js"></script>--}}
+    <script src="https://cdn.tiny.cloud/1/c8e36migxumfdqrsgfvulr80jb7aoe7vv3px66184lnqd03h/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'advlist codesample code',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | align lineheight | tinycomments | checklist numlist bullist indent outdent | emoticons charmap | removeformat | codesample code',
+            tinycomments_mode: 'embedded',
+            tinycomments_author: 'Author name',
+            mergetags_list: [
+                { value: 'First.Name', title: 'First Name' },
+                { value: 'Email', title: 'Email' },
+            ],
+            ai_request: (request, respondWith) => respondWith.string(() => Promise.reject("See docs to implement AI Assistant"))
+        });
+    </script>
 
-{{--    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>--}}
-{{--    <script>--}}
-{{--        tinymce.init({--}}
-{{--            selector: '#content'--}}
-{{--        });--}}
-{{--    </script>--}}
 </head>
 
 <body class="bg-gray-100">
@@ -27,30 +33,10 @@
         </div>
     </div>
 </main>
+
 <script>
-    // Initialize CKEditor
-    ClassicEditor
-        .create(document.querySelector('textarea'))
-
-        // toolbar: ['bold', 'italic', 'bulletedList', 'numberedList', 'link'],
-        // allowedContent: true, // Allow all content, including lists
-        .then(editor => {
-            console.log('Editor was initialized', editor);
-        })
-        .catch(error => {
-            console.error('Error during initialization of the editor', error);
-        });
+    tinymce.init({ selector:'textarea' });
 </script>
-
-{{--<script>--}}
-{{--    // Initialize the Markdown Editor--}}
-{{--    const editor = new MdEditor({--}}
-{{--        el: document.getElementById('mk-editor-container'),--}}
-{{--        value: document.getElementById('mk-editor').value,--}}
-{{--        onChange(value) {--}}
-{{--            document.getElementById('mk-editor').value = value;--}}
-{{--        },--}}
-{{--    });--}}
-{{--</script>--}}
 </body>
+
 </html>

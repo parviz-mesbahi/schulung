@@ -16,7 +16,7 @@
         <input name="description">{{ $lesson->description ?? '' }}</input>
 
         <label>Content</label>
-        <textarea id="content" name="content" style="display: none;">{{ $lesson->content ?? '' }}</textarea>
+        <textarea id="content" name="content">{{ $lesson->content ?? '' }}</textarea>
         <div id="mk-editor-container"></div>
 
         <button type="submit">{{ isset($lesson) ? 'Update' : 'Create' }}</button>

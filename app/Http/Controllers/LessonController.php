@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Lesson;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class LessonController extends Controller
 {
@@ -38,7 +39,12 @@ class LessonController extends Controller
 
     public function edit(Lesson $lesson)
     {
-        return view('lessons.edit', compact('lesson'));
+        if (Auth::check()) {
+            return view('lessons.edit', compact('lesson'));
+        } else {
+            return redirect()->route('login')->with('error', 'You must be logged in.');
+        }
+
     }
 
     public function update(Request $request, Lesson $lesson)

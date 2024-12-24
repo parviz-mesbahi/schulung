@@ -48,4 +48,10 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route::middleware(['auth'])->group(function () {
+    Route::get('/lessons', [LessonController::class, 'index'])->name('indxe');
+    Route::get('/lessons/create', [LessonController::class, 'create'])->name('create');
+    Route::get('/lessons/{id}/edit', [LessonController::class, 'edit'])->name('edit');
+});
+
 require __DIR__.'/auth.php';
