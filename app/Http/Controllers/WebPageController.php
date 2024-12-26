@@ -52,19 +52,23 @@ class WebPageController extends Controller
         $name = $segments[0]; // java
         $number = $segments[1]; // 1, 2, 3
 
-        $data = DB::table('webs')
+        $data = DB::table('lessons')
             ->select('content')
             ->where('title', $name)
             ->where('number', $number)
             ->get();
 
-        $content = Purifier::clean($request->input('content'), [
-            'HTML.Allowed' => 'ul,ol,li,b,strong,i,em,p,br',
-        ]);
+//        $content = Purifier::clean($request->input('content'), [
+//            'HTML.Allowed' => 'ul,ol,li,b,strong,i,em,p,br',
+//        ]);
 
         return view('java')->with(['data' => $data]);
     }
 
+    public function links()
+    {
+        return view('links');
+    }
 
     // ===== Admin Bereich ======
 
