@@ -20,12 +20,10 @@ Route::get('/impressum', [WebPageController::class, 'impressum'])->name('impress
 Route::get('/links', [WebPageController::class, 'links'])->name('links');
 
 
-Route::resource('lessons', LessonController::class);
-
-
 Route::get('/test', function () {
     return view('landingpage2');
 });
+
 Route::get('/home', function () {
 return view('home');
 });
@@ -48,10 +46,19 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+//Route::resource('lessons', LessonController::class);
+//Route::resource('webs', WebPageController::class);
+
 Route::middleware(['auth'])->group(function () {
-    Route::get('/lessons', [LessonController::class, 'index'])->name('indxe');
-    Route::get('/lessons/create', [LessonController::class, 'create'])->name('create');
-    Route::get('/lessons/{id}/edit', [LessonController::class, 'edit'])->name('edit');
+    Route::resource('lessons', LessonController::class);
+    Route::resource('webs', WebPageController::class);
+
 });
+
+//    Route::get('/lessons', [LessonController::class, 'index'])->name('webs.index');
+//    Route::get('/lessons/create', [LessonController::class, 'create'])->name('webs.create');
+//    Route::get('/lessons/update', [LessonController::class, 'create'])->name('webs.update');
+//    Route::post('/lessons/store', [LessonController::class, 'store'])->name('webs.store');
+//    Route::get('/lessons/{id}/edit', [LessonController::class, 'edit'])->name('webs.edit');
 
 require __DIR__.'/auth.php';

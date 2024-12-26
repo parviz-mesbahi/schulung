@@ -21,7 +21,7 @@ class WebPageController extends Controller
     {
 //      $data = DB::table('webs')->get();  // korrekt
         $data = DB::table('webs')->select('page', 'title', 'content')
-            ->where('page' , 'landingpage')
+            ->where('page', 'landingpage')
             ->get();
         return view('landingpage')->with(['data' => $data]);
     }
@@ -30,7 +30,7 @@ class WebPageController extends Controller
     {
         $data = DB::table('webs')
             ->select('page', 'title', 'content')
-            ->where('page' , 'datenschutz')
+            ->where('page', 'datenschutz')
             ->get();
         return view('datenschutz', ['data' => $data]);
     }
@@ -40,22 +40,22 @@ class WebPageController extends Controller
     {
         $data = DB::table('webs')
             ->select('title', 'content')
-            ->where('page' , 'impressum')
+            ->where('page', 'impressum')
             ->get();
         return view('landingpage')->with(['data' => $data]);
     }
 
     public function java(Request $request)
     {
-        $path =$request->getPathInfo() ;
+        $path = $request->getPathInfo();
         $segments = explode('/', trim($path, '/'));
         $name = $segments[0]; // java
         $number = $segments[1]; // 1, 2, 3
 
-        $data = DB::table('lessons')
+        $data = DB::table('webs')
             ->select('content')
-            ->where('title' , $name)
-            ->where('number' , $number)
+            ->where('title', $name)
+            ->where('number', $number)
             ->get();
 
         $content = Purifier::clean($request->input('content'), [
@@ -64,7 +64,68 @@ class WebPageController extends Controller
 
         return view('java')->with(['data' => $data]);
     }
+
+
+    // ===== Admin Bereich ======
+
+    public function index()
+    {
+        $webs = Web::all();
+        return view('webs.index', compact('webs'));
+    }
+
+    public function create()
+    {
+        return view('webs.create');
+    }
+
+    public function store(Request $request)
+    {
+        $validated = $request->validate([
+            'page' => 'required',
+            'title' => 'required',
+            'content' => 'required',
+        ]);
+
+        Web::create($validated);
+        return redirect()->route('webs.index')->with('Success', 'Web created successfully!');
+    }
+
+    public function show(Web $web)
+    {
+        return view('webs.show', compact('web'));
+    }
+
+    public function edit(Web $web)
+    {
+//        if (Auth::check()) {
+            return view('webs.edit', compact('web'));
+//        } else {
+//            return redirect()->route('login')->with('error', 'You must be logged in.');
+//        }
+    }
+
+
+    public function update(Request $request, Web $web)
+    {
+        $validated = $request->validate([
+            'page' => 'required',
+            'title' => 'required',
+            'content' => 'nullable',
+        ]);
+
+        $web->update($validated);
+        return redirect()->route('webs.index')->with('success', 'Web updated successfully!');
+    }
+
+    public function destroy(Web $web)
+    {
+        $web->delete();
+        return redirect()->route('webs.index')->with('success', 'Web deleted successfully!');
+    }
+
 }
+
 
     /**
      * Update the user's profile information.
