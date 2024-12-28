@@ -27,6 +27,10 @@ Route::get('/kontakt', function () {
     return view('kontakt');
 });
 
+Route::get('/kurs', function () {
+    return view('kurse');
+});
+
 Route::get('/home', function () {
 return view('home');
 });
@@ -35,7 +39,11 @@ return view('home');
 //    return view('java');
 //});
 
-Route::get('/java/{id}', [WebPageController::class, 'java'])->name('java');
+//Route::get('/java/{id}', [WebPageController::class, 'java'])->name('java');
+Route::get('/kurs/java/{title}', [WebPageController::class, 'java'])->name('kurs.java');
+Route::get('/kurs/algorithmus/{title}', [WebPageController::class, 'java'])->name('kurs.java');
+Route::get('/kurs/datenbank/{title}', [WebPageController::class, 'java'])->name('kurs.java');
+Route::get('/kurs/springboot/{title}', [WebPageController::class, 'java'])->name('kurs.java');
 
 
 

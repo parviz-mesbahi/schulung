@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="sm:col-span-2">
-                <label for="description" class="block text-sm/6 font-semibold text-gray-900">Description</label>
+                <label for="description" class="block text-sm/6 font-semibold text-gray-900">Url Tag</label>
                 <div class="mt-2.5">
                     <input type="text" name="description" id="description" autocomplete="description" value="{{ $lesson->description ?? '' }}" required
                            class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">

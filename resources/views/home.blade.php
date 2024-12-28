@@ -37,9 +37,9 @@
                 </button>
             </div>
             <div class="hidden lg:flex lg:gap-x-12">
-                <a href="#" class="text-sm/6 font-semibold text-white">Home</a>
+                <a href="/home" class="text-sm/6 font-semibold text-white">Home</a>
                 <a href="#" class="text-sm/6 font-semibold text-white">Entwicklung</a>
-                <a href="#" class="text-sm/6 font-semibold text-white">Kurse</a>
+                <a href="{{ url('/kurs') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
                 <a href="#" class="text-sm/6 font-semibold text-white">Über uns</a>
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
