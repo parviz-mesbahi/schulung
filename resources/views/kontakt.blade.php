@@ -35,16 +35,18 @@
 </div>
 
 <div class="ml-10">
-    @if ($data->isEmpty())
-        <p>No content available.</p>
-    @else
-        @foreach ($data as $item)
-            <div>
-                {!! $item->content  !!}
-            </div>
-            <hr>
-        @endforeach
-    @endif
+{{--    @if ($data->isEmpty())--}}
+{{--        <p>No content available.</p>--}}
+{{--    @else--}}
+{{--        @foreach ($data as $item)--}}
+{{--            <div>--}}
+{{--                {!! $item->content  !!}--}}
+{{--            </div>--}}
+{{--            <hr>--}}
+{{--        @endforeach--}}
+{{--    @endif--}}
+
+    <h1>kontakt</h1>
 </div>
 </body>
 </html>

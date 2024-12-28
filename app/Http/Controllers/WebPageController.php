@@ -29,9 +29,13 @@ class WebPageController extends Controller
     public function datenschutz()
     {
         $data = DB::table('webs')
-            ->select('page', 'title', 'content')
+            ->select('content')
             ->where('page', 'datenschutz')
             ->get();
+
+
+//        $data = strip_tags($data1, '<li>');
+
         return view('datenschutz', ['data' => $data]);
     }
 
@@ -39,10 +43,10 @@ class WebPageController extends Controller
     public function impressum()
     {
         $data = DB::table('webs')
-            ->select('title', 'content')
+            ->select('content')
             ->where('page', 'impressum')
             ->get();
-        return view('landingpage')->with(['data' => $data]);
+        return view('impressum')->with(['data' => $data]);
     }
 
     public function java(Request $request)

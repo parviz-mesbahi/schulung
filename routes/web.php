@@ -16,12 +16,15 @@ Route::get('/', function () {
 
 Route::get('/landingpage', [WebPageController::class, 'landingpage'])->name('landingpage');
 Route::get('/datenschutz', [WebPageController::class, 'datenschutz'])->name('datenschutz');
-Route::get('/impressum', [WebPageController::class, 'impressum'])->name('impressum');
+Route::get('/impressum',   [WebPageController::class, 'impressum'])->name('impressum');
 Route::get('/links', [WebPageController::class, 'links'])->name('links');
 
 
-Route::get('/test', function () {
-    return view('landingpage2');
+Route::get('/ueberuns', function () {
+    return view('ueberuns');
+});
+Route::get('/kontakt', function () {
+    return view('kontakt');
 });
 
 Route::get('/home', function () {

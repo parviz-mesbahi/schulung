@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwind Template</title>
+    <title>Maxabit IT-Solutions</title>
+    <meta name="description" content="XXXXX">
+    <meta name="keywords" content="SEO, Suchmaschinenoptimierung, Tipps">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="XXXXX">
+    <meta property="og:description" content="YYYYYY">
+    <meta property="og:image" content="https://example.com/images/seo-tipps.png">
+    <meta property="og:url" content="https://maxabit.de">
+
+
     <script src="https://cdn.tailwindcss.com"></script>
-{{--    @vite('resources/css/app.css')--}}
+
 </head>
 <body class="bg-gray-100">
 <div class="bg-white">
@@ -27,10 +37,10 @@
                 </button>
             </div>
             <div class="hidden lg:flex lg:gap-x-12">
-                <a href="#" class="text-sm/6 font-semibold text-white">Über uns</a>
+                <a href="#" class="text-sm/6 font-semibold text-white">Home</a>
                 <a href="#" class="text-sm/6 font-semibold text-white">Entwicklung</a>
-                <a href="#" class="text-sm/6 font-semibold text-white">Schulung</a>
-                <a href="#" class="text-sm/6 font-semibold text-white">Feedbacks</a>
+                <a href="#" class="text-sm/6 font-semibold text-white">Kurse</a>
+                <a href="#" class="text-sm/6 font-semibold text-white">Über uns</a>
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
                 <a href="" class="text-sm/6 font-semibold text-white">Log in <span aria-hidden="true">&rarr;</span></a>
@@ -508,75 +518,31 @@
     <footer class="mt-32 bg-gray-900 sm:mt-56">
         <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
             <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-                <img class="h-9" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="Company name">
+                <img class="h-9" src="https://maxabit.com/home" alt="MaxaBit IT-Solutions">
                 <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
                     <div class="md:grid md:grid-cols-2 md:gap-8">
                         <div>
-                            <h3 class="text-sm/6 font-semibold text-white">Solutions</h3>
-                            <ul role="list" class="mt-6 space-y-4">
-                                <li>
-                                    <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Marketing</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Analytics</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Automation</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Commerce</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Insights</a>
-                                </li>
-                            </ul>
+                            <h3 class="text-sm/6 font-semibold text-white"><a href="{{ url('/impressum') }}">Impressum</a></h3>
                         </div>
                         <div class="mt-10 md:mt-0">
-                            <h3 class="text-sm/6 font-semibold text-white">Support</h3>
-                            <ul role="list" class="mt-6 space-y-4">
-                                <li>
-                                    <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Submit ticket</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Documentation</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Guides</a>
-                                </li>
-                            </ul>
+                            <h3 class="text-sm/6 font-semibold text-white"><a href="{{ url('/datenschutz') }}">Datenschutz</a></h3>
+                        </div>
+                        <div class="mt-10 md:mt-0">
+                            <h3 class="text-sm/6 font-semibold text-white"><a href="{{ url('/home') }}"> </a></h3>
+                        </div>
+                        <div class="mt-10 md:mt-0">
+                            <h3 class="text-sm/6 font-semibold text-white"><a href="{{ url('/home') }}">MaxaBit IT-Solutions </a></h3>
                         </div>
                     </div>
                     <div class="md:grid md:grid-cols-2 md:gap-8">
                         <div>
-                            <h3 class="text-sm/6 font-semibold text-white">Company</h3>
-                            <ul role="list" class="mt-6 space-y-4">
-                                <li>
-                                    <a href="#" class="text-sm/6 text-gray-400 hover:text-white">About</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Blog</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Jobs</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Press</a>
-                                </li>
-                            </ul>
+                            <h3 class="text-sm/6 font-semibold text-white"><a href="{{ url('/ueberuns') }}">Über Uns</a></h3>
                         </div>
                         <div class="mt-10 md:mt-0">
-                            <h3 class="text-sm/6 font-semibold text-white">Legal</h3>
-                            <ul role="list" class="mt-6 space-y-4">
-                                <li>
-                                    <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Terms of service</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-sm/6 text-gray-400 hover:text-white">Privacy policy</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-sm/6 text-gray-400 hover:text-white">License</a>
-                                </li>
-                            </ul>
+                            <h3 class="text-sm/6 font-semibold text-white"><a href="{{ url('/kontakt') }}">Kontakt</a></h3>
+                        </div>
+                        <div class="mt-10 md:mt-0">
+                            <h3 class="text-sm/6 font-semibold text-white">Copyright © 2024 </h3>
                         </div>
                     </div>
                 </div>

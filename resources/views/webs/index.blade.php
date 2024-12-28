@@ -35,7 +35,7 @@
                                 <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">{{ $web->id }}</td>
                                 <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{{ $web->page}}</td>
                                 <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{{ $web->title }}</td>
-                                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{!! $web->content !!}</td>
+                                <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{!! \Illuminate\Support\Str::limit($web->content, 60) !!}</td>
                                 <td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-0">
                                     <a href="{{ route('webs.edit', $web) }}"class="text-indigo-600 hover:text-indigo-900">Edit</a>
                                 </td>
