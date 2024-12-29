@@ -28,7 +28,7 @@
                 </button>
             </div>
             <div class="hidden lg:flex lg:gap-x-12">
-                <a href="/uberuns" class="text-sm/6 font-semibold text-white">Über uns</a>
+                <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
 {{--                <a href="/entwi" class="text-sm/6 font-semibold text-white">Entwicklung</a>--}}
                 <a href="{{ url('/kurs') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
                 <a href="/kontakt" class="text-sm/6 font-semibold text-white">Kontakt</a>

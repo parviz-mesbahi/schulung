@@ -37,10 +37,10 @@
                 </button>
             </div>
             <div class="hidden lg:flex lg:gap-x-12">
-                <a href="/home" class="text-sm/6 font-semibold text-white">Home</a>
+                <a href="{{ url('/home') }}" class="text-sm/6 font-semibold text-white">Home</a>
                 <a href="#" class="text-sm/6 font-semibold text-white">Entwicklung</a>
                 <a href="{{ url('/kurs') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
-                <a href="#" class="text-sm/6 font-semibold text-white">Über uns</a>
+                <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
                 <a href="" class="text-sm/6 font-semibold text-white">Log in <span aria-hidden="true">&rarr;</span></a>
@@ -60,8 +60,10 @@
             </div>
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="mx-auto max-w-2xl lg:mx-0">
-                    <h2 class="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Schulung center</h2>
-                    <p class="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>
+                    <h2 class="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Online Kurse</h2>
+                    <p class="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">
+                        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.
+                    </p>
                 </div>
                 <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
                     <div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
