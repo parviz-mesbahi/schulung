@@ -31,6 +31,10 @@ Route::get('/kurs', function () {
     return view('kurse');
 });
 
+Route::get('/entwicklung', function () {
+    return view('entwicklung');
+});
+
 Route::get('/home', function () {
 return view('home');
 });

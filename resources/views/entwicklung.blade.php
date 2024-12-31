@@ -27,25 +27,16 @@
 
     <div class="lg:flex lg:gap-x-12 ">
         <a href="{{ url('/home') }}" class="text-sm/6 font-semibold text-white">Home</a>
-        <a href="{{ url('/kurs') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
+        <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
     </div>
 </nav>
 {{--    </header>--}}
 </div>
 
 <div class="ml-10">
-{{--    @if ($data->isEmpty())--}}
-{{--        <p>No content available.</p>--}}
-{{--    @else--}}
-{{--        @foreach ($data as $item)--}}
-{{--            <div>--}}
-{{--                {!! $item->content  !!}--}}
-{{--            </div>--}}
-{{--            <hr>--}}
-{{--        @endforeach--}}
-{{--    @endif--}}
-
-    <h1>Über Uns</h1>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        Entwicklung
+    </div>
 </div>
 </body>
 </html>
