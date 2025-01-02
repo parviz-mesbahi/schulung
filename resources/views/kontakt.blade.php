@@ -26,12 +26,11 @@
     </div>
 
     <div class="lg:flex lg:gap-x-12 ">
-        <a href="#" class="text-sm/6 font-semibold text-white">Kurse</a>
-        <a href="#" class="text-sm/6 font-semibold text-white">Entwicklung</a>
-        <a href="#" class="text-sm/6 font-semibold text-white">Über uns</a>
+        <a href="{{ url('/home') }}" class="text-sm/6 font-semibold text-white">Home</a>
+        <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
+        <a href="{{ url('/kontakt') }}" class="text-sm/6 font-semibold text-white">Kontakt</a>
     </div>
 </nav>
-{{--    </header>--}}
 </div>
 
 <div class="ml-10">
