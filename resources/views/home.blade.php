@@ -3,15 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maxabit IT-Solutions</title>
-    <meta name="description" content="XXXXX">
-    <meta name="keywords" content="SEO, Suchmaschinenoptimierung, Tipps">
+
+    <title>Über uns | IT-Schulungen: Java, Datenbanken, Algorithmen  & Spring Boot | MaxaBit IT-Solutions Bonn</title>
+    <meta name="description" content="Entdecken Sie umfassende IT-Schulungen zu Java, Datenbanken und Algorithmen. Verbessern Sie Ihre Programmierkenntnisse mit unseren erfahrenen Trainern. Jetzt anmelden!">
+    <meta name="keywords" content="Java Kurs, Spring Boot, Datenbankkurs, Algorithmus Training, IT Weiterbildung, Programmierkurs">
     <meta name="robots" content="index, follow">
 
-    <meta property="og:title" content="XXXXX">
-    <meta property="og:description" content="YYYYYY">
-    <meta property="og:image" content="https://example.com/images/seo-tipps.png">
+    {{--    <img src="images/java-kurs.jpg" alt="Java Programmierung Kurs für Anfänger und Fortgeschrittene">--}}
+
+
+    <meta property="og:title" content="IT-Schulungen: Java, Datenbanken, Algorithmen  & Spring Boot | MaxaBit IT-Solutions Bonn">
+    <meta property="og:description" content="Verbessern Sie Ihre IT-Kenntnisse mit unseren spezialisierten Schulungen in Java, Datenbanken, Algorithmen  & Spring Boot">
+    {{--    <meta property="og:image" content="https://maxabit.de/images/og-image.jpg">--}}
     <meta property="og:url" content="https://maxabit.de">
+    <meta property="og:type" content="website">
+
+    <link rel="canonical" href="https://maxabit.de/kurs">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "name": "Java Programmierung",
+        "description": "Lernen Sie die Grundlagen und fortgeschrittene Konzepte der Java-Programmierung in unserem umfassenden Kurs.",
+        "provider": {
+         "@type": "Firma",
+         "name": "MaxaBit IT-Solutions",
+         "sameAs": "https://maxabit.de"
+        }
+    }
+</script>
+
+    <link rel="alternate" href="https://maxabit.de/" hreflang="de">
 
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -24,7 +47,7 @@
         <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div class="flex lg:flex-1">
                 <a href="#" class="-m-1.5 p-1.5">
-                    <span class="sr-only">Your Company</span>
+                    <span class="sr-only">MaxaBit IT-Solutions</span>
                     <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="">
                 </a>
             </div>
@@ -43,7 +66,7 @@
                 <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="" class="text-sm/6 font-semibold text-white">Log in <span aria-hidden="true">&rarr;</span></a>
+                <a href="{{ url('/kontakt') }}" class="text-sm/6 font-semibold text-white">Kurs buchen <span aria-hidden="true">&rarr;</span></a>
             </div>
         </nav>
     </header>
@@ -60,9 +83,11 @@
             </div>
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="mx-auto max-w-2xl lg:mx-0">
-                    <h2 class="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Online Kurse</h2>
+                    <h2 class="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Onlinekurse</h2>
                     <p class="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">
-                        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.
+                        Entdecken Sie Java, Algorithmen, Datenbankmanagement und Spring Boot in
+                        praxisnahen Onlinekursen – flexibel, fundiert und auf Ihre Bedürfnisse
+                        zugeschnitten.
                     </p>
                 </div>
                 <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
@@ -72,7 +97,10 @@
                         </svg>
                         <div class="text-base/7">
                             <h3 class="font-semibold text-white">Beratung</h3>
-                            <p class="mt-2 text-gray-300">Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.</p>
+                            <p class="mt-2 text-gray-300">
+                                Wir unterstützen Sie mit individueller Beratung, um Ihre IT-Infrastruktur effektiv
+                                zu optimieren und maßgeschneiderte Lösungen zu entwickeln
+                            </p>
                         </div>
                     </div>
                     <div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
@@ -81,7 +109,10 @@
                         </svg>
                         <div class="text-base/7">
                             <h3 class="font-semibold text-white">Entwicklung</h3>
-                            <p class="mt-2 text-gray-300">Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam.</p>
+                            <p class="mt-2 text-gray-300">
+                                Wir realisieren Softwarelösungen, die perfekt auf Ihre Geschäftsprozesse
+                                abgestimmt sind und Ihren Erfolg nachhaltig fördern.
+                            </p>
                         </div>
                     </div>
                     <div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
@@ -90,8 +121,11 @@
                             <path d="M16.5 6.5h-1v8.75a1.25 1.25 0 1 0 2.5 0V8a1.5 1.5 0 0 0-1.5-1.5Z" />
                         </svg>
                         <div class="text-base/7">
-                            <h3 class="font-semibold text-white">Schulung</h3>
-                            <p class="mt-2 text-gray-300">Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit.</p>
+                            <h3 class="font-semibold text-white">Kurse</h3>
+                            <p class="mt-2 text-gray-300">
+                                Unsere praxisnahen Onlinekurse in Java, Algorithmen, Datenbankverwaltung
+                                und Spring Boot helfen Ihnen, Ihre Fähigkeiten gezielt und effektiv zu erweitern.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -105,11 +139,29 @@
                 <div class="mx-auto max-w-2xl px-4 lg:max-w-none">
                     <div class="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2">
                         <div>
-                            <h2 class="text-4xl font-bold tracking-tight text-gray-900">Über uns: noch ein text hier </h2>
+                            <h2 class="text-4xl font-bold tracking-tight text-gray-900">
+                                Warum Ihr Unternehmen von der Expertise unserer Dozenten profitiert.
+                            </h2>
                             <p class="mt-4 text-gray-500">
-                                Willkommen bei der Firma MaxaBit-IT Solutions in Bonn, Ihrem IT-Partner für umfassende Lösungen und Weiterbildung.
-                                Wir sind ein IT-Unternehmen, das sich darauf spezialisiert hat, für mittelständische Unternehmen – basierend auf Ihren Anforderungen – personalisierte Software zu erstellen. Neben Dienstleistungen wie Beratung und Entwicklung bieten wir auch praxisnahe und fundierte Schulungen in den Schlüsselbereichen der Informatik an.
-                                                               .</p>
+                                <strong class="text-indigo-700"> - Fachliche Exzellenz:</strong> Unsere Dozenten sind anerkannte Experten mit
+                                tiefgehender Erfahrung, die praxisnahe und aktuelle Schulungen bieten.
+                                <br></br>
+                                <strong class="text-indigo-700"> - Individuell abgestimmte Schulungen: </strong> Wir passen die Lerninhalte
+                                gezielt an die Bedürfnisse und den Kenntnisstand Ihrer Mitarbeiter an.
+                                <br></br>
+                                <strong class="text-indigo-700"> - Klare Kommunikation: </strong> Unsere Dozenten vermitteln komplexe Konzepte
+                                verständlich und anschaulich, um den Lernprozess effektiv zu gestalten.
+                                <br></br>
+                                <strong class="text-indigo-700"> - Praktische Anwendbarkeit:</strong>  Unsere Schulungen verbinden theoretisches
+                                Wissen mit praxisorientierten Beispielen, die sofort im Arbeitsalltag
+                                umsetzbar sind.
+                                <br></br>
+                                <strong class="text-indigo-700"> - Innovative Lehrmethoden: </strong> Unsere Dozenten integrieren aktuelle Trends
+                                und moderne Lehransätze, um ein effektives Lernen zu gewährleisten
+                                <br></br>
+
+
+                            </p>
                         </div>
                         <img src="https://tailwindui.com/plus/img/ecommerce-images/incentives-07-hero.jpg" alt="" class="aspect-[3/2] w-full rounded-lg bg-gray-100 object-cover">
                     </div>
@@ -119,11 +171,11 @@
                                 <img class="size-16" src="https://tailwindui.com/plus/img/ecommerce/icons/icon-shipping-simple.svg" alt="">
                             </div>
                             <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
-                                <h3 class="text-sm font-medium text-gray-900">Beratung</h3>
+                                <h3 class="text-sm font-medium text-gray-900">Onlinekurse</h3>
                                 <p class="mt-2 text-sm text-gray-500">
-                                    Das hier ist der Platzhalter für den Text. Dieser Bereich ist dafür vorgesehen,
-                                    später mit dem endgültigen Inhalt gefüllt zu werden.
-                                    Der endgültige Inhalt wird spezifisch und sorgfältig ausgewählt.
+                                    Entdecken Sie die Welt des digitalen Lernens mit unseren professionellen Onlinekurse!
+                                    Wir bieten Ihnen eine flexible,
+                                    ortsunabhängige Möglichkeit, Ihr Wissen und Ihre Fähigkeiten in verschiedenen Fachbereichen zu erweitern.
                                 </p>
                             </div>
                         </div>
@@ -132,11 +184,11 @@
                                 <img class="size-16" src="https://tailwindui.com/plus/img/ecommerce/icons/icon-warranty-simple.svg" alt="">
                             </div>
                             <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
-                                <h3 class="text-sm font-medium text-gray-900">Entwicklung</h3>
+                                <h3 class="text-sm font-medium text-gray-900">Vor-Ort-Kurse</h3>
                                 <p class="mt-2 text-sm text-gray-500">
-                                    Das hier ist der Platzhalter für den Text. Dieser Bereich ist dafür vorgesehen,
-                                    später mit dem endgültigen Inhalt gefüllt zu werden.
-                                    Der endgültige Inhalt wird spezifisch und sorgfältig ausgewählt.
+                                    Wir bringen das Wissen zu Ihnen! Mit unseren Vor-Ort-Schulungen profitieren Sie von maßgeschneiderten Weiterbildungen,
+                                    die direkt in Ihrer gewohnten Umgebung stattfinden.
+                                    Unsere erfahrenen Trainer*innen kommen zu Ihnen und vermitteln praxisnahes Wissen.
                                 </p>
                             </div>
                         </div>
@@ -145,11 +197,11 @@
                                 <img class="size-16" src="https://tailwindui.com/plus/img/ecommerce/icons/icon-exchange-simple.svg" alt="">
                             </div>
                             <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
-                                <h3 class="text-sm font-medium text-gray-900">Schulung</h3>
+                                <h3 class="text-sm font-medium text-gray-900">Kurse planen</h3>
                                 <p class="mt-2 text-sm text-gray-500">
-                                    Das hier ist der Platzhalter für den Text. Dieser Bereich ist dafür vorgesehen,
-                                    später mit dem endgültigen Inhalt gefüllt zu werden.
-                                    Der endgültige Inhalt wird spezifisch und sorgfältig ausgewählt.
+                                    Die Planung eines Kurses erfordert Struktur, Zielorientierung und einen klaren Fahrplan.
+                                    Ob für interne Weiterbildungen,
+                                    öffentliche Seminare oder Schulungen – wir unterstützen Sie dabei, Ihre Kurse perfekt zu gestalten.
                                 </p>
                             </div>
                         </div>
@@ -207,7 +259,7 @@
                                 </li>
                             </ul>
                             <div class="mt-10 flex">
-                                <a href="#" class="text-sm/6 font-semibold text-indigo-400">Ein online Kurs buchen <span aria-hidden="true">&rarr;</span></a>
+                                <a href="#" class="text-sm/6 font-semibold text-indigo-400">Ein Onlinekurs buchen <span aria-hidden="true">&rarr;</span></a>
                             </div>
                         </div>
                     </div>
@@ -232,24 +284,30 @@
                 <div class="mx-auto aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
             </div>
             <div class="mx-auto max-w-2xl sm:text-center">
-                <h2 class="text-base/7 font-semibold text-indigo-600">Schulungen</h2>
-                <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-balance sm:text-5xl">Choose the right course for you</p>
+                <h2 class="text-base/7 font-semibold text-indigo-600">Kurse</h2>
+                <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-balance sm:text-5xl">
+                    Wählen Sie ihren Onlinekurse
+                </p>
                 <p class="mt-6 text-lg/8 text-gray-600">
-                    Gravida quam mi erat tortor neque molestie. Auctor aliquet at porttitor a enim nunc suscipit tincidunt nunc
+                    Lernen Sie IT von Grund auf – praxisnah und individuell.
                 </p>
             </div>
             <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4 px-24">
                 <div class="rounded-3xl p-8 ring-2 ring-gray-200">
 {{--                    <h2 id="tier-hobby" class="text-lg/8 font-semibold text-gray-900">Java</h2>--}}
                     <h2 id="tier-hobby" class="text-lg/8 font-semibold text-indigo-600">Java</h2>
-                    <p class="mt-4 text-sm/6 text-gray-600">Eine weltweit verbreitete, objektorientierte Programmiersprache.</p>
+                    <p class="mt-4 text-sm/6 text-gray-600">
+                        Eine der weltweit führenden, objektorientierten Programmiersprachen, die sich
+                        durch ihre Flexibilität und Plattformunabhängigkeit auszeichnet.
+                    </p>
                     <p class="mt-6 flex items-baseline gap-x-1">
                         <!-- Price, update based on frequency toggle state -->
                         <span class="text-4xl font-semibold tracking-tight text-gray-900">5</span>
                         <!-- Payment frequency, update based on frequency toggle state -->
-                        <span class="text-sm/6 font-semibold text-gray-600">/Tage</span>
+                        <span class="text-sm/6 font-semibold text-gray-600">/ Tage à 8 Stunden</span>
                     </p>
-                    <a href="#" aria-describedby="tier-hobby" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Zum Kurs</a>
+                    <a href="{{url('/kurs/Java/ueber-kurs')}}" aria-describedby="tier-hobby" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-blue-300 to-yellow-300">
+                        Zum Kurs</a>
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600">
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
@@ -291,15 +349,19 @@
                 </div>
                 <div class="rounded-3xl p-8 ring-2 ring-gray-200">
 {{--                    <h2 id="tier-startup" class="text-lg/8 font-semibold text-gray-900">Algorithmen</h2>--}}
-                    <h2 id="tier-startup" class="text-lg/8 font-semibold text-indigo-600"> Algorithmen</h2>
-                    <p class="mt-4 text-sm/6 text-gray-600">Eine Folge präziser Anweisungen zur Lösung eines Problems.</p>
+                    <h2 id="tier-startup" class="text-lg/8 font-semibold text-indigo-600">Algorithmen</h2>
+                    <p class="mt-4 text-sm/6 text-gray-600">
+                        Ein Kurs, der Ihnen beibringt, wie man Probleme mithilfe einer
+                        systematischen Abfolge von Schritten effizient und präzise löst.
+                    </p>
                     <p class="mt-6 flex items-baseline gap-x-1">
                         <!-- Price, update based on frequency toggle state -->
                         <span class="text-4xl font-semibold tracking-tight text-gray-900">3</span>
                         <!-- Payment frequency, update based on frequency toggle state -->
-                        <span class="text-sm/6 font-semibold text-gray-600">/Tage</span>
+                        <span class="text-sm/6 font-semibold text-gray-600">/ Tage à 8 Stunden</span>
                     </p>
-                    <a href="#" aria-describedby="tier-freelancer" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Zum Kurs</a>
+                    <a href="/kurs/algorithmen/ueber-kurs" aria-describedby="tier-freelancer" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-blue-300 to-yellow-300">
+                        Zum Kurs</a>
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600">
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
@@ -341,15 +403,20 @@
 {{--                <div class="rounded-3xl p-8 ring-2 ring-indigo-600">--}}
                 <div class="rounded-3xl p-8 ring-2 ring-gray-200">
                     <h2 id="tier-startup" class="text-lg/8 font-semibold text-indigo-600">Datenbanken</h2>
-                    <p class="mt-4 text-sm/6 text-gray-600">Daten sammeln, organisieren, strukturieren und effizient speichern.</p>
+                    <p class="mt-4 text-sm/6 text-gray-600">
+                        Moderne Datenbanksysteme kennenlernen,
+                        um große Datenmengen systematisch zu speichern und über SQL effizient abfragen zu können.
+                    </p>
                     <p class="mt-6 flex items-baseline gap-x-1">
                         <!-- Price, update based on frequency toggle state -->
                         <span class="text-4xl font-semibold tracking-tight text-gray-900">3</span>
                         <!-- Payment frequency, update based on frequency toggle state -->
-                        <span class="text-sm/6 font-semibold text-gray-600">/Tage</span>
+                        <span class="text-sm/6 font-semibold text-gray-600">/ Tage à 8 Stunden</span>
                     </p>
 {{--                    <a href="#" aria-describedby="tier-startup" class="mt-6 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Zum Kurs</a>--}}
-                        <a href="#" aria-describedby="tier-startup" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Zum Kurs</a>
+                        <a href="{{url('/kurs/datenbank/ueber-kurs')}}" aria-describedby="tier-startup" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-blue-300 to-yellow-300">
+                            Zum Kurs
+                        </a>
 
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600">
                         <li class="flex gap-x-3">
@@ -393,14 +460,19 @@
                 <div class="rounded-3xl p-8 ring-2 ring-gray-200">
 {{--                    <h2 id="tier-enterprise" class="text-lg/8 font-semibold text-gray-900">Spring Boot</h2>--}}
                     <h2 id="tier-enterprise" class="text-lg/8 font-semibold text-indigo-600">Spring Boot</h2>
-                    <p class="mt-4 text-sm/6 text-gray-600">Ein Framework für die Entwicklung von Java-Webanwendungen.</p>
+                    <p class="mt-4 text-sm/6 text-gray-600">
+                        Lernen Sie in unserem Spring Boot Kurs,
+                        wie Sie moderne und leistungsstarke Anwendungen effizient und schnell erstellen.
+                    </p>
                     <p class="mt-6 flex items-baseline gap-x-1">
                         <!-- Price, update based on frequency toggle state -->
                         <span class="text-4xl font-semibold tracking-tight text-gray-900">5</span>
                         <!-- Payment frequency, update based on frequency toggle state -->
-                        <span class="text-sm/6 font-semibold text-gray-600">/Tage</span>
+                        <span class="text-sm/6 font-semibold text-gray-600">/ Tage à 8 Stunden</span>
                     </p>
-                    <a href="#" aria-describedby="tier-enterprise" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Zum Kurs</a>
+                    <a href="{{url('/kurs/spring-boot/ueber-kurs')}}" aria-describedby="tier-enterprise" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-blue-300 to-yellow-300">
+                        Zum Kurs
+                    </a>
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600">
                         <li class="flex gap-x-3">
                             <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
@@ -453,7 +525,9 @@
         <div class="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
             <div class="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
                 <div class="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
-                    <img class="absolute inset-0 size-full rounded-2xl bg-gray-800 object-cover shadow-2xl" src="https://maxabit-schulungen.de/image/Bild-Maxabit-Schulung-1.jpg" alt="">
+                    <img class="absolute inset-0 size-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
+{{--                         src="https://maxabit-schulungen.de/image/Bild-Maxabit-Schulung-1.jpg" alt="">--}}
+                         src="{{asset('/images/java-software-entwicklung.webp')}}" alt="">
                 </div>
             </div>
             <div class="w-full max-w-2xl xl:max-w-none xl:flex-auto xl:px-16 xl:py-24">
@@ -463,11 +537,23 @@
                         <use href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" x="86" />
                     </svg>
                     <blockquote class="text-xl/8 font-semibold text-white sm:text-2xl/9">
-                        <p>Zufriedenheit der Studenten: Gravida quam mi erat tortor neque molestie. Auctor aliquet at porttitor a enim nunc suscipit tincidunt nunc. Et non lorem tortor posuere. Nunc eu scelerisque interdum eget tellus non nibh scelerisque bibendum.</p>
+                        <p>
+                            Wir entwickeln maßgeschneiderte Software für mittelständische Unternehmen,
+                            exakt abgestimmt auf Ihre Anforderungen. Neben Beratungs- und
+                            Entwicklungsdienstleistungen bieten wir fundierte Schulungen in zentralen IT-
+                            Bereichen an, um Ihr Team und Ihre Auszubildenden optimal zu unterstützen.
+                            Unser Ansatz/Fokus ist ganzheitlich: Wir vereinen modernste IT-Lösungen mit
+                            hochwertiger Wissensvermittlung. Ob Java-Programmierung,
+                            Datenbankmanagement oder Algorithmen – unsere Schulungen sind praxisnah
+                            gestaltet und vermitteln genau das Wissen, das Sie und Ihre Mitarbeitenden für
+                            den beruflichen Erfolg benötigen.
+                            Mit MaxaBit-IT Solutions investieren Sie in moderne Software und die Zukunft
+                            Ihrer Fachkräfte. Gemeinsam gestalten wir den Erfolg Ihres Unternehmens.
+                        </p>
                     </blockquote>
                     <figcaption class="mt-8 text-base">
-                        <div class="font-semibold text-white">noch ein Text hier</div>
-                        <div class="mt-1 text-gray-400">und hier</div>
+{{--                        <div class="font-semibold text-white">Hier eine Anfrage erstellen</div>--}}
+                        <div class="mt-1 text-indigo-600">Hier eine Anfrage erstellen</div>
                     </figcaption>
                 </figure>
             </div>
@@ -476,7 +562,8 @@
     <!-- end of zufrieden section -->
 
         <!-- FAQ section -->
-        <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
+    <div class="bg-white">
+        <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
             <div class="mx-auto max-w-4xl divide-y divide-gray-900/10">
                 <h2 class="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Frequently asked questions</h2>
                 <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">
@@ -484,36 +571,203 @@
                         <dt>
                             <!-- Expand/collapse question button -->
                             <button type="button" class="flex w-full items-start justify-between text-left text-gray-900" aria-controls="faq-0" aria-expanded="false">
-                                <span class="text-base/7 font-semibold">What&#039;s the best thing about Switzerland?</span>
+                                <span class="text-base/7 font-semibold">
+                                    Welche Vorkenntnisse sind für die Kurse erforderlich?
+                                </span>
                                 <span class="ml-6 flex h-7 items-center">
-                  <!--
-                    Icon when question is collapsed.
+                <!--
+                  Icon when question is collapsed.
 
-                    Item expanded: "hidden", Item collapsed: ""
-                  -->
-                  <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                  </svg>
+                  Item expanded: "hidden", Item collapsed: ""
+                -->
+                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                </svg>
                                     <!--
                                       Icon when question is expanded.
 
                                       Item expanded: "", Item collapsed: "hidden"
                                     -->
-                  <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
-                  </svg>
-                </span>
+                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                </svg>
+              </span>
                             </button>
                         </dt>
                         <dd class="mt-2 pr-12" id="faq-0">
-                            <p class="text-base/7 text-gray-600">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+                            <p class="text-base/7 text-gray-600">
+                                Unsere Kurse sind so konzipiert, dass sie sowohl für Einsteiger als auch
+                                für Fortgeschrittene geeignet sind. Einige Kurse, wie beispielsweise in
+                                Java und Algorithmen, erfordern grundlegende Programmierkenntnisse.
+                                Weitere Details zu den Anforderungen finden Sie in der
+                                Kursbeschreibung.
+                            </p>
                         </dd>
                     </div>
 
                     <!-- More questions... -->
                 </dl>
+                <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">
+                    <div class="pt-6">
+                        <dt>
+                            <!-- Expand/collapse question button -->
+                            <button type="button" class="flex w-full items-start justify-between text-left text-gray-900" aria-controls="faq-0" aria-expanded="false">
+                                <span class="text-base/7 font-semibold">
+                                    Wie lange dauert es, einen Kurs abzuschließen?
+                                </span>
+                                <span class="ml-6 flex h-7 items-center">
+                <!--
+                  Icon when question is collapsed.
+
+                  Item expanded: "hidden", Item collapsed: ""
+                -->
+                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                </svg>
+                                    <!--
+                                      Icon when question is expanded.
+
+                                      Item expanded: "", Item collapsed: "hidden"
+                                    -->
+                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                </svg>
+              </span>
+                            </button>
+                        </dt>
+                        <dd class="mt-2 pr-12" id="faq-0">
+                            <p class="text-base/7 text-gray-600">
+                                Die Dauer jedes Kurses variiert je nach Umfang und Komplexität. Sie
+                                können jedoch in Ihrem eigenen Tempo lernen, was Ihnen ermöglicht,
+                                den Kurs nach Ihrem individuellen Zeitplan abzuschließen.
+                            </p>
+                        </dd>
+                    </div>
+
+                    <!-- More questions... -->
+                </dl>
+                <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">
+                    <div class="pt-6">
+                        <dt>
+                            <!-- Expand/collapse question button -->
+                            <button type="button" class="flex w-full items-start justify-between text-left text-gray-900" aria-controls="faq-0" aria-expanded="false">
+                                <span class="text-base/7 font-semibold">
+                                   Sind die Kurse auch für Unternehmen geeignet?
+                                </span>
+                                <span class="ml-6 flex h-7 items-center">
+                <!--
+                  Icon when question is collapsed.
+
+                  Item expanded: "hidden", Item collapsed: ""
+                -->
+                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                </svg>
+                                    <!--
+                                      Icon when question is expanded.
+
+                                      Item expanded: "", Item collapsed: "hidden"
+                                    -->
+                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                </svg>
+              </span>
+                            </button>
+                        </dt>
+                        <dd class="mt-2 pr-12" id="faq-0">
+                            <p class="text-base/7 text-gray-600">
+                                Ja, unsere Kurse sind sowohl für Einzelpersonen als auch für
+                                Unternehmen geeignet. Wir bieten maßgeschneiderte Schulungen an,
+                                um Ihre Teams in den Bereichen Java, Datenbanken, Algorithmen und
+                                Spring Boot weiterzubilden.
+                            </p>
+                        </dd>
+                    </div>
+
+                    <!-- More questions... -->
+                </dl>
+                <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">
+                    <div class="pt-6">
+                        <dt>
+                            <!-- Expand/collapse question button -->
+                            <button type="button" class="flex w-full items-start justify-between text-left text-gray-900" aria-controls="faq-0" aria-expanded="false">
+                                <span class="text-base/7 font-semibold">
+                                    Erhalte ich ein Zertifikat nach dem Kurs?
+                                </span>
+                                <span class="ml-6 flex h-7 items-center">
+                <!--
+                  Icon when question is collapsed.
+
+                  Item expanded: "hidden", Item collapsed: ""
+                -->
+                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                </svg>
+                                    <!--
+                                      Icon when question is expanded.
+
+                                      Item expanded: "", Item collapsed: "hidden"
+                                    -->
+                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                </svg>
+              </span>
+                            </button>
+                        </dt>
+                        <dd class="mt-2 pr-12" id="faq-0">
+                            <p class="text-base/7 text-gray-600">
+                                Ja, nach erfolgreichem Abschluss eines Kurses erhalten Sie ein Teilnahmezertifikat,
+                                das Ihre neu erlernten Fähigkeiten und Kenntnisse dokumentiert und bestätigt.
+                            </p>
+                        </dd>
+                    </div>
+
+                    <!-- More questions... -->
+                </dl>
+                <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">
+                    <div class="pt-6">
+                        <dt>
+                            <!-- Expand/collapse question button -->
+                            <button type="button" class="flex w-full items-start justify-between text-left text-gray-900" aria-controls="faq-0" aria-expanded="false">
+                                <span class="text-base/7 font-semibold">
+                                    Wie melde ich mich für einen Kurs an?
+                                </span>
+                                <span class="ml-6 flex h-7 items-center">
+                <!--
+                  Icon when question is collapsed.
+
+                  Item expanded: "hidden", Item collapsed: ""
+                -->
+                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                </svg>
+                                    <!--
+                                      Icon when question is expanded.
+
+                                      Item expanded: "", Item collapsed: "hidden"
+                                    -->
+                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                </svg>
+              </span>
+                            </button>
+                        </dt>
+                        <dd class="mt-2 pr-12" id="faq-0">
+                            <p class="text-base/7 text-gray-600">
+                                Die Anmeldung erfolgt ganz einfach über unsere Website. Wählen Sie den
+                                gewünschten Kurs aus, füllen Sie das Anmeldeformular aus und beginnen
+                                Sie sofort mit dem Lernen.
+                            </p>
+                        </dd>
+                    </div>
+
+                    <!-- More questions... -->
+                </dl>
+
             </div>
         </div>
+    </div>
+
 
 
     <!-- Footer -->
