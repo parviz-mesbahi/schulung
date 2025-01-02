@@ -10,7 +10,8 @@ Route::get('/welcome', function () {
 });
 
 Route::get('/', function () {
-    return view('under_construction');
+    return view('home');
+//    return view('under_construction');
 });
 
 

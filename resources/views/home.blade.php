@@ -296,10 +296,10 @@
                     Lernen Sie IT von Grund auf – praxisnah und individuell.
                 </p>
             </div>
-            <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4 px-24">
+
+            <div class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
                 <div class="rounded-3xl p-8 ring-2 ring-gray-200">
-{{--                    <h2 id="tier-hobby" class="text-lg/8 font-semibold text-gray-900">Java</h2>--}}
-                    <h2 id="tier-hobby" class="text-lg/8 font-semibold text-indigo-600">Java</h2>
+                    <h3 id="tier-hobby" class="text-base/7 font-semibold text-indigo-600">Java</h3>
                     <p class="mt-4 text-sm/6 text-gray-600">
                         Eine der weltweit führenden, objektorientierten Programmiersprachen, die sich
                         durch ihre Flexibilität und Plattformunabhängigkeit auszeichnet.
@@ -310,7 +310,7 @@
                         <!-- Payment frequency, update based on frequency toggle state -->
                         <span class="text-sm/6 font-semibold text-gray-600">/ Tage à 8 Stunden</span>
                     </p>
-                    <a href="{{url('/kurs/Java/ueber-kurs')}}" aria-describedby="tier-hobby" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-blue-300 to-yellow-300">
+                    <a href="{{url('/kurs/java/ueber-kurs')}}" aria-describedby="tier-hobby" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-blue-300 to-yellow-300">
                         Zum Kurs</a>
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600">
                         <li class="flex gap-x-3">
@@ -351,8 +351,8 @@
                         </li>
                     </ul>
                 </div>
+
                 <div class="rounded-3xl p-8 ring-2 ring-gray-200">
-{{--                    <h2 id="tier-startup" class="text-lg/8 font-semibold text-gray-900">Algorithmen</h2>--}}
                     <h2 id="tier-startup" class="text-lg/8 font-semibold text-indigo-600">Algorithmen</h2>
                     <p class="mt-4 text-sm/6 text-gray-600">
                         Ein Kurs, der Ihnen beibringt, wie man Probleme mithilfe einer
@@ -364,7 +364,7 @@
                         <!-- Payment frequency, update based on frequency toggle state -->
                         <span class="text-sm/6 font-semibold text-gray-600">/ Tage à 8 Stunden</span>
                     </p>
-                    <a href="/kurs/algorithmen/ueber-kurs" aria-describedby="tier-freelancer" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-blue-300 to-yellow-300">
+                    <a href="/kurs/algorithmus/ueber-kurs" aria-describedby="tier-freelancer" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-blue-300 to-yellow-300">
                         Zum Kurs</a>
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600">
                         <li class="flex gap-x-3">
@@ -404,7 +404,7 @@
                         </li>
                     </ul>
                 </div>
-{{--                <div class="rounded-3xl p-8 ring-2 ring-indigo-600">--}}
+
                 <div class="rounded-3xl p-8 ring-2 ring-gray-200">
                     <h2 id="tier-startup" class="text-lg/8 font-semibold text-indigo-600">Datenbanken</h2>
                     <p class="mt-4 text-sm/6 text-gray-600">
@@ -461,8 +461,9 @@
                         </li>
                     </ul>
                 </div>
+
                 <div class="rounded-3xl p-8 ring-2 ring-gray-200">
-{{--                    <h2 id="tier-enterprise" class="text-lg/8 font-semibold text-gray-900">Spring Boot</h2>--}}
+
                     <h2 id="tier-enterprise" class="text-lg/8 font-semibold text-indigo-600">Spring Boot</h2>
                     <p class="mt-4 text-sm/6 text-gray-600">
                         Lernen Sie in unserem Spring Boot Kurs,
@@ -474,7 +475,7 @@
                         <!-- Payment frequency, update based on frequency toggle state -->
                         <span class="text-sm/6 font-semibold text-gray-600">/ Tage à 8 Stunden</span>
                     </p>
-                    <a href="{{url('/kurs/spring-boot/ueber-kurs')}}" aria-describedby="tier-enterprise" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-blue-300 to-yellow-300">
+                    <a href="{{url('/kurs/springboot/ueber-kurs')}}" aria-describedby="tier-enterprise" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-blue-300 to-yellow-300">
                         Zum Kurs
                     </a>
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600">
