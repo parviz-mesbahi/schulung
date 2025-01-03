@@ -46,7 +46,7 @@
         <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div class="flex lg:flex-1">
                 <a href="#" class="-m-1.5 p-1.5">
-                    <span class="sr-only">Your Company</span>
+                    <span class="sr-only">MaxaBit IT-Solutions</span>
                     <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="">
                 </a>
             </div>
@@ -109,19 +109,29 @@
             <div class="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
                 <div class="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-8 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
                     <!-- <h1 class="max-w-2xl text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl lg:col-span-2 xl:col-auto">We’re changing the way people connect</h1> -->
-                    <h1 class="max-w-2xl text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl lg:col-span-2 xl:col-auto">
+                    <h1 class="max-w-2xl text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:col-span-2 xl:col-auto">
                         MaxaBit-IT Solutions in Bonn, Ihrem IT-Partner für umfassende Lösungen und Weiterbildung.
                     </h1>
                     <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-                        <p class="text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
+{{--                        <p class="text-pretty text-lg font-medium text-gray-800 sm:text-sm/10">--}}
+                        <p class="mt-1 text-base/7 text-gray-600">
                             Die Firma MaxaBit-IT Solutions in Bonn wurde im Jahr 2000 gegründet.</br>
-                            Ursprünglich lag unser Fokus darauf, für kleine und mittelständische Unternehmen Anwendungen zu entwickeln, die den Arbeitsalltag erleichtern und Arbeitsabläufe effizienter gestalten.
+                            Ursprünglich lag unser Fokus darauf, für kleine und mittelständische Unternehmen Anwendungen zu entwickeln,
+                            die den Arbeitsalltag erleichtern und Arbeitsabläufe effizienter gestalten.</br>
 
-                            Im Laufe der Zeit haben wir uns darauf spezialisiert, personalisierte Softwarelösungen für mittelständische Unternehmen zu entwickeln – maßgeschneidert auf deren spezifische Anforderungen. Neben Dienstleistungen wie Beratung und Softwareentwicklung bieten wir auch praxisnahe und fundierte Schulungen in den Schlüsselbereichen der Informatik an.
+                            Im Laufe der Zeit haben wir uns darauf spezialisiert, personalisierte Softwarelösungen
+                            für mittelständische Unternehmen zu entwickeln – maßgeschneidert auf deren spezifische
+                            Anforderungen. Neben Dienstleistungen wie Beratung und Softwareentwicklung bieten
+                            wir auch praxisnahe und fundierte Schulungen in den Schlüsselbereichen der Informatik an.</br>
 
-                            Unser Unternehmen verfolgt eine ganzheitliche Herangehensweise, um unseren Kunden das Beste aus beiden Welten zu bieten: individuelle IT-Lösungen und qualitativ hochwertige Wissensvermittlung. Wir bieten gezielte Schulungen für Ihre Mitarbeiter und Auszubildenden in Bereichen wie Java-Programmierung, Datenbankmanagement und Algorithmen.
+                            Unser Unternehmen verfolgt eine ganzheitliche Herangehensweise,
+                            um unseren Kunden das Beste aus beiden Welten zu bieten: individuelle IT-Lösungen und qualitativ
+                            hochwertige Wissensvermittlung. Wir bieten gezielte Schulungen für Ihre Mitarbeiter und Auszubildenden
+                            in Bereichen wie Java-Programmierung, Datenbankmanagement und Algorithmen. </br>
 
-                            Wir wissen, wie wichtig eine fundierte Ausbildung für die Fachkräfte von morgen ist. Wenn Ihr Unternehmen Auszubildende in verschiedenen Bereichen beschäftigt und sie auf ihrem beruflichen Weg unterstützt, sind wir der ideale Partner für deren Schulung und Weiterbildung.
+                            Wir wissen, wie wichtig eine fundierte Ausbildung für die Fachkräfte von morgen ist.
+                            Wenn Ihr Unternehmen Auszubildende in verschiedenen Bereichen beschäftigt und sie auf ihrem beruflichen Weg unterstützt,
+                            sind wir der ideale Partner für deren Schulung und Weiterbildung.
 
 
                         </p>
