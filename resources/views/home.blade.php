@@ -310,7 +310,7 @@
                         <!-- Payment frequency, update based on frequency toggle state -->
                         <span class="text-sm/6 font-semibold text-gray-600">/ Tage à 8 Stunden</span>
                     </p>
-                    <a href="{{url('/kurs/java/ueber-kurs')}}" aria-describedby="tier-hobby" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-blue-300 to-yellow-300">
+                    <a href="{{url('/kurs/java/ueber-kurs')}}" aria-describedby="tier-hobby" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-indigo-500 ">
                         Zum Kurs</a>
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600">
                         <li class="flex gap-x-3">
@@ -364,7 +364,7 @@
                         <!-- Payment frequency, update based on frequency toggle state -->
                         <span class="text-sm/6 font-semibold text-gray-600">/ Tage à 8 Stunden</span>
                     </p>
-                    <a href="/kurs/algorithmus/ueber-kurs" aria-describedby="tier-freelancer" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-blue-300 to-yellow-300">
+                    <a href="/kurs/algorithmus/ueber-kurs" aria-describedby="tier-freelancer" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-indigo-500">
                         Zum Kurs</a>
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600">
                         <li class="flex gap-x-3">
@@ -418,7 +418,7 @@
                         <span class="text-sm/6 font-semibold text-gray-600">/ Tage à 8 Stunden</span>
                     </p>
 {{--                    <a href="#" aria-describedby="tier-startup" class="mt-6 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Zum Kurs</a>--}}
-                        <a href="{{url('/kurs/datenbank/ueber-kurs')}}" aria-describedby="tier-startup" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-blue-300 to-yellow-300">
+                        <a href="{{url('/kurs/datenbank/ueber-kurs')}}" aria-describedby="tier-startup" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-indigo-500">
                             Zum Kurs
                         </a>
 
@@ -475,7 +475,7 @@
                         <!-- Payment frequency, update based on frequency toggle state -->
                         <span class="text-sm/6 font-semibold text-gray-600">/ Tage à 8 Stunden</span>
                     </p>
-                    <a href="{{url('/kurs/springboot/ueber-kurs')}}" aria-describedby="tier-enterprise" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-blue-300 to-yellow-300">
+                    <a href="{{url('/kurs/springboot/ueber-kurs')}}" aria-describedby="tier-enterprise" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-indigo-500">
                         Zum Kurs
                     </a>
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600">
