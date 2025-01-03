@@ -119,19 +119,19 @@
                     </dl>
                 </div>
             </div>
-            <form action="#" method="POST" class="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
+            <form action="{{ route('kontakt.submit') }}" method="POST" class="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
                 <div class="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
                     <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                         <div>
-                            <label for="first-name" class="block text-sm/6 font-semibold text-gray-900">Vorname *</label>
+                            <label for="name" class="block text-sm/6 font-semibold text-gray-900">Vorname *</label>
                             <div class="mt-2.5">
-                                <input type="text" name="first-name" id="first-name" autocomplete="given-name" required class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
+                                <input type="text" name="name" id="name" autocomplete="name" required class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
                             </div>
                         </div>
                         <div>
-                            <label for="last-name" class="block text-sm/6 font-semibold text-gray-900">Nachname *</label>
+                            <label for="lastname" class="block text-sm/6 font-semibold text-gray-900">Nachname *</label>
                             <div class="mt-2.5">
-                                <input type="text" name="last-name" id="last-name" autocomplete="family-name" required class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
+                                <input type="text" name="lastname" id="lastname" autocomplete="last-name" required class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
                             </div>
                         </div>
                         <div class="sm:col-span-2">
@@ -141,9 +141,9 @@
                             </div>
                         </div>
                         <div class="sm:col-span-2">
-                            <label for="phone-number" class="block text-sm/6 font-semibold text-gray-900">Telefonnummer *</label>
+                            <label for="phone" class="block text-sm/6 font-semibold text-gray-900">Telefonnummer</label>
                             <div class="mt-2.5">
-                                <input type="tel" name="phone-number" id="phone-number" autocomplete="tel" required class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
+                                <input type="tel" name="phone" id="phone" autocomplete="tel" class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
                             </div>
                         </div>
                         <div class="sm:col-span-2">

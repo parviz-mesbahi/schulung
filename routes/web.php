@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\KontaktController;
 use App\Http\Controllers\LessonController;
 use App\Http\Controllers\WebPageController;
 use App\Http\Controllers\ProfileController;
@@ -24,9 +25,6 @@ Route::get('/links', [WebPageController::class, 'links'])->name('links');
 Route::get('/ueberuns', function () {
     return view('ueberuns');
 });
-Route::get('/kontakt', function () {
-    return view('kontakt');
-});
 
 Route::get('/kurs', function () {
     return view('kurse');
@@ -50,7 +48,12 @@ Route::get('/kurs/algorithmus/{title}', [WebPageController::class, 'java'])->nam
 Route::get('/kurs/datenbank/{title}', [WebPageController::class, 'java'])->name('kurs.java');
 Route::get('/kurs/springboot/{title}', [WebPageController::class, 'java'])->name('kurs.java');
 
+Route::get('/kontakt', [KontaktController::class, 'showForm'])->name('kontakt.form');
+Route::post('/kontakt', [KontaktController::class, 'submitForm'])->name('kontakt.submit');
 
+//Route::get('/kontakt', function () {
+//    return view('kontakt');
+//});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
