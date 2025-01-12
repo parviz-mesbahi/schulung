@@ -18,7 +18,7 @@
     <meta property="og:url" content="https://maxabit.de">
     <meta property="og:type" content="website">
 
-    <link rel="canonical" href="https://maxabit.de/kurs">
+    <link rel="canonical" href={{ request()->fullUrl() }}>
 
     <script type="application/ld+json">
     {

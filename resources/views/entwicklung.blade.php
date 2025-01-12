@@ -83,6 +83,7 @@
                         <blockquote class="text-xl/8 font-semibold tracking-tight text-gray-900">
                             <p>
                                 Wir bieten individuelle IT-Beratung, entwickeln und implementieren Lösungen, die perfekt auf Ihr Unternehmen abgestimmt sind.
+                                <br>
                                 Zudem sorgen wir für eine praxisnahe Schulung Ihrer Mitarbeiter, damit sie die neuen Systeme effizient nutzen können.
                                 Dies ist unsere Expertise.
                             </p>
@@ -112,6 +113,7 @@
                         von Daten mit anderen Systemen ermöglichen. Unser Ziel ist es, unseren Kunden eine effiziente und zuverlässige
                         Datenverarbeitung zu bieten, die ihre Geschäftsprozesse optimiert.</br>
                     </p>
+
                     <ul role="list" class="mt-8 max-w-xl space-y-8 text-gray-600">
                         <li class="flex gap-x-3">
                             <svg class="mt-1 size-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
@@ -171,7 +173,7 @@
             </div>
         </div>
     </div>
-
+lh
 </div>
 </body>
 </html>

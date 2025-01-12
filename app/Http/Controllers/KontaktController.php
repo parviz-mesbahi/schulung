@@ -30,10 +30,13 @@ class KontaktController extends Controller
             'message' => $request->message,
         ];
 
-        Mail::send('kontakt', $details, function ($message) use ($details) {
-            $message->to('info@maxabit.de')
-                ->subject('New Contact Form Submission');
-        });
+//        Mail::send('kontakt', $details, function ($message) use ($details) {
+//            $message->to('info@maxabit.de')
+//                ->subject('New Contact Form Submission');
+//        });
+
+//        Mail::to('destination@example.com')->send(new ContactMail($validated));
+
 
         return back()->with('success', 'Your message has been sent successfully!');
     }

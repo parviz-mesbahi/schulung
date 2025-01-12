@@ -48,12 +48,12 @@ Route::get('/kurs/algorithmus/{title}', [WebPageController::class, 'java'])->nam
 Route::get('/kurs/datenbank/{title}', [WebPageController::class, 'java'])->name('kurs.java');
 Route::get('/kurs/springboot/{title}', [WebPageController::class, 'java'])->name('kurs.java');
 
-Route::get('/kontakt', [KontaktController::class, 'showForm'])->name('kontakt.form');
+//Route::get('/kontakt', [KontaktController::class, 'showForm'])->name('kontakt.form');
 Route::post('/kontakt', [KontaktController::class, 'submitForm'])->name('kontakt.submit');
 
-//Route::get('/kontakt', function () {
-//    return view('kontakt');
-//});
+Route::get('/kontakt', function () {
+    return view('kontakt');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

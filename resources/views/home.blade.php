@@ -143,23 +143,27 @@
                                 Warum Ihr Unternehmen von der Expertise unserer Dozenten profitiert.
                             </h2>
                             <p class="mt-4 text-gray-500">
-                                <strong class="text-indigo-700"> - Fachliche Exzellenz:</strong> Unsere Dozenten sind anerkannte Experten mit
-                                tiefgehender Erfahrung, die praxisnahe und aktuelle Schulungen bieten.
-                                <br></br>
-                                <strong class="text-indigo-700"> - Individuell abgestimmte Schulungen: </strong> Wir passen die Lerninhalte
-                                gezielt an die Bedürfnisse und den Kenntnisstand Ihrer Mitarbeiter an.
-                                <br></br>
-                                <strong class="text-indigo-700"> - Klare Kommunikation: </strong> Unsere Dozenten vermitteln komplexe Konzepte
-                                verständlich und anschaulich, um den Lernprozess effektiv zu gestalten.
-                                <br></br>
-                                <strong class="text-indigo-700"> - Praktische Anwendbarkeit:</strong>  Unsere Schulungen verbinden theoretisches
-                                Wissen mit praxisorientierten Beispielen, die sofort im Arbeitsalltag
-                                umsetzbar sind.
-                                <br></br>
-                                <strong class="text-indigo-700"> - Innovative Lehrmethoden: </strong> Unsere Dozenten integrieren aktuelle Trends
-                                und moderne Lehransätze, um ein effektives Lernen zu gewährleisten
-                                <br></br>
-
+                            <ul class="list-disc ">
+                                <li> <strong class="text-gray-900"> Fachliche Exzellenz:</strong> Unsere Dozenten sind anerkannte Experten mit
+                                    tiefgehender Erfahrung, die praxisnahe und aktuelle Schulungen bieten.</li>
+                                <li>
+                                    <strong class="text-gray-900">Individuell abgestimmte Schulungen: </strong> Wir passen die Lerninhalte
+                                    gezielt an die Bedürfnisse und den Kenntnisstand Ihrer Mitarbeiter an.
+                                </li>
+                                <li>
+                                    <strong class="text-gray-900">Klare Kommunikation: </strong> Unsere Dozenten vermitteln komplexe Konzepte
+                                    verständlich und anschaulich, um den Lernprozess effektiv zu gestalten.
+                                </li>
+                                <li>
+                                    <strong class="text-gray-900">Praktische Anwendbarkeit:</strong>  Unsere Schulungen verbinden theoretisches
+                                    Wissen mit praxisorientierten Beispielen, die sofort im Arbeitsalltag
+                                    umsetzbar sind.
+                                </li>
+                                <li>
+                                    <strong class="text-gray-900">Innovative Lehrmethoden: </strong> Unsere Dozenten integrieren aktuelle Trends
+                                    und moderne Lehransätze, um ein effektives Lernen zu gewährleisten
+                                </li>
+                            </ul>
 
                             </p>
                         </div>
@@ -296,9 +300,11 @@
                     Lernen Sie IT von Grund auf – praxisnah und individuell.
                 </p>
             </div>
-
-            <div class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
-                <div class="rounded-3xl p-8 ring-2 ring-gray-200">
+{{------- von hier schulungskarten -------}}
+{{--            <div class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">--}}
+{{--                <div class="rounded-3xl p-8 ring-2 ring-gray-200">--}}
+            <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4">
+                <div class="rounded-3xl p-8 ring-1 ring-gray-200">
                     <h3 id="tier-hobby" class="text-base/7 font-semibold text-indigo-600">Java</h3>
                     <p class="mt-4 text-sm/6 text-gray-600">
                         Eine der weltweit führenden, objektorientierten Programmiersprachen, die sich
@@ -518,7 +524,11 @@
                     </ul>
                 </div>
             </div>
+
+
         </div>
+
+
 
     <!-- zufrieden section -->
     <div class="relative z-10 mt-32 bg-gray-900 pb-20 sm:mt-56 sm:pb-24 xl:pb-0">

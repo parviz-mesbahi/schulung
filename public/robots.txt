@@ -1,3 +1,8 @@
 User-agent: *
 Disallow: /
 Allow: /maxabit.de/
+
+User-agent: ChatGPT-User
+Allow: /
+
+Sitemap: https://maxabit.de/sitemap.xml
