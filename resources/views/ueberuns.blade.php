@@ -390,10 +390,10 @@
                             <h3 class="text-sm/6 font-semibold text-white"><a href="{{ url('/datenschutz') }}">Datenschutz</a></h3>
                         </div>
                         <div class="mt-10 md:mt-0">
-                            <h3 class="text-sm/6 font-semibold text-white"><a href="{{ url('/home') }}"> </a></h3>
+                            <h3 class="text-sm/6 font-semibold text-white"><a href="{{ url('/') }}"> </a></h3>
                         </div>
                         <div class="mt-10 md:mt-0">
-                            <h3 class="text-sm/6 font-semibold text-white"><a href="{{ url('/home') }}">MaxaBit IT-Solutions </a></h3>
+                            <h3 class="text-sm/6 font-semibold text-white"><a href="{{ url('/') }}">MaxaBit IT-Solutions </a></h3>
                         </div>
                     </div>
                     <div class="md:grid md:grid-cols-2 md:gap-8">

@@ -26,7 +26,7 @@
             <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
                 <ul>
                     <li> <a href="{{ url('/') }}">Under Construction </a></li>
-                    <li> <a href="{{ url('/home') }}">Home</a></li>
+                    <li> <a href="{{ url('/') }}">Home</a></li>
                     <li> <a href="{{ url('/links') }}">Links</a></li>
                     <li> <a href="{{ url('/datenschutz') }}">Datenschutz</a></li>
                     <li> <a href="{{ url('/impressum') }}">Impressum</a></li>

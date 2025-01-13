@@ -60,7 +60,7 @@
                 </button>
             </div>
             <div class="hidden lg:flex lg:gap-x-12">
-                <a href="{{ url('/home') }}" class="text-sm/6 font-semibold text-white">Home</a>
+                <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home</a>
                 <a href="{{ url('/entwicklung')}}" class="text-sm/6 font-semibold text-white">Entwicklung</a>
                 <a href="{{ url('/kurs') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
                 <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
@@ -789,7 +789,7 @@
     <footer class="mt-32 bg-gray-900 sm:mt-56">
         <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
             <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-                <img class="h-9" src="https://maxabit.com/home" alt="MaxaBit IT-Solutions">
+                <img class="h-9" src="https://maxabit.de" alt="MaxaBit IT-Solutions">
                 <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
                     <div class="md:grid md:grid-cols-2 md:gap-8">
                         <div>
@@ -799,10 +799,10 @@
                             <h3 class="text-sm/6 font-semibold text-white"><a href="{{ url('/datenschutz') }}">Datenschutz</a></h3>
                         </div>
                         <div class="mt-10 md:mt-0">
-                            <h3 class="text-sm/6 font-semibold text-white"><a href="{{ url('/home') }}"> </a></h3>
+                            <h3 class="text-sm/6 font-semibold text-white"><a href="{{ url('/') }}"> </a></h3>
                         </div>
                         <div class="mt-10 md:mt-0">
-                            <h3 class="text-sm/6 font-semibold text-white"><a href="{{ url('/home') }}">MaxaBit IT-Solutions </a></h3>
+                            <h3 class="text-sm/6 font-semibold text-white"><a href="{{ url('/') }}">MaxaBit IT-Solutions </a></h3>
                         </div>
                     </div>
                     <div class="md:grid md:grid-cols-2 md:gap-8">

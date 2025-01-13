@@ -66,7 +66,7 @@
                 <a href="/kontakt" class="text-sm/6 font-semibold text-white">Kontakt</a>
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="{{ url('/home') }}" class="text-sm/6 font-semibold text-white">Home<span aria-hidden="true">&rarr;</span></a>
+                <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home<span aria-hidden="true">&rarr;</span></a>
             </div>
         </nav>
     </header>
