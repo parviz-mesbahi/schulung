@@ -66,7 +66,7 @@
                 <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="{{ url('/kontakt') }}" class="text-sm/6 font-semibold text-white">Kurs buchen <span aria-hidden="true">&rarr;</span></a>
+                <a href="{{ url('/kontakt') }}" class="text-sm/6 font-semibold text-white">Kurs buchen </a>
             </div>
         </nav>
     </header>
@@ -267,7 +267,7 @@
                                 </li>
                             </ul>
                             <div class="mt-10 flex">
-                                <a href="#" class="text-sm/6 font-semibold text-indigo-400">Ein Onlinekurs buchen <span aria-hidden="true">&rarr;</span></a>
+                                <a href="#" class="text-sm/6 font-semibold text-indigo-400">Ein Onlinekurs buchen </a>
                             </div>
                         </div>
                     </div>
