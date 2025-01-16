@@ -15,7 +15,7 @@
     <meta property="og:title" content="IT-Schulungen: Java, Datenbanken, Algorithmen  & Spring Boot | MaxaBit IT-Solutions Bonn">
     <meta property="og:description" content="Verbessern Sie Ihre IT-Kenntnisse mit unseren spezialisierten Schulungen in Java, Datenbanken, Algorithmen  & Spring Boot">
     {{--    <meta property="og:image" content="https://maxabit.de/images/og-image.jpg">--}}
-    <meta property="og:url" content="https://maxabit.de">
+    <meta property="og:url" content={{ url()->current() }}>
     <meta property="og:type" content="website">
 
     <link rel="canonical" href={{ url()->current() }}>
