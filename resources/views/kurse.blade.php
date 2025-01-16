@@ -17,7 +17,7 @@
     <meta property="og:url" content="https://maxabit.de">
     <meta property="og:type" content="website">
 
-    <link rel="canonical" href="https://maxabit.de/kurs">
+    <link rel="canonical" href={{ url()->current() }}>
 
     <script type="application/ld+json">
     {
@@ -156,67 +156,67 @@
                         <ul class="list-decimal pl-8 space-y-2 ">
                             <li class="text-lg font-medium">
                                 Grundlagen der Java-Programmierung:
-                                <ul class="list-circle pl-6 space-y-1 text-gray-600">
-                                    <li class="text-base font-normal">- Einführung in die Java-Plattform</li>
-                                    <li class="text-base font-normal">- Installation und Nutzung der Entwicklungsumgebung</li>
-                                    <li class="text-base font-normal">- Grundlegende Syntax und Programmierkonzepte</li>
-                                </ul>
+{{--                                <ul class="list-circle pl-6 space-y-1 text-gray-600">--}}
+{{--                                    <li class="text-base font-normal">- Einführung in die Java-Plattform</li>--}}
+{{--                                    <li class="text-base font-normal">- Installation und Nutzung der Entwicklungsumgebung</li>--}}
+{{--                                    <li class="text-base font-normal">- Grundlegende Syntax und Programmierkonzepte</li>--}}
+{{--                                </ul>--}}
                             </li>
                             <li class="text-lg font-medium">
                                 Kontrollstrukturen und Methoden:
-                                <ul class="list-circle pl-6 space-y-1 text-gray-600">
-                                    <li class="text-base font-normal">- Schleifen (for, while, do-while)</li>
-                                    <li class="text-base font-normal">- Entscheidungsstrukturen (if-else, switch)</li>
-                                    <li class="text-base font-normal">- Definition und Aufruf von Methoden</li>
-                                    <li class="text-base font-normal">- Parameterübergabe und Rückgabewerte</li>
-                                </ul>
+{{--                                <ul class="list-circle pl-6 space-y-1 text-gray-600">--}}
+{{--                                    <li class="text-base font-normal">- Schleifen (for, while, do-while)</li>--}}
+{{--                                    <li class="text-base font-normal">- Entscheidungsstrukturen (if-else, switch)</li>--}}
+{{--                                    <li class="text-base font-normal">- Definition und Aufruf von Methoden</li>--}}
+{{--                                    <li class="text-base font-normal">- Parameterübergabe und Rückgabewerte</li>--}}
+{{--                                </ul>--}}
                             </li>
                             <li class="text-lg font-medium">
                                 Objektorientierte Programmierung (OOP) mit Java:
-                                <ul class="list-circle pl-6 space-y-1 text-gray-600">
-                                    <li class="text-base font-normal">- Klassen, Objekte und Konstruktore</li>
-                                    <li class="text-base font-normal">- Vererbung, Polymorphismus und Abstraktion</li>
-                                    <li class="text-base font-normal">- Schnittstellen und Pakete</li>
-                                    <li class="text-base font-normal">- Zugriffskontrolle (public, private, protected)</li>
-                                </ul>
+{{--                                <ul class="list-circle pl-6 space-y-1 text-gray-600">--}}
+{{--                                    <li class="text-base font-normal">- Klassen, Objekte und Konstruktore</li>--}}
+{{--                                    <li class="text-base font-normal">- Vererbung, Polymorphismus und Abstraktion</li>--}}
+{{--                                    <li class="text-base font-normal">- Schnittstellen und Pakete</li>--}}
+{{--                                    <li class="text-base font-normal">- Zugriffskontrolle (public, private, protected)</li>--}}
+{{--                                </ul>--}}
                             </li>
                             <li class="text-lg font-medium">
                                 Fehlerbehandlung und Debugging:
-                                <ul class="list-circle pl-6 space-y-1 text-gray-600">
-                                    <li class="text-base font-normal">- Umgang mit Ausnahmen (try, catch, finally)</li>
-                                    <li class="text-base font-normal">- Eigene Ausnahmeklassen erstellen</li>
-                                    <li class="text-base font-normal">- Debugging-Tools und Techniken</li>
-                                    <li class="text-base font-normal">- Eigene Ausnahmeklassen erstellen</li>
-                                </ul>
+{{--                                <ul class="list-circle pl-6 space-y-1 text-gray-600">--}}
+{{--                                    <li class="text-base font-normal">- Umgang mit Ausnahmen (try, catch, finally)</li>--}}
+{{--                                    <li class="text-base font-normal">- Eigene Ausnahmeklassen erstellen</li>--}}
+{{--                                    <li class="text-base font-normal">- Debugging-Tools und Techniken</li>--}}
+{{--                                    <li class="text-base font-normal">- Eigene Ausnahmeklassen erstellen</li>--}}
+{{--                                </ul>--}}
                             </li>
                             <li class="text-lg font-medium">
                                 Fortgeschrittene Java-Konzepte:
-                                <ul class="list-circle pl-6 space-y-1 text-gray-600">
-                                    <li class="text-base font-normal">- Generics und Collections-Framework (Listen, Sets, Maps)</li>
-                                    <li class="text-base font-normal">- Lambda-Ausdrücke und funktionale Programmierung</li>
-                                    <li class="text-base font-normal">- Arbeiten mit Streams und File I/O</li>
-                                    <li class="text-base font-normal">- Multithreading und parallele Programmierung</li>
-                                </ul>
+{{--                                <ul class="list-circle pl-6 space-y-1 text-gray-600">--}}
+{{--                                    <li class="text-base font-normal">- Generics und Collections-Framework (Listen, Sets, Maps)</li>--}}
+{{--                                    <li class="text-base font-normal">- Lambda-Ausdrücke und funktionale Programmierung</li>--}}
+{{--                                    <li class="text-base font-normal">- Arbeiten mit Streams und File I/O</li>--}}
+{{--                                    <li class="text-base font-normal">- Multithreading und parallele Programmierung</li>--}}
+{{--                                </ul>--}}
                             </li>
 
                             <li class="text-lg font-medium">
                                 Datenbanken und Java:
-                                <ul class="list-circle pl-6 space-y-1 text-gray-600">
-                                    <li class="text-base font-normal">- Verbindung zu Datenbanken mit JDBC</li>
-                                    <li class="text-base font-normal">- Lambda-Ausdrücke und funktionale Programmierung</li>
-                                    <li class="text-base font-normal">- CRUD-Operationen (Create, Read, Update, Delete)</li>
-                                    <li class="text-base font-normal">- Grundlagen von Hibernate und JPA</li>
-                                </ul>
+{{--                                <ul class="list-circle pl-6 space-y-1 text-gray-600">--}}
+{{--                                    <li class="text-base font-normal">- Verbindung zu Datenbanken mit JDBC</li>--}}
+{{--                                    <li class="text-base font-normal">- Lambda-Ausdrücke und funktionale Programmierung</li>--}}
+{{--                                    <li class="text-base font-normal">- CRUD-Operationen (Create, Read, Update, Delete)</li>--}}
+{{--                                    <li class="text-base font-normal">- Grundlagen von Hibernate und JPA</li>--}}
+{{--                                </ul>--}}
                             </li>
 
                             <li class="text-lg font-medium">
                                 Grafische Benutzeroberflächen (GUIs):
-                                <ul class="list-circle pl-6 space-y-1 text-gray-600">
-                                    <li class="text-base font-normal">- Erstellung von GUIs mit JavaFX oder Swing</li>
-                                    <li class="text-base font-normal">- Event-Handling und Benutzerinteraktion</li>
-                                    <li class="text-base font-normal">- Event-Handling und Benutzerinteraktion</li>
-                                    <li class="text-base font-normal">- Erstellung kleiner Desktop-Anwendungen</li>
-                                </ul>
+{{--                                <ul class="list-circle pl-6 space-y-1 text-gray-600">--}}
+{{--                                    <li class="text-base font-normal">- Erstellung von GUIs mit JavaFX oder Swing</li>--}}
+{{--                                    <li class="text-base font-normal">- Event-Handling und Benutzerinteraktion</li>--}}
+{{--                                    <li class="text-base font-normal">- Event-Handling und Benutzerinteraktion</li>--}}
+{{--                                    <li class="text-base font-normal">- Erstellung kleiner Desktop-Anwendungen</li>--}}
+{{--                                </ul>--}}
                             </li>
                         </ul>
                         <p class="mt-8">
@@ -293,40 +293,40 @@
                         <ul class="list-decimal pl-8 space-y-2 ">
                             <li class="text-lg font-medium">
                                 Grundlagen der Algorithmen:
-                                <ul class="list-circle pl-6 space-y-1 text-gray-600">
-                                    <li class="text-base font-normal">- Definition von Algorithmen</li>
-                                    <li class="text-base font-normal">- Datenstrukturen (Arrays, Listen, Bäume, Graphen)</li>
-                                    <li class="text-base font-normal">-  Komplexitätsanalyse (O-Notation)</li>
-                                </ul>
+{{--                                <ul class="list-circle pl-6 space-y-1 text-gray-600">--}}
+{{--                                    <li class="text-base font-normal">- Definition von Algorithmen</li>--}}
+{{--                                    <li class="text-base font-normal">- Datenstrukturen (Arrays, Listen, Bäume, Graphen)</li>--}}
+{{--                                    <li class="text-base font-normal">-  Komplexitätsanalyse (O-Notation)</li>--}}
+{{--                                </ul>--}}
                             </li>
                             <li class="text-lg font-medium">
                                 Sortier- und Suchalgorithmen:
-                                <ul class="list-circle pl-6 space-y-1 text-gray-600">
-                                    <li class="text-base font-normal">- Algorithmen wie Bubble Sort, Quick Sort, Merge Sort</li>
-                                    <li class="text-base font-normal">- Binäre Suche und ihre Optimierungen</li>
-                                </ul>
+{{--                                <ul class="list-circle pl-6 space-y-1 text-gray-600">--}}
+{{--                                    <li class="text-base font-normal">- Algorithmen wie Bubble Sort, Quick Sort, Merge Sort</li>--}}
+{{--                                    <li class="text-base font-normal">- Binäre Suche und ihre Optimierungen</li>--}}
+{{--                                </ul>--}}
                             </li>
                             <li class="text-lg font-medium">
                                 Graphalgorithmen:
-                                <ul class="list-circle pl-6 space-y-1 text-gray-600">
-                                    <li class="text-base font-normal">- Tiefensuche und Breitensuche</li>
-                                    <li class="text-base font-normal">- Dijkstra-Algorithmus und kürzeste Wege</li>
-                                    <li class="text-base font-normal">- Kruskal- und Prim-Algorithmus für Minimum Spanning Trees</li>
-                                </ul>
+{{--                                <ul class="list-circle pl-6 space-y-1 text-gray-600">--}}
+{{--                                    <li class="text-base font-normal">- Tiefensuche und Breitensuche</li>--}}
+{{--                                    <li class="text-base font-normal">- Dijkstra-Algorithmus und kürzeste Wege</li>--}}
+{{--                                    <li class="text-base font-normal">- Kruskal- und Prim-Algorithmus für Minimum Spanning Trees</li>--}}
+{{--                                </ul>--}}
                             </li>
                             <li class="text-lg font-medium">
                                 Dynamische Programmierung:
-                                <ul class="list-circle pl-6 space-y-1 text-gray-600">
-                                    <li class="text-base font-normal">- Konzept der Rekursion und Memoisierung</li>
-                                    <li class="text-base font-normal">- Knapsack-Problem, Fibonacci-Zahlen, Longest Common Subsequence</li>
-                                </ul>
+{{--                                <ul class="list-circle pl-6 space-y-1 text-gray-600">--}}
+{{--                                    <li class="text-base font-normal">- Konzept der Rekursion und Memoisierung</li>--}}
+{{--                                    <li class="text-base font-normal">- Knapsack-Problem, Fibonacci-Zahlen, Longest Common Subsequence</li>--}}
+{{--                                </ul>--}}
                             </li>
                             <li class="text-lg font-medium">
                                 Algorithmische Optimierung:
-                                <ul class="list-circle pl-6 space-y-1 text-gray-600">
-                                    <li class="text-base font-normal">- Entscheidungsbäume und Greedy-Techniken</li>
-                                    <li class="text-base font-normal">- Huffman-Codierung, Kruskal-Algorithmus</li>
-                                </ul>
+{{--                                <ul class="list-circle pl-6 space-y-1 text-gray-600">--}}
+{{--                                    <li class="text-base font-normal">- Entscheidungsbäume und Greedy-Techniken</li>--}}
+{{--                                    <li class="text-base font-normal">- Huffman-Codierung, Kruskal-Algorithmus</li>--}}
+{{--                                </ul>--}}
                             </li>
                         </ul>
                         <p class="mt-8">
@@ -591,6 +591,39 @@
             </div>
         </div>
     </div>
+    <!-- Footer -->
+    <footer class="mt-32 bg-gray-900 sm:mt-56">
+        <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
+            <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+                {{--                <img class="h-9" src="https://maxabit.de" alt="MaxaBit IT-Solutions">--}}
+                <img class="h-9 text-gray-400 " src="https://maxabit.de" alt="MaxaBit IT-Solutions">
+                <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+                    <div class="md:grid md:grid-cols-2 md:gap-8 ">
+                        <div>
+                            <h3 class="text-sm/6 font-semibold text-blue-500"><a href="{{ url('/impressum') }}">Impressum</a></h3>
+                        </div>
+                        <div class="mt-10 md:mt-0">
+                            <h3 class="text-sm/6 font-semibold text-blue-500"><a href="{{ url('/datenschutz') }}">Datenschutz</a></h3>
+                        </div>
+                        <div class="mt-10 md:mt-0">
+                            <h3 class="text-sm/6 font-semibold text-blue-500"><a href="{{ url('/') }}"> </a></h3>
+                        </div>
+                    </div>
+                    <div class="md:grid md:grid-cols-2 md:gap-8">
+                        <div>
+                            <h3 class="text-sm/6 font-semibold text-blue-500"><a href="{{ url('/ueberuns') }}">Über Uns</a></h3>
+                        </div>
+                        <div class="mt-10 md:mt-0">
+                            <h3 class="text-sm/6 font-semibold text-blue-500"><a href="{{ url('/kontakt') }}">Kontakt</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
+                <p class="text-sm/6 text-gray-400 text-center">Copyright &copy; 2024 MaxaBit IT-Solutions, Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </div>
 
 </body>

@@ -18,7 +18,7 @@
     <meta property="og:url" content="https://maxabit.de">
     <meta property="og:type" content="website">
 
-    <link rel="canonical" href="https://maxabit.de/entwicklung">
+    <link rel="canonical" href={{ url()->current() }}>
 
     <script type="application/ld+json">
     {

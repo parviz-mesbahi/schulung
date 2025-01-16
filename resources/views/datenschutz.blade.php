@@ -13,6 +13,8 @@
     <meta property="og:image" content="https://example.com/images/seo-tipps.png">
     <meta property="og:url" content="https://maxabit.de">
 
+    <link rel="canonical" href={{ url()->current() }}>
+
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
