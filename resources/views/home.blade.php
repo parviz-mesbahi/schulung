@@ -152,11 +152,11 @@
                             <p class="mt-4 text-gray-500">
                             <ul class="list-disc ">
                                 <li> <strong class="text-gray-900"> Fachliche Exzellenz:</strong> Unsere Dozenten sind anerkannte Experten mit
-                                    tiefgehender Erfahrung, die praxisnahe und aktuelle Schulungen bieten.</li>
+                                    tiefgehender Erfahrung, die praxisnahe und aktuelle Schulungen bieten.</li> <br>
                                 <li>
                                     <strong class="text-gray-900">Individuell abgestimmte Schulungen: </strong> Wir passen die Lerninhalte
                                     gezielt an die Bedürfnisse und den Kenntnisstand Ihrer Mitarbeiter an.
-                                </li>
+                                </li> <br>
                                 <li>
                                     <strong class="text-gray-900">Klare Kommunikation: </strong> Unsere Dozenten vermitteln komplexe Konzepte
                                     verständlich und anschaulich, um den Lernprozess effektiv zu gestalten.
@@ -796,8 +796,7 @@
     <footer class="mt-32 bg-gray-900 sm:mt-56">
         <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
             <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-{{--                <img class="h-9" src="https://maxabit.de" alt="MaxaBit IT-Solutions">--}}
-                <img class="h-9 text-gray-400 " src="https://maxabit.de" alt="MaxaBit IT-Solutions">
+                <a href="{{ url('/') }}" class="h-9 text-blue-500"> MaxaBit IT-Solutions </a>
                 <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
                     <div class="md:grid md:grid-cols-2 md:gap-8 ">
                         <div>
