@@ -46,10 +46,16 @@
     <!-- Header -->
     <header class="absolute inset-x-0 top-0 z-50">
         <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+{{--            <a  href="{{ url('/') }}" class="-m-1.5 p-1.5">--}}
+{{--                <span class="text-blue-500 text-4xl font-mono font-extrabold"> MaxaBit</span>--}}
+{{--            </a>--}}
             <div class="flex lg:flex-1">
-                <a href="#" class="-m-1.5 p-1.5">
-                    <span class="sr-only">MaxaBit IT-Solutions</span>
-                    <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="">
+                <a  href="{{ url('/') }}" class="">
+                    <span class="text-blue-800 text-4xl font-serif font-extrabold"> MaxaBit</span>
+{{--                    <span class="text-blue-700 text-4xl font-mono font-extrabold"> MaxaBit</span>--}}
+{{--                    <span class="text-blue-700 text-4xl font-sans font-extrabold"> MaxaBit</span>--}}
+
+{{--                    <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="">--}}
                 </a>
             </div>
             <div class="flex lg:hidden">
