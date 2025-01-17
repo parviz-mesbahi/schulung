@@ -32,25 +32,34 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-<nav class="flex items-center justify-between p-6 lg:px-8 bg-slate-700" >
-    <div class="flex lg:flex-1">
-        <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">MaxaBit IT-Solutions</span>
-            <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="">
-        </a>
-    </div>
+<header class="absolute inset-x-0 top-0 z-50">
+    <nav class="flex items-center justify-between p-6 lg:px-8 bg-gray-900 " aria-label="Global ">
+        <div class="flex lg:flex-1">
+            <a  href="{{ url('/') }}" class="">
+                <span class="text-blue-800 text-4xl font-serif font-extrabold"> MaxaBit</span>
+            </a>
+        </div>
+        <div class="flex lg:hidden">
+            <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400">
+                <span class="sr-only">Open main menu</span>
+                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12">
+            <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home</a>
+            <a href="{{ url('/entwicklung')}}" class="text-sm/6 font-semibold text-white">Entwicklung</a>
+            <a href="{{ url('/kurs') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
+            <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
+        </div>
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+            <a href="{{ url('/kontakt') }}" class="text-sm/6 font-semibold text-white">Kurs buchen </a>
+        </div>
+    </nav>
+</header>
 
-    <div class="lg:flex lg:gap-x-12 ">
-        <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home</a>
-        <a href="{{ url('/kurs') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
-        <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
-        <a href="{{ url('/kontakt') }}" class="text-sm/6 font-semibold text-white">Kontakt</a>
-    </div>
-</nav>
-
-</div>
-
-<div class="ml-10">
+<div class="ml-10 mt-40">
     @if ($data->isEmpty())
         <p>No content available.</p>
     @else

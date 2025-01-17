@@ -39,22 +39,55 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-<nav class="flex items-center justify-between p-6 lg:px-8 bg-slate-700" >
-    <div class="flex lg:flex-1">
-        <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">MaxaBit IT-Solutions</span>
-            <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="">
-        </a>
-    </div>
+{{--<nav class="flex items-center justify-between p-6 lg:px-8 bg-slate-700" >--}}
+{{--    <div class="flex lg:flex-1">--}}
+{{--        <a href="#" class="-m-1.5 p-1.5">--}}
+{{--            <span class="sr-only">MaxaBit IT-Solutions</span>--}}
+{{--            <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="">--}}
+{{--        </a>--}}
+{{--    </div>--}}
 
-    <div class="lg:flex lg:gap-x-12 ">
-        <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home</a>
-        <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
-    </div>
-</nav>
+{{--    <div class="lg:flex lg:gap-x-12 ">--}}
+{{--        <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home</a>--}}
+{{--        <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>--}}
+{{--    </div>--}}
+{{--</nav>--}}
 {{--    </header>--}}
-</div>
+{{--</div>--}}
 
+<header class="absolute inset-x-0 top-0 z-50">
+    <nav class="flex items-center justify-between p-6 lg:px-8 bg-slate-800 " aria-label="Global ">
+        {{--            <a  href="{{ url('/') }}" class="-m-1.5 p-1.5">--}}
+        {{--                <span class="text-blue-500 text-4xl font-mono font-extrabold"> MaxaBit</span>--}}
+        {{--            </a>--}}
+        <div class="flex lg:flex-1">
+            <a  href="{{ url('/') }}" class="">
+                <span class="text-blue-800 text-4xl font-serif font-extrabold"> MaxaBit</span>
+                {{--                    <span class="text-blue-700 text-4xl font-mono font-extrabold"> MaxaBit</span>--}}
+                {{--                    <span class="text-blue-700 text-4xl font-sans font-extrabold"> MaxaBit</span>--}}
+
+                {{--                    <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="">--}}
+            </a>
+        </div>
+        <div class="flex lg:hidden">
+            <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400">
+                <span class="sr-only">Open main menu</span>
+                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12">
+            <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home</a>
+            <a href="{{ url('/entwicklung')}}" class="text-sm/6 font-semibold text-white">Entwicklung</a>
+            <a href="{{ url('/kurs') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
+            <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
+        </div>
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+            <a href="{{ url('/kontakt') }}" class="text-sm/6 font-semibold text-white">Kurs buchen </a>
+        </div>
+    </nav>
+</header>
 <div>
     <div class="relative isolate overflow-hidden bg-white py-24 sm:py-32">
         <div class="absolute -top-80 left-[max(6rem,33%)] -z-10 transform-gpu blur-3xl sm:left-1/2 md:top-20 lg:ml-20 xl:top-3 xl:ml-56" aria-hidden="true">
