@@ -29,7 +29,6 @@ class LessonResource extends Resource
                     ->label('Number'),
                 Forms\Components\TextInput::make('title')
                     ->required()
-                    ->unique()
                     ->label('Title'),
                 Forms\Components\TextInput::make('description')
                     ->required()

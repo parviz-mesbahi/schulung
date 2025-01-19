@@ -33,8 +33,12 @@
     }
 </script>
 
-    <link rel="alternate" href="https://maxabit.de/" hreflang="de">
+{{--    <link rel="alternate" href="https://maxabit.de/" hreflang="de">--}}
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
     <script src="https://cdn.tailwindcss.com"></script>
+
+
 
 </head>
 <body >
@@ -340,7 +344,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="3" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                <a href="arrays" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
 {{--                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">A</span>--}}
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">
@@ -358,87 +362,214 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="4" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
-                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">K</span>
+                                <a href="klasse" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                    <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                        <clipPath id="a">
+                                            <circle cx="50" cy="50" r="50"/>
+                                        </clipPath>
+                                        <g fill-rule="evenodd" clip-rule="evenodd" clip-path="url(#a)">
+                                            <circle fill="#24AE5F" cx="50" cy="50" r="50"/>
+                                            <path fill="#E57D25" d="M34 50.5a2.5 2.5 0 0 0 2.5 2.5h66a2.5 2.5 0 1 0 0-5h-66a2.5 2.5 0 0 0-2.5 2.5z"/>
+                                            <path fill="#FBF063" d="M23 31l16 17h44L67 31H23z"/>
+                                            <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
+                                        </g>
+                                    </svg>
                                     Klasse
-
                                 </a>
                             </li>
                             <li>
-                                <a href="5" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
-                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">K</span>
+                                <a href="konstruktoren" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                    <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                        <clipPath id="a">
+                                            <circle cx="50" cy="50" r="50"/>
+                                        </clipPath>
+                                        <g fill-rule="evenodd" clip-rule="evenodd" clip-path="url(#a)">
+                                            <circle fill="#24AE5F" cx="50" cy="50" r="50"/>
+                                            <path fill="#E57D25" d="M34 50.5a2.5 2.5 0 0 0 2.5 2.5h66a2.5 2.5 0 1 0 0-5h-66a2.5 2.5 0 0 0-2.5 2.5z"/>
+                                            <path fill="#FBF063" d="M23 31l16 17h44L67 31H23z"/>
+                                            <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
+                                        </g>
+                                    </svg>
                                     Konstruktoren
                                 </a>
                             </li>
                             <li>
-                                <a href="6" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
-                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">V</span>
+                                <a href="vererbung" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                    <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                        <clipPath id="a">
+                                            <circle cx="50" cy="50" r="50"/>
+                                        </clipPath>
+                                        <g fill-rule="evenodd" clip-rule="evenodd" clip-path="url(#a)">
+                                            <circle fill="#24AE5F" cx="50" cy="50" r="50"/>
+                                            <path fill="#E57D25" d="M34 50.5a2.5 2.5 0 0 0 2.5 2.5h66a2.5 2.5 0 1 0 0-5h-66a2.5 2.5 0 0 0-2.5 2.5z"/>
+                                            <path fill="#FBF063" d="M23 31l16 17h44L67 31H23z"/>
+                                            <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
+                                        </g>
+                                    </svg>
                                     Vererbung
                                 </a>
                             <li>
-                                <a href="7" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
-                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">I</span>
-
+                                <a href="interfaces" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                    <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                        <clipPath id="a">
+                                            <circle cx="50" cy="50" r="50"/>
+                                        </clipPath>
+                                        <g fill-rule="evenodd" clip-rule="evenodd" clip-path="url(#a)">
+                                            <circle fill="#24AE5F" cx="50" cy="50" r="50"/>
+                                            <path fill="#E57D25" d="M34 50.5a2.5 2.5 0 0 0 2.5 2.5h66a2.5 2.5 0 1 0 0-5h-66a2.5 2.5 0 0 0-2.5 2.5z"/>
+                                            <path fill="#FBF063" d="M23 31l16 17h44L67 31H23z"/>
+                                            <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
+                                        </g>
+                                    </svg>
                                     Interfaces
 
                                 </a>
                             </li>
                             <li>
-                                <a href="8" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
-                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">E</span>
+                                <a href="exceptions" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                    <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                        <clipPath id="a">
+                                            <circle cx="50" cy="50" r="50"/>
+                                        </clipPath>
+                                        <g fill-rule="evenodd" clip-rule="evenodd" clip-path="url(#a)">
+                                            <circle fill="#24AE5F" cx="50" cy="50" r="50"/>
+                                            <path fill="#E57D25" d="M34 50.5a2.5 2.5 0 0 0 2.5 2.5h66a2.5 2.5 0 1 0 0-5h-66a2.5 2.5 0 0 0-2.5 2.5z"/>
+                                            <path fill="#FBF063" d="M23 31l16 17h44L67 31H23z"/>
+                                            <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
+                                        </g>
+                                    </svg>
                                     Exceptions
 
                                 </a>
                             </li>
                             <li>
-                                <a href="9" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
-                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">S</span>
-                                    Strings-Stringbuilder
+                                <a href="string" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                    <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                        <clipPath id="a">
+                                            <circle cx="50" cy="50" r="50"/>
+                                        </clipPath>
+                                        <g fill-rule="evenodd" clip-rule="evenodd" clip-path="url(#a)">
+                                            <circle fill="#24AE5F" cx="50" cy="50" r="50"/>
+                                            <path fill="#E57D25" d="M34 50.5a2.5 2.5 0 0 0 2.5 2.5h66a2.5 2.5 0 1 0 0-5h-66a2.5 2.5 0 0 0-2.5 2.5z"/>
+                                            <path fill="#FBF063" d="M23 31l16 17h44L67 31H23z"/>
+                                            <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
+                                        </g>
+                                    </svg>                                    Strings-Stringbuilder
 
                                 </a>
                             </li>
                             <li>
-                                <a href="10" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
-                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">W</span>
+                                <a href="wrapper-klassen" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                    <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                        <clipPath id="a">
+                                            <circle cx="50" cy="50" r="50"/>
+                                        </clipPath>
+                                        <g fill-rule="evenodd" clip-rule="evenodd" clip-path="url(#a)">
+                                            <circle fill="#24AE5F" cx="50" cy="50" r="50"/>
+                                            <path fill="#E57D25" d="M34 50.5a2.5 2.5 0 0 0 2.5 2.5h66a2.5 2.5 0 1 0 0-5h-66a2.5 2.5 0 0 0-2.5 2.5z"/>
+                                            <path fill="#FBF063" d="M23 31l16 17h44L67 31H23z"/>
+                                            <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
+                                        </g>
+                                    </svg>
                                     Wrapper-Klassen
 
                                 </a>
                             </li>
                             <li>
-                                <a href="11" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
-                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">E</span>
+                                <a href="enums" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                    <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                        <clipPath id="a">
+                                            <circle cx="50" cy="50" r="50"/>
+                                        </clipPath>
+                                        <g fill-rule="evenodd" clip-rule="evenodd" clip-path="url(#a)">
+                                            <circle fill="#24AE5F" cx="50" cy="50" r="50"/>
+                                            <path fill="#E57D25" d="M34 50.5a2.5 2.5 0 0 0 2.5 2.5h66a2.5 2.5 0 1 0 0-5h-66a2.5 2.5 0 0 0-2.5 2.5z"/>
+                                            <path fill="#FBF063" d="M23 31l16 17h44L67 31H23z"/>
+                                            <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
+                                        </g>
+                                    </svg>
                                     Enums
 
                                 </a>
                             </li>
                             <li>
-                                <a href="12" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
-                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">C</span>
+                                <a href="ollections" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                    <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                        <clipPath id="a">
+                                            <circle cx="50" cy="50" r="50"/>
+                                        </clipPath>
+                                        <g fill-rule="evenodd" clip-rule="evenodd" clip-path="url(#a)">
+                                            <circle fill="#24AE5F" cx="50" cy="50" r="50"/>
+                                            <path fill="#E57D25" d="M34 50.5a2.5 2.5 0 0 0 2.5 2.5h66a2.5 2.5 0 1 0 0-5h-66a2.5 2.5 0 0 0-2.5 2.5z"/>
+                                            <path fill="#FBF063" d="M23 31l16 17h44L67 31H23z"/>
+                                            <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
+                                        </g>
+                                    </svg>
                                     Collections
 
                                 </a>
                             </li>
                             <li>
-                                <a href="13" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
-                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">F</span>
+                                <a href="filehandling" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                    <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                        <clipPath id="a">
+                                            <circle cx="50" cy="50" r="50"/>
+                                        </clipPath>
+                                        <g fill-rule="evenodd" clip-rule="evenodd" clip-path="url(#a)">
+                                            <circle fill="#24AE5F" cx="50" cy="50" r="50"/>
+                                            <path fill="#E57D25" d="M34 50.5a2.5 2.5 0 0 0 2.5 2.5h66a2.5 2.5 0 1 0 0-5h-66a2.5 2.5 0 0 0-2.5 2.5z"/>
+                                            <path fill="#FBF063" d="M23 31l16 17h44L67 31H23z"/>
+                                            <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
+                                        </g>
+                                    </svg>
                                     Filehandling
                                 </a>
                             </li>
                             <li>
-                                <a href="14" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
-                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">D</span>
+                                <a href="datum-zeit" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                    <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                        <clipPath id="a">
+                                            <circle cx="50" cy="50" r="50"/>
+                                        </clipPath>
+                                        <g fill-rule="evenodd" clip-rule="evenodd" clip-path="url(#a)">
+                                            <circle fill="#24AE5F" cx="50" cy="50" r="50"/>
+                                            <path fill="#E57D25" d="M34 50.5a2.5 2.5 0 0 0 2.5 2.5h66a2.5 2.5 0 1 0 0-5h-66a2.5 2.5 0 0 0-2.5 2.5z"/>
+                                            <path fill="#FBF063" d="M23 31l16 17h44L67 31H23z"/>
+                                            <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
+                                        </g>
+                                    </svg>
                                     Datum und Zeit
                                 </a>
                             </li>
                             <li>
-                                <a href="15" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
-                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">L</span>
+                                <a href="lambda-ausdrücke" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                    <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                        <clipPath id="a">
+                                            <circle cx="50" cy="50" r="50"/>
+                                        </clipPath>
+                                        <g fill-rule="evenodd" clip-rule="evenodd" clip-path="url(#a)">
+                                            <circle fill="#24AE5F" cx="50" cy="50" r="50"/>
+                                            <path fill="#E57D25" d="M34 50.5a2.5 2.5 0 0 0 2.5 2.5h66a2.5 2.5 0 1 0 0-5h-66a2.5 2.5 0 0 0-2.5 2.5z"/>
+                                            <path fill="#FBF063" d="M23 31l16 17h44L67 31H23z"/>
+                                            <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
+                                        </g>
+                                    </svg>
                                     Lambda-Ausdrücke
                                 </a>
                             </li>
                             <li>
-                                <a href="16" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
-                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">S</span>
+                                <a href="swing" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                    <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                        <clipPath id="a">
+                                            <circle cx="50" cy="50" r="50"/>
+                                        </clipPath>
+                                        <g fill-rule="evenodd" clip-rule="evenodd" clip-path="url(#a)">
+                                            <circle fill="#24AE5F" cx="50" cy="50" r="50"/>
+                                            <path fill="#E57D25" d="M34 50.5a2.5 2.5 0 0 0 2.5 2.5h66a2.5 2.5 0 1 0 0-5h-66a2.5 2.5 0 0 0-2.5 2.5z"/>
+                                            <path fill="#FBF063" d="M23 31l16 17h44L67 31H23z"/>
+                                            <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
+                                        </g>
+                                    </svg>
                                     Swing
                                 </a>
                             </li>
@@ -588,12 +719,10 @@
     </div>
 </div>
 
-        <div class="mx-6 my-6"> Einführung in Java xxx <br>
-
+        <div class="mx-6 my-6">
             @foreach($data as $item)
-                {{$item->content}}
+                {!! $item->content !!}
             @endforeach
-
         </div>
     <!-- Footer -->
     <footer class="mt-32 bg-gray-900 sm:mt-56">

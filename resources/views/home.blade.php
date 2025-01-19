@@ -37,7 +37,6 @@
     <link rel="alternate" href="https://maxabit.de/" hreflang="de">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
 
-
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
@@ -71,6 +70,7 @@
                 <a href="{{ url('/entwicklung')}}" class="text-sm/6 font-semibold text-white">Entwicklung</a>
                 <a href="{{ url('/kurs') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
                 <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
+                <h1 class="">H3 Test </h1>
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
                 <a href="{{ url('/kontakt') }}" class="text-sm/6 font-semibold text-white">Kurs buchen </a>

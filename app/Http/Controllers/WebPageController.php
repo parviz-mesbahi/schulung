@@ -68,7 +68,7 @@ class WebPageController extends Controller
 //            'HTML.Allowed' => 'ul,ol,li,b,strong,i,em,p,br',
 //        ]);
 
-        return view('java')->with(['data' => $data]);
+        return view('java', compact('data'));
     }
 
     public function links()

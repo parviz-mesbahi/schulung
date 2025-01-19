@@ -35,6 +35,7 @@
 </script>
 
     <link rel="alternate" href="https://maxabit.de/" hreflang="de">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
 
     <script src="https://cdn.tailwindcss.com"></script>
 </head>

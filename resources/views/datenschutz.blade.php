@@ -12,6 +12,7 @@
     <link rel="canonical" href={{ url()->current() }}>
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
 
 </head>
 <body>
