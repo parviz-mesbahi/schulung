@@ -141,16 +141,22 @@
                                 in der Java-Programmierung aufbauen oder ihre Kenntnisse vertiefen möchten. Starten Sie jetzt und entdecken Sie,
                                 wie Java die Grundlage für innovative und skalierbare Softwarelösungen weltweit schafft!”</p>
                         </blockquote>
-                        <figcaption class="mt-6 text-sm/6 text-gray-300">
-                            <a href="{{ url('/kontakt') }}" class="inline-block px-6 py-2.5 bg-blue-500
-                            text-white font-semibold text-center rounded-lg hover:bg-blue-700 focus:outline-none
-                            focus:ring-2 focus:ring-blue-300">
-                            Kurs buchen
-                            </a>
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
+                        <div class="flex">
+                            <figcaption class="mt-6 text-sm/6 text-gray-300 mr-5">
+                                <a href="{{ url('/kontakt') }}" class="inline-block px-6 py-2.5 bg-blue-500
+                                text-white font-semibold text-center rounded-lg hover:bg-blue-700 focus:outline-none
+                                focus:ring-2 focus:ring-blue-300">
+                                    Kurs buchen
+                                </a>
+                            </figcaption>
+                            <figcaption class="mt-6 text-sm/6 text-gray-300">
+                                <a href="{{ url('/kurs/datenbank/ueber_kurs') }}" class="inline-block px-6 py-2.5 bg-blue-500
+                                text-white font-semibold text-center rounded-lg hover:bg-blue-700 focus:outline-none
+                                focus:ring-2 focus:ring-blue-300">
+                                    Kurs Inhalt
+                                </a>
+                            </figcaption>
+                        </div>
             <div>
                 <div class="text-base/7 text-gray-700 lg:max-w-lg">
 {{--                    <p class="text-base/7 font-semibold text-indigo-600">Zum Java Kurs</p>--}}
@@ -501,13 +507,22 @@
                             </p>
                         </blockquote>
 
-                        <figcaption class="mt-6 text-sm/6 text-gray-300">
-                            <a href="{{ url('/kontakt') }}" class="inline-block px-6 py-2.5 bg-blue-500
-                            text-white font-semibold text-center rounded-lg hover:bg-blue-700 focus:outline-none
-                            focus:ring-2 focus:ring-blue-300">
-                                Kurs buchen
-                            </a>
-                        </figcaption>
+                        <div class="flex">
+                            <figcaption class="mt-6 text-sm/6 text-gray-300 mr-5">
+                                <a href="{{ url('/kontakt') }}" class="inline-block px-6 py-2.5 bg-blue-500
+                                text-white font-semibold text-center rounded-lg hover:bg-blue-700 focus:outline-none
+                                focus:ring-2 focus:ring-blue-300">
+                                    Kurs buchen
+                                </a>
+                            </figcaption>
+                            <figcaption class="mt-6 text-sm/6 text-gray-300">
+                                <a href="{{ url('/kurs/algorithmus/ueber_kurs') }}" class="inline-block px-6 py-2.5 bg-blue-500
+                                text-white font-semibold text-center rounded-lg hover:bg-blue-700 focus:outline-none
+                                focus:ring-2 focus:ring-blue-300">
+                                    Kurs Inhalt
+                                </a>
+                            </figcaption>
+                        </div>
                     </figure>
                 </div>
             </div>

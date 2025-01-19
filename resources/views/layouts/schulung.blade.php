@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ ucfirst(request()->path()) }} | IT-Schulungen: Java, Datenbanken, Algorithmen  & Spring Boot | MaxaBit IT-Solutions Bonn XX</title>
+    <title>{{ ucfirst(request()->path()) }} | IT-Schulungen: Java, Datenbanken, Algorithmen  & Spring Boot | MaxaBit IT-Solutions Bonn</title>
     <meta name="description" content="Entdecken Sie umfassende IT-Schulungen zu Java, Datenbanken und Algorithmen. Verbessern Sie Ihre Programmierkenntnisse mit unseren erfahrenen Trainern. Jetzt anmelden!">
     <meta name="keywords" content="Java Schulung, Datenbankkurs, Algorithmus Training, IT Weiterbildung, Programmierkurs">
     <meta name="robots" content="index, follow">
@@ -46,9 +46,8 @@
     <header class="bg-gray-900">
         <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div class="flex lg:flex-1">
-                <a href="#" class="-m-1.5 p-1.5">
-                    <span class="sr-only">Your Company</span>
-                    <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="">
+                <a  href="{{ url('/') }}" class="">
+                    <span class="text-blue-800 text-4xl font-serif font-extrabold"> MaxaBit</span>
                 </a>
             </div>
             <div class="flex lg:hidden">
@@ -60,13 +59,14 @@
                 </button>
             </div>
             <div class="hidden lg:flex lg:gap-x-12">
+                <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home</a>
                 <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
 {{--                <a href="/entwi" class="text-sm/6 font-semibold text-white">Entwicklung</a>--}}
                 <a href="{{ url('/kurs') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
-                <a href="/kontakt" class="text-sm/6 font-semibold text-white">Kontakt</a>
+
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home<span aria-hidden="true">&rarr;</span></a>
+{{--                <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home<span aria-hidden="true">&rarr;</span></a>--}}
             </div>
         </nav>
     </header>
