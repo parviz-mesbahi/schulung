@@ -150,8 +150,9 @@
                                 Warum Ihr Unternehmen von der Expertise unserer Dozenten profitiert.
                             </h2>
                             <p class="mt-4 text-gray-500">
-                            <ul class="list-disc ">
-                                <li> <strong class="text-gray-900"> Fachliche Exzellenz:</strong> Unsere Dozenten sind anerkannte Experten mit
+                            <ul class="list-image-[url(images/double_arrow_blue.svg)]">
+                                <li>
+                                    <strong class="text-gray-900"> Fachliche Exzellenz:</strong> Unsere Dozenten sind anerkannte Experten mit
                                     tiefgehender Erfahrung, die praxisnahe und aktuelle Schulungen bieten.</li> <br>
                                 <li>
                                     <strong class="text-gray-900">Individuell abgestimmte Schulungen: </strong> Wir passen die Lerninhalte
@@ -179,7 +180,7 @@
                     <div class="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
                         <div class="sm:flex lg:block">
                             <div class="sm:shrink-0">
-                                <img class="size-16" src="https://tailwindui.com/plus/img/ecommerce/icons/icon-shipping-simple.svg" alt="">
+                                <img class="size-28" src="images/onlinekurs.svg" alt="">
                             </div>
                             <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
                                 <h3 class="text-sm font-medium text-gray-900">Onlinekurse</h3>
@@ -192,7 +193,8 @@
                         </div>
                         <div class="sm:flex lg:block">
                             <div class="sm:shrink-0">
-                                <img class="size-16" src="https://tailwindui.com/plus/img/ecommerce/icons/icon-warranty-simple.svg" alt="">
+{{--                                <img class="size-16" src="https://tailwindui.com/plus/img/ecommerce/icons/icon-warranty-simple.svg" alt="">--}}
+                                <img class="size-28" src="images/vorortkurs.svg" alt="">
                             </div>
                             <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
                                 <h3 class="text-sm font-medium text-gray-900">Vor-Ort-Kurse</h3>
@@ -205,7 +207,8 @@
                         </div>
                         <div class="sm:flex lg:block">
                             <div class="sm:shrink-0">
-                                <img class="size-16" src="https://tailwindui.com/plus/img/ecommerce/icons/icon-exchange-simple.svg" alt="">
+{{--                                <img class="size-16" src="https://tailwindui.com/plus/img/ecommerce/icons/icon-exchange-simple.svg" alt="">--}}
+                                <img class="size-28" src="images/planingkurs.svg" alt="">
                             </div>
                             <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
                                 <h3 class="text-sm font-medium text-gray-900">Kurse planen</h3>
