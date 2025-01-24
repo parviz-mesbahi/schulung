@@ -44,7 +44,7 @@ return view('home');
 
 //Route::get('/java/{id}', [WebPageController::class, 'java'])->name('java');
 Route::get('/kurs/java/{title}', [WebPageController::class, 'java'])->name('kurs.java');
-Route::get('/kurs/algorithmus/{title}', [WebPageController::class, 'java'])->name('kurs.java');
+Route::get('/kurs/algorithmus/{title}', [WebPageController::class, 'algorithm'])->name('kurs.algorithm');
 Route::get('/kurs/datenbank/{title}', [WebPageController::class, 'java'])->name('kurs.java');
 Route::get('/kurs/springboot/{title}', [WebPageController::class, 'java'])->name('kurs.java');
 

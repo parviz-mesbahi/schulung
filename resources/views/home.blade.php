@@ -380,7 +380,7 @@
                         <!-- Payment frequency, update based on frequency toggle state -->
                         <span class="text-sm/6 font-semibold text-gray-600">/ Tage à 8 Stunden</span>
                     </p>
-                    <a href="/kurs/algorithmus/ueber-kurs" aria-describedby="tier-freelancer" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-indigo-500">
+                    <a href="{{url('/kurs/algorithmus/ueber-kurs')}}" aria-describedby="tier-freelancer" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-indigo-500">
                         Zum Kurs</a>
                     <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600">
                         <li class="flex gap-x-3">
@@ -483,7 +483,7 @@
                     <h2 id="tier-enterprise" class="text-lg/8 font-semibold text-indigo-600">Spring Boot</h2>
                     <p class="mt-4 text-sm/6 text-gray-600">
                         Lernen Sie in unserem Spring Boot Kurs,
-                        wie Sie moderne und leistungsstarke Anwendungen effizient und schnell erstellen.
+                        wie Sie moderne und leistungsstarke Anwendungen effizient und schnell erstellen und anschließend deployen.
                     </p>
                     <p class="mt-6 flex items-baseline gap-x-1">
                         <!-- Price, update based on frequency toggle state -->

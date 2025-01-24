@@ -71,6 +71,28 @@ class WebPageController extends Controller
         return view('java', compact('data'));
     }
 
+    public function algorithm(Request $request)
+    {
+//        $fragment = $request->query('fragment');
+        $path = $request->getPathInfo();
+        $segments = explode('/', trim($path, '/'));
+        $kurs = $segments[0]; // kurs
+        $title = $segments[1]; // algorithm
+        $description = $segments[2]; // uber-kurs
+
+        $data = DB::table('lessons')
+            ->select('content')
+            ->where('title', $title)
+            ->where('description', $description)
+            ->get();
+
+//        $content = Purifier::clean($request->input('content'), [
+//            'HTML.Allowed' => 'ul,ol,li,b,strong,i,em,p,br',
+//        ]);
+
+        return view('algorithm', compact('data'));
+    }
+
     public function links()
     {
         return view('links');
