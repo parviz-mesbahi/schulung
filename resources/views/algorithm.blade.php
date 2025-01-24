@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ ucfirst(request()->path()) }} | IT-Schulungen: Java, Datenbanken, Algorithmen  & Spring Boot | MaxaBit IT-Solutions Bonn</title>
+    <title>/kurs/algorithmus | IT-Schulungen: Java, Datenbanken, Algorithmen  & Spring Boot | MaxaBit IT-Solutions Bonn</title>
     <meta name="description" content="Entdecken Sie umfassende IT-Schulungen zu Java, Datenbanken und Algorithmen. Verbessern Sie Ihre Programmierkenntnisse mit unseren erfahrenen Trainern. Jetzt anmelden!">
     <meta name="keywords" content="Java Schulung, Datenbankkurs, Algorithmus Training, IT Weiterbildung, Programmierkurs">
     <meta name="robots" content="index, follow">
@@ -121,7 +121,7 @@
                                             <svg class="size-6 shrink-0 text-gray-400 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
                                             </svg>
-                                            Einführung
+                                            Geschichte
                                         </a>
                                     </li>
                                     <li>
@@ -129,7 +129,7 @@
                                             <svg class="size-6 shrink-0 text-gray-400 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
                                             </svg>
-                                            Kontroll-Strukturen
+                                            Eigenschaften
                                         </a>
                                     </li>
                                     <li>
@@ -137,7 +137,7 @@
                                             <svg class="size-6 shrink-0 text-gray-400 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
                                             </svg>
-                                            Arrays
+                                            Begriffe
                                         </a>
                                     </li>
                                     <li>
@@ -145,7 +145,7 @@
                                             <svg class="size-6 shrink-0 text-gray-400 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75" />
                                             </svg>
-                                            Klasse
+                                            Notation
                                         </a>
                                     </li>
                                     <li>
@@ -153,7 +153,7 @@
                                             <svg class="size-6 shrink-0 text-gray-400 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75" />
                                             </svg>
-                                            Konstruktoren
+                                            Grundkonzept
                                         </a>
                                     </li>
                                     <li>
@@ -162,7 +162,7 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" />
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" />
                                             </svg>
-                                            Vererbung
+                                            Struktogramm
                                         </a>
                                     </li>
                                     <li>
@@ -171,7 +171,7 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" />
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" />
                                             </svg>
-                                            Interfaces
+                                            Rekursion
                                         </a>
                                     </li>
                                     <li>
@@ -180,7 +180,7 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" />
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" />
                                             </svg>
-                                            Exceptions
+                                            Suche
                                         </a>
                                     </li>
                                     <li>
@@ -189,7 +189,7 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" />
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" />
                                             </svg>
-                                            Strings
+                                            Sortierte Suche
                                         </a>
                                     </li>
                                     <li>
@@ -198,7 +198,7 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" />
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" />
                                             </svg>
-                                            Enum
+                                            Datenstrukturen
                                         </a>
                                     </li>
                                     <li>
@@ -207,7 +207,7 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" />
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" />
                                             </svg>
-                                            Collections
+                                            Verkettete Liste
                                         </a>
                                     </li>
                                     <li>
@@ -216,7 +216,7 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" />
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" />
                                             </svg>
-                                            Filehandling
+                                            Bäume
                                         </a>
                                     </li>
                                     <li>
@@ -225,7 +225,7 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" />
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" />
                                             </svg>
-                                            Datum und Zeit
+                                            Zusatz
                                         </a>
                                     </li>
                                     <li>
@@ -234,7 +234,7 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" />
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" />
                                             </svg>
-                                            Lambada
+                                            Erweiterungen
                                         </a>
                                     </li>
                                     <li>
@@ -243,7 +243,7 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" />
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" />
                                             </svg>
-                                            Swing
+                                            Komplexität
                                         </a>
                                     </li>
                                 </ul>
@@ -312,7 +312,7 @@
                             </li>
                             <li>
                                 <!-- Current: "bg-gray-50 text-indigo-600", Default: "text-gray-700 hover:text-indigo-600 hover:bg-gray-50" -->
-                                <a href="einfuehrung"     class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-400">
+                                <a href="geschichte"     class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-400">
 {{--                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">E</span>--}}
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">
@@ -325,11 +325,11 @@
                                             <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
                                         </g>
                                     </svg>
-                                    Einführung
+                                    Geschichte
                                 </a>
                             </li>
                             <li>
-                                <a href="kontroll-struktur" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-400">
+                                <a href="eigenschaften" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-400">
 {{--                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">E</span>--}}
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">
@@ -342,11 +342,11 @@
                                             <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
                                         </g>
                                     </svg>
-                                    Kontroll-Strukturen
+                                    Eigenschaften
                                 </a>
                             </li>
                             <li>
-                                <a href="arrays" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                <a href="begriffe" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
 {{--                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">A</span>--}}
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">
@@ -359,12 +359,11 @@
                                             <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
                                         </g>
                                     </svg>
-                                    Arrays
-
+                                    Begriffe
                                 </a>
                             </li>
                             <li>
-                                <a href="klasse" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                <a href="notation" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">
                                             <circle cx="50" cy="50" r="50"/>
@@ -376,11 +375,11 @@
                                             <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
                                         </g>
                                     </svg>
-                                    Klasse
+                                    Notation
                                 </a>
                             </li>
                             <li>
-                                <a href="konstruktoren" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                <a href="grundkonzept" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">
                                             <circle cx="50" cy="50" r="50"/>
@@ -392,11 +391,11 @@
                                             <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
                                         </g>
                                     </svg>
-                                    Konstruktoren
+                                    Grundkonzept
                                 </a>
                             </li>
                             <li>
-                                <a href="vererbung" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                <a href="struktogramm" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">
                                             <circle cx="50" cy="50" r="50"/>
@@ -408,10 +407,10 @@
                                             <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
                                         </g>
                                     </svg>
-                                    Vererbung
+                                    Struktogramm
                                 </a>
                             <li>
-                                <a href="interfaces" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                <a href="rekursion" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">
                                             <circle cx="50" cy="50" r="50"/>
@@ -423,12 +422,11 @@
                                             <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
                                         </g>
                                     </svg>
-                                    Interfaces
-
+                                    Rekursion
                                 </a>
                             </li>
                             <li>
-                                <a href="exceptions" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                <a href="suche" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">
                                             <circle cx="50" cy="50" r="50"/>
@@ -440,28 +438,11 @@
                                             <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
                                         </g>
                                     </svg>
-                                    Exceptions
-
+                                    Suche
                                 </a>
                             </li>
                             <li>
-                                <a href="string" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
-                                    <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                                        <clipPath id="a">
-                                            <circle cx="50" cy="50" r="50"/>
-                                        </clipPath>
-                                        <g fill-rule="evenodd" clip-rule="evenodd" clip-path="url(#a)">
-                                            <circle fill="#24AE5F" cx="50" cy="50" r="50"/>
-                                            <path fill="#E57D25" d="M34 50.5a2.5 2.5 0 0 0 2.5 2.5h66a2.5 2.5 0 1 0 0-5h-66a2.5 2.5 0 0 0-2.5 2.5z"/>
-                                            <path fill="#FBF063" d="M23 31l16 17h44L67 31H23z"/>
-                                            <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
-                                        </g>
-                                    </svg>                                    Strings-Stringbuilder
-
-                                </a>
-                            </li>
-                            <li>
-                                <a href="wrapper-klassen" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                <a href="sortierte-suche" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">
                                             <circle cx="50" cy="50" r="50"/>
@@ -473,12 +454,11 @@
                                             <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
                                         </g>
                                     </svg>
-                                    Wrapper-Klassen
-
+                                    Sortierte Suche
                                 </a>
                             </li>
                             <li>
-                                <a href="enums" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                <a href="datenstrukturen" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">
                                             <circle cx="50" cy="50" r="50"/>
@@ -490,12 +470,11 @@
                                             <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
                                         </g>
                                     </svg>
-                                    Enums
-
+                                    Datenstrukturen
                                 </a>
                             </li>
                             <li>
-                                <a href="ollections" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                <a href="verkettete-liste" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">
                                             <circle cx="50" cy="50" r="50"/>
@@ -507,12 +486,11 @@
                                             <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
                                         </g>
                                     </svg>
-                                    Collections
-
+                                    Verkettete Liste
                                 </a>
                             </li>
                             <li>
-                                <a href="filehandling" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                <a href="baeume" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">
                                             <circle cx="50" cy="50" r="50"/>
@@ -524,11 +502,11 @@
                                             <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
                                         </g>
                                     </svg>
-                                    Filehandling
+                                    Bäume
                                 </a>
                             </li>
                             <li>
-                                <a href="datum-zeit" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                <a href="zusatz" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">
                                             <circle cx="50" cy="50" r="50"/>
@@ -540,11 +518,11 @@
                                             <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
                                         </g>
                                     </svg>
-                                    Datum und Zeit
+                                    Zusatz
                                 </a>
                             </li>
                             <li>
-                                <a href="lambda-ausdrücke" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                <a href="komplexitaet" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">
                                             <circle cx="50" cy="50" r="50"/>
@@ -556,11 +534,11 @@
                                             <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
                                         </g>
                                     </svg>
-                                    Lambda-Ausdrücke
+                                    Komplexität
                                 </a>
                             </li>
                             <li>
-                                <a href="swing" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                <a href="weiter" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">
                                             <circle cx="50" cy="50" r="50"/>
@@ -572,7 +550,23 @@
                                             <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
                                         </g>
                                     </svg>
-                                    Swing
+                                    Weiter
+                                </a>
+                            </li>
+                            <li>
+                                <a href="komplett" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                    <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                        <clipPath id="a">
+                                            <circle cx="50" cy="50" r="50"/>
+                                        </clipPath>
+                                        <g fill-rule="evenodd" clip-rule="evenodd" clip-path="url(#a)">
+                                            <circle fill="#24AE5F" cx="50" cy="50" r="50"/>
+                                            <path fill="#E57D25" d="M34 50.5a2.5 2.5 0 0 0 2.5 2.5h66a2.5 2.5 0 1 0 0-5h-66a2.5 2.5 0 0 0-2.5 2.5z"/>
+                                            <path fill="#FBF063" d="M23 31l16 17h44L67 31H23z"/>
+                                            <path fill="#F0C419" d="M67 70l16-17H39L23 70h44z"/>
+                                        </g>
+                                    </svg>
+                                    komplett
                                 </a>
                             </li>
                         </ul>
@@ -719,7 +713,7 @@
 {{--            </div>--}}
 {{--        </main>--}}
     </div>
-</div>
+    </div>
 
         <div class="mx-6 my-6">
             @foreach($data as $item)
