@@ -85,12 +85,24 @@ class WebPageController extends Controller
             ->where('title', $title)
             ->where('description', $description)
             ->get();
-
-//        $content = Purifier::clean($request->input('content'), [
-//            'HTML.Allowed' => 'ul,ol,li,b,strong,i,em,p,br',
-//        ]);
-
         return view('algorithm', compact('data'));
+    }
+
+    public function datenbank(Request $request)
+    {
+//        $fragment = $request->query('fragment');
+        $path = $request->getPathInfo();
+        $segments = explode('/', trim($path, '/'));
+        $kurs = $segments[0]; // kurs
+        $title = $segments[1]; // datenbank
+        $description = $segments[2]; // uber-kurs
+
+        $data = DB::table('lessons')
+            ->select('content')
+            ->where('title', $title)
+            ->where('description', $description)
+            ->get();
+        return view('datenbank', compact('data'));
     }
 
     public function links()

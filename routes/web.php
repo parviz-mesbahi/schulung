@@ -45,8 +45,8 @@ return view('home');
 //Route::get('/java/{id}', [WebPageController::class, 'java'])->name('java');
 Route::get('/kurs/java/{title}', [WebPageController::class, 'java'])->name('kurs.java');
 Route::get('/kurs/algorithmus/{title}', [WebPageController::class, 'algorithm'])->name('kurs.algorithm');
-Route::get('/kurs/datenbank/{title}', [WebPageController::class, 'java'])->name('kurs.java');
-Route::get('/kurs/springboot/{title}', [WebPageController::class, 'java'])->name('kurs.java');
+Route::get('/kurs/datenbank/{title}', [WebPageController::class, 'datenbank'])->name('kurs.datenbank');
+Route::get('/kurs/springboot/{title}', [WebPageController::class, 'springboot'])->name('kurs.java');
 
 //Route::get('/kontakt', [KontaktController::class, 'showForm'])->name('kontakt.form');
 Route::post('/kontakt', [KontaktController::class, 'submitForm'])->name('kontakt.submit');
