@@ -104,6 +104,22 @@ class WebPageController extends Controller
             ->get();
         return view('datenbank', compact('data'));
     }
+    public function springboot(Request $request)
+    {
+//        $fragment = $request->query('fragment');
+        $path = $request->getPathInfo();
+        $segments = explode('/', trim($path, '/'));
+        $kurs = $segments[0]; // kurs
+        $title = $segments[1]; // springboot
+        $description = $segments[2]; // uber-kurs
+
+        $data = DB::table('lessons')
+            ->select('content')
+            ->where('title', $title)
+            ->where('description', $description)
+            ->get();
+        return view('springboot', compact('data'));
+    }
 
     public function links()
     {
