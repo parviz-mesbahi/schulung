@@ -39,28 +39,28 @@ class LessonResource extends Resource
                 Forms\Components\MarkdownEditor::make('content')
                     ->required()
                     ->label('Content'),
-                Forms\Components\RichEditor::make('content')
-                    ->required()
-                    ->label('Content'),
+//                Forms\Components\RichEditor::make('content')
+//                    ->required()
+//                    ->label('Content'),
 
-                RichEditor::make('description')
-                    ->toolbarButtons([
-                        'attachFiles',
-                        'blockquote',
-                        'bold',
-                        'bulletList',
-                        'codeBlock',
-                        'h2',
-                        'h3',
-                        'italic',
-                        'link',
-                        'orderedList',
-                        'redo',
-                        'strike',
-                        'underline',
-                        'undo',
-                    ])
-                    ->label('description'),
+//                RichEditor::make('description')
+//                    ->toolbarButtons([
+//                        'attachFiles',
+//                        'blockquote',
+//                        'bold',
+//                        'bulletList',
+//                        'codeBlock',
+//                        'h2',
+//                        'h3',
+//                        'italic',
+//                        'link',
+//                        'orderedList',
+//                        'redo',
+//                        'strike',
+//                        'underline',
+//                        'undo',
+//                    ])
+//                    ->label('description'),
             ])->columns(1);
     }
 
