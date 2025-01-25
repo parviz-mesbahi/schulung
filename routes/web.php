@@ -51,6 +51,18 @@ Route::get('/kurs/springboot/{title}', [WebPageController::class, 'springboot'])
 //Route::get('/kontakt', [KontaktController::class, 'showForm'])->name('kontakt.form');
 Route::post('/kontakt', [KontaktController::class, 'submitForm'])->name('kontakt.submit');
 
+Route::get('/kurs/java', function () {
+    return redirect()->to('/kurs/java/ueber-kurs');
+});
+Route::get('/kurs/algorithmus', function () {
+    return redirect()->to('/kurs/algorithmus/ueber-kurs');
+});
+Route::get('/kurs/datenbank', function () {
+    return redirect()->to('/kurs/datenbank/ueber-kurs');
+});
+Route::get('/kurs/springboot', function () {
+    return redirect()->to('/kurs/springboot/ueber-kurs');
+});
 Route::get('/kontakt', function () {
     return view('kontakt');
 });
