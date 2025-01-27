@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ ucfirst(request()->path()) }} | IT-Schulungen: Java, Datenbanken, Algorithmen  & Spring Boot | MaxaBit IT-Solutions Bonn</title>
-    <meta name="description" content="Entdecken Sie umfassende IT-Schulungen zu Java, Datenbanken und Algorithmen. Verbessern Sie Ihre Programmierkenntnisse mit unseren erfahrenen Trainern. Jetzt anmelden!">
+    <title>Alle Onlinekurse auf einem Blick - Praxisnah mit Maxabit</title>
+    <meta name="description" content="Java, Algorithmen, Datenbanken und Java Spring Boot - Erlerne in unseren Kursen fundierte Fachkenntnisse – für Anfänger und Fortgeschrittene. ">
     <meta name="keywords" content="Java Schulung, Datenbankkurs, Algorithmus Training, IT Weiterbildung, Programmierkurs">
     <meta name="robots" content="index, follow">
 
@@ -55,7 +55,7 @@
             </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-            <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home</a>
+{{--            <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home</a>--}}
             <a href="{{ url('/entwicklung')}}" class="text-sm/6 font-semibold text-white">Entwicklung</a>
             <a href="{{ url('/kurs') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
             <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
