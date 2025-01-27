@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +7,8 @@
     <meta name="description" content="Entdecke unseren umfassenden Java-Kurs und erlerne die Basis der Java-Programmierung. Ideal für Anfänger und Fortgeschrittene.">
     <meta name="keywords" content="Java Schulung, Datenbankkurs, Algorithmus Training, IT Weiterbildung, Programmierkurs">
     <meta name="robots" content="index, follow">
-
-    {{--    <img src="images/java-kurs.jpg" alt="Java Programmierung Kurs für Anfänger und Fortgeschrittene">--}}
-
-
     <meta property="og:title" content="IT-Schulungen: Java, Datenbanken, Algorithmen  & Spring Boot | MaxaBit IT-Solutions Bonn">
     <meta property="og:description" content="Verbessern Sie Ihre IT-Kenntnisse mit unseren spezialisierten Schulungen in Java, Datenbanken, Algorithmen  & Spring Boot">
-    {{--    <meta property="og:image" content="https://maxabit.de/images/og-image.jpg">--}}
     <meta property="og:url" content={{ url()->current() }}>
     <meta property="og:type" content="website">
 
@@ -33,16 +27,11 @@
         }
     }
 </script>
-
-{{--    <link rel="alternate" href="https://maxabit.de/" hreflang="de">--}}
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
-
     <script src="https://cdn.tailwindcss.com"></script>
-
-
-
 </head>
-<body >
+
+<body>
 <!-- Header -->
 <header class="absolute inset-x-0 top-0 z-50">
     <nav class="flex items-center justify-between p-6 lg:px-8 bg-gray-900 " aria-label="Global ">
@@ -70,14 +59,7 @@
         </div>
     </nav>
 </header>
-<!--
-  This example requires updating your template:
 
-  ```
-  <html class="h-full bg-white">
-  <body class="h-full">
-  ```
--->
 <div>
     <!-- Off-canvas menu for mobile, show/hide based on off-canvas menu state. -->
     <div class="relative z-50 lg:hidden" role="dialog" aria-modal="true">
@@ -467,7 +449,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="arrays" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                <a href="/arrays" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
 {{--                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">A</span>--}}
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">
@@ -880,6 +862,7 @@
             </div>
         </div>
     </footer>
+  </div>
 </div>
 
 </body>
