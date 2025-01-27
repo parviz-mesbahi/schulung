@@ -68,8 +68,8 @@ class LessonResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('number'),
-                Tables\Columns\TextColumn::make('title'),
+                Tables\Columns\TextColumn::make('number')->sortable(),
+                Tables\Columns\TextColumn::make('title')->sortable(),
                 Tables\Columns\TextColumn::make('description'),
 //               Tables\Columns\TextColumn::make('content'),
 

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Home | IT-Schulungen: Java, Datenbanken, Algorithmen  & Spring Boot | MaxaBit IT-Solutions Bonn</title>
-    <meta name="description" content="Entdecken Sie umfassende IT-Schulungen zu Java, Datenbanken und Algorithmen. Verbessern Sie Ihre Programmierkenntnisse mit unseren erfahrenen Trainern. Jetzt anmelden!">
+    <title> Maxabit – Dein Partner für praxisnahe IT-Onlinekurse</title>
+    <meta name="description" content="Entdecke maßgeschneiderte IT-Services und innovative Softwarelösungen für dein Unternehmen. Kontaktiere uns für eine unverbindliche Beratung.">
     <meta name="keywords" content="Java Kurs, Spring Boot, Datenbankkurs, Algorithmus Training, IT Weiterbildung, Programmierkurs">
     <meta name="robots" content="index, follow">
 
@@ -66,7 +66,7 @@
                 </button>
             </div>
             <div class="hidden lg:flex lg:gap-x-12">
-                <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home</a>
+{{--                <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home</a>--}}
                 <a href="{{ url('/entwicklung')}}" class="text-sm/6 font-semibold text-white">Entwicklung</a>
                 <a href="{{ url('/kurs') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
                 <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
@@ -321,9 +321,7 @@
                         durch ihre Flexibilität und Plattformunabhängigkeit auszeichnet.
                     </p>
                     <p class="mt-6 flex items-baseline gap-x-1">
-                        <!-- Price, update based on frequency toggle state -->
                         <span class="text-4xl font-semibold tracking-tight text-gray-900">5</span>
-                        <!-- Payment frequency, update based on frequency toggle state -->
                         <span class="text-sm/6 font-semibold text-gray-600">/ Tage à 8 Stunden</span>
                     </p>
                     <a href="{{url('/kurs/java/ueber-kurs')}}" aria-describedby="tier-hobby" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-indigo-500 ">
@@ -375,9 +373,7 @@
                         systematischen Abfolge von Schritten effizient und präzise löst.
                     </p>
                     <p class="mt-6 flex items-baseline gap-x-1">
-                        <!-- Price, update based on frequency toggle state -->
                         <span class="text-4xl font-semibold tracking-tight text-gray-900">3</span>
-                        <!-- Payment frequency, update based on frequency toggle state -->
                         <span class="text-sm/6 font-semibold text-gray-600">/ Tage à 8 Stunden</span>
                     </p>
                     <a href="{{url('/kurs/algorithmus/ueber-kurs')}}" aria-describedby="tier-freelancer" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-indigo-500">
@@ -428,9 +424,7 @@
                         um große Datenmengen systematisch zu speichern und über SQL effizient abfragen zu können.
                     </p>
                     <p class="mt-6 flex items-baseline gap-x-1">
-                        <!-- Price, update based on frequency toggle state -->
                         <span class="text-4xl font-semibold tracking-tight text-gray-900">3</span>
-                        <!-- Payment frequency, update based on frequency toggle state -->
                         <span class="text-sm/6 font-semibold text-gray-600">/ Tage à 8 Stunden</span>
                     </p>
 {{--                    <a href="#" aria-describedby="tier-startup" class="mt-6 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Zum Kurs</a>--}}
@@ -486,9 +480,7 @@
                         wie Sie moderne und leistungsstarke Anwendungen effizient und schnell erstellen und anschließend deployen.
                     </p>
                     <p class="mt-6 flex items-baseline gap-x-1">
-                        <!-- Price, update based on frequency toggle state -->
                         <span class="text-4xl font-semibold tracking-tight text-gray-900">5</span>
-                        <!-- Payment frequency, update based on frequency toggle state -->
                         <span class="text-sm/6 font-semibold text-gray-600">/ Tage à 8 Stunden</span>
                     </p>
                     <a href="{{url('/kurs/springboot/ueber-kurs')}}" aria-describedby="tier-enterprise" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-indigo-500">
@@ -590,7 +582,7 @@
     <div class="bg-white">
         <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
             <div class="mx-auto max-w-4xl divide-y divide-gray-900/10">
-                <h2 class="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Frequently asked questions</h2>
+                <h2 class="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Häufig gestellte Fragen</h2>
                 <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">
                     <div class="pt-6">
                         <dt>
