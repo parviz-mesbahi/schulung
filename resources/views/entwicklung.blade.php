@@ -35,7 +35,7 @@
 </head>
 <body>
 <header class="absolute inset-x-0 top-0 z-50">
-    <nav class="flex items-center justify-between p-6 lg:px-8 bg-slate-800 " aria-label="Global ">
+    <nav class="flex items-center justify-between p-6 lg:px-8 bg-gray-900" aria-label="Global">
 
         <div class="flex lg:flex-1">
             <a  href="{{ url('/') }}" class="">
