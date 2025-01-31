@@ -2,7 +2,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Impressum – Rechtliche Informationen zu Maxabit</title>
     <meta name="description" content="Finde alle relevanten rechtlichen Hinweise und Informationen zu unserem Unternehmen.">
     <meta name="robots" content="noindex, follow">
