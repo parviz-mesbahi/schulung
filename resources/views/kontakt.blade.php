@@ -162,6 +162,12 @@
                     <div class="mt-8 flex justify-end">
                         <button type="submit" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Send message</button>
                     </div>
+                    <div class="text-gray-400 mt-10 text-xs">
+                        Informationen bezüglich der Verarbeitung deiner personenbezogener
+                        Daten findest du in unserer <a class="text-indigo-700" href="{{ url('/datenschutz') }}"> Datenschutzerklärung </a> . <br>
+                        Deine E-Mail-Adresse, Vor- und Nachname wird nicht an Dritte weitergegeben
+                        und zu keinem anderen Zweck als die Kontaktaufnahme zu dir verwendet.
+                    </div>
                 </div>
             </form>
         </div>
