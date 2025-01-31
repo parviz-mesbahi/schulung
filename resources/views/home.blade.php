@@ -8,13 +8,8 @@
     <meta name="description" content="Entdecke maßgeschneiderte IT-Services und innovative Softwarelösungen für dein Unternehmen. Kontaktiere uns für eine unverbindliche Beratung.">
     <meta name="keywords" content="Java Kurs, Spring Boot, Datenbankkurs, Algorithmus Training, IT Weiterbildung, Programmierkurs">
     <meta name="robots" content="index, follow">
-
-    {{--    <img src="images/java-kurs.jpg" alt="Java Programmierung Kurs für Anfänger und Fortgeschrittene">--}}
-
-
     <meta property="og:title" content="IT-Schulungen: Java, Datenbanken, Algorithmen  & Spring Boot | MaxaBit IT-Solutions Bonn">
     <meta property="og:description" content="Verbessern Sie Ihre IT-Kenntnisse mit unseren spezialisierten Schulungen in Java, Datenbanken, Algorithmen  & Spring Boot">
-    {{--    <meta property="og:image" content="https://maxabit.de/images/og-image.jpg">--}}
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:type" content="website">
 
@@ -36,7 +31,6 @@
 
     <link rel="alternate" href="https://maxabit.de/" hreflang="de">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
-
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
@@ -45,16 +39,9 @@
     <!-- Header -->
     <header class="absolute inset-x-0 top-0 z-50">
         <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
-{{--            <a  href="{{ url('/') }}" class="-m-1.5 p-1.5">--}}
-{{--                <span class="text-blue-500 text-4xl font-mono font-extrabold"> MaxaBit</span>--}}
-{{--            </a>--}}
             <div class="flex lg:flex-1">
                 <a  href="{{ url('/') }}" class="">
-                    <span class="text-blue-800 text-4xl font-serif font-extrabold"> MaxaBit</span>
-{{--                    <span class="text-blue-700 text-4xl font-mono font-extrabold"> MaxaBit</span>--}}
-{{--                    <span class="text-blue-700 text-4xl font-sans font-extrabold"> MaxaBit</span>--}}
-
-{{--                    <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="">--}}
+                    <h1 class="text-blue-800 text-4xl font-serif font-extrabold">MaxaBit</h1>
                 </a>
             </div>
             <div class="flex lg:hidden">

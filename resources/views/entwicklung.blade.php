@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-{{--<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">--}}
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +7,8 @@
     <meta name="description" content="Von Webentwicklung bis IT-Consulting: Entdecke unser umfassendes Dienstleistungsangebot – perfekt auf dein Unternehmen abgestimmt.">
     <meta name="keywords" content="Java Kurs, Spring Boot, Datenbankkurs, Algorithmus Training, IT Weiterbildung, Programmierkurs">
     <meta name="robots" content="index, follow">
-
-    {{--    <img src="images/java-kurs.jpg" alt="Java Programmierung Kurs für Anfänger und Fortgeschrittene">--}}
-
-
     <meta property="og:title" content="IT-Schulungen: Java, Datenbanken, Algorithmen  & Spring Boot | MaxaBit IT-Solutions Bonn">
     <meta property="og:description" content="Verbessern Sie Ihre IT-Kenntnisse mit unseren spezialisierten Schulungen in Java, Datenbanken, Algorithmen  & Spring Boot">
-    {{--    <meta property="og:image" content="https://maxabit.de/images/og-image.jpg">--}}
     <meta property="og:url" content={{ url()->current() }}>
     <meta property="og:type" content="website">
 
@@ -40,34 +34,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-{{--<nav class="flex items-center justify-between p-6 lg:px-8 bg-slate-700" >--}}
-{{--    <div class="flex lg:flex-1">--}}
-{{--        <a href="#" class="-m-1.5 p-1.5">--}}
-{{--            <span class="sr-only">MaxaBit IT-Solutions</span>--}}
-{{--            <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="">--}}
-{{--        </a>--}}
-{{--    </div>--}}
-
-{{--    <div class="lg:flex lg:gap-x-12 ">--}}
-{{--        <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home</a>--}}
-{{--        <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>--}}
-{{--    </div>--}}
-{{--</nav>--}}
-{{--    </header>--}}
-{{--</div>--}}
-
 <header class="absolute inset-x-0 top-0 z-50">
     <nav class="flex items-center justify-between p-6 lg:px-8 bg-slate-800 " aria-label="Global ">
-        {{--            <a  href="{{ url('/') }}" class="-m-1.5 p-1.5">--}}
-        {{--                <span class="text-blue-500 text-4xl font-mono font-extrabold"> MaxaBit</span>--}}
-        {{--            </a>--}}
+
         <div class="flex lg:flex-1">
             <a  href="{{ url('/') }}" class="">
-                <span class="text-blue-800 text-4xl font-serif font-extrabold"> MaxaBit</span>
-                {{--                    <span class="text-blue-700 text-4xl font-mono font-extrabold"> MaxaBit</span>--}}
-                {{--                    <span class="text-blue-700 text-4xl font-sans font-extrabold"> MaxaBit</span>--}}
-
-                {{--                    <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="">--}}
+                <h1 class="text-blue-800 text-4xl font-serif font-extrabold"> MaxaBit</h1>
             </a>
         </div>
         <div class="flex lg:hidden">

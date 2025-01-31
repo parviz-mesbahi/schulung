@@ -8,13 +8,8 @@
     <meta name="description" content="Erfahre mehr über unsere Mission, Werte und das engagierte Team, das hinter unseren erfolgreichen IT-Projekten steht.">
     <meta name="keywords" content="Java Schulung, Datenbankkurs, Algorithmus Training, IT Weiterbildung, Programmierkurs">
     <meta name="robots" content="index, follow">
-
-    {{--    <img src="images/java-kurs.jpg" alt="Java Programmierung Kurs für Anfänger und Fortgeschrittene">--}}
-
-
     <meta property="og:title" content="IT-Schulungen: Java, Datenbanken, Algorithmen  & Spring Boot | MaxaBit IT-Solutions Bonn">
     <meta property="og:description" content="Verbessern Sie Ihre IT-Kenntnisse mit unseren spezialisierten Schulungen in Java, Datenbanken, Algorithmen  & Spring Boot">
-    {{--    <meta property="og:image" content="https://maxabit.de/images/og-image.jpg">--}}
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:type" content="website">
 
@@ -33,8 +28,6 @@
         }
     }
 </script>
-
-{{--    <link rel="alternate" href="https://maxabit.de/" hreflang="de">--}}
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -43,7 +36,7 @@
     <nav class="flex items-center justify-between p-6 lg:px-8 bg-gray-900 " aria-label="Global ">
         <div class="flex lg:flex-1">
             <a  href="{{ url('/') }}" class="">
-                <span class="text-blue-800 text-4xl font-serif font-extrabold"> MaxaBit</span>
+                <h1 class="text-blue-800 text-4xl font-serif font-extrabold"> MaxaBit</h1>
             </a>
         </div>
         <div class="flex lg:hidden">

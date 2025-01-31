@@ -5,14 +5,9 @@
 
     <title>Datenschutzbestimmungen</title>
     <meta name="description" content="Erfahre, wie wir deine persönlichen Daten schützen und welche Maßnahmen wir für die Datensicherheit ergreifen.">
-    <meta name="keywords" content="Java Kurs, Spring Boot, Datenbankkurs, Algorithmus Training, IT Weiterbildung, Programmierkurs">
-    <meta name="robots" content="noindex">
-
-
-    <link rel="canonical" href={{ url()->current() }}>
-
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="robots" content="noindex, follow">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
 <body>

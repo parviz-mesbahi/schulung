@@ -5,30 +5,8 @@
 
     <title>Impressum – Rechtliche Informationen zu Maxabit</title>
     <meta name="description" content="Finde alle relevanten rechtlichen Hinweise und Informationen zu unserem Unternehmen.">
-    <meta name="keywords" content="Java Schulung, Datenbankkurs, Algorithmus Training, IT Weiterbildung, Programmierkurs">
-    <meta name="robots" content="noindex">
-
-    {{--    <img src="images/java-kurs.jpg" alt="Java Programmierung Kurs für Anfänger und Fortgeschrittene">--}}
-
-    <link rel="canonical" href={{ url()->current() }}>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Course",
-        "name": "Java Programmierung",
-        "description": "Lernen Sie die Grundlagen und fortgeschrittene Konzepte der Java-Programmierung in unserem umfassenden Kurs.",
-        "provider": {
-         "@type": "Organization",
-         "name": "MaxaBit IT-Solutions",
-         "sameAs": "https://maxabit.de"
-        }
-    }
-</script>
-
-{{--    <link rel="alternate" href="https://maxabit.de/" hreflang="de">--}}
+    <meta name="robots" content="noindex, follow">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
-
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
@@ -36,7 +14,7 @@
     <nav class="flex items-center justify-between p-6 lg:px-8 bg-gray-900 " aria-label="Global ">
         <div class="flex lg:flex-1">
             <a  href="{{ url('/') }}" class="">
-                <span class="text-blue-800 text-4xl font-serif font-extrabold"> MaxaBit</span>
+                <h1 class="text-blue-800 text-4xl font-serif font-extrabold"> MaxaBit</h1>
             </a>
         </div>
         <div class="flex lg:hidden">
