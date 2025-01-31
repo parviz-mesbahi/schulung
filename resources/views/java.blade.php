@@ -1,31 +1,13 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Java Kurs – Erlerne die Grundlagen der Programmierung</title>
     <meta name="description" content="Entdecke unseren umfassenden Java-Kurs und erlerne die Basis der Java-Programmierung. Ideal für Anfänger und Fortgeschrittene.">
-    <meta name="keywords" content="Java Schulung, Datenbankkurs, Algorithmus Training, IT Weiterbildung, Programmierkurs">
-    <meta name="robots" content="index, follow">
-    <meta property="og:title" content="IT-Schulungen: Java, Datenbanken, Algorithmen  & Spring Boot | MaxaBit IT-Solutions Bonn">
-    <meta property="og:description" content="Verbessern Sie Ihre IT-Kenntnisse mit unseren spezialisierten Schulungen in Java, Datenbanken, Algorithmen  & Spring Boot">
-    <meta property="og:url" content={{ url()->current() }}>
-    <meta property="og:type" content="website">
+    <meta name="robots" content="noindex, follow">
 
-    <link rel="canonical" href={{ url()->current() }}>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Course",
-        "name": "Java Programmierung",
-        "description": "Lernen Sie die Grundlagen und fortgeschrittene Konzepte der Java-Programmierung in unserem umfassenden Kurs.",
-        "provider": {
-         "@type": "Organization",
-         "name": "MaxaBit IT-Solutions",
-         "sameAs": "https://maxabit.de"
-        }
-    }
 </script>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -37,7 +19,7 @@
     <nav class="flex items-center justify-between p-6 lg:px-8 bg-gray-900 " aria-label="Global ">
         <div class="flex lg:flex-1">
             <a  href="{{ url('/') }}" class="">
-                <span class="text-blue-800 text-4xl font-serif font-extrabold"> MaxaBit</span>
+                <h1 class="text-blue-800 text-4xl font-serif font-extrabold"> MaxaBit</h1>
             </a>
         </div>
         <div class="flex lg:hidden">
@@ -79,8 +61,7 @@
                 <!-- Sidebar component, swap this element with another sidebar if you like -->
                 <div class="flex grow flex-col gap-y-5 overflow-y-auto bg-white px-6 pb-4">
                     <div class="flex h-16 shrink-0 items-center">
-{{--                        <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="Your Company">--}}
-                        <a href="{{url('/')}}"> <span class="font-bold text-indigo-700"> MaxaBit</span> </a>
+{                        <a href="{{url('/')}}"> <h1 class="font-bold text-indigo-700"> MaxaBit</h1> </a>
                     </div>
                     <nav class="flex flex-1 flex-col">
                         <ul role="list" class="flex flex-1 flex-col gap-y-7">
@@ -136,7 +117,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                        <a href="arrays" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                             <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                                 <clipPath id="a">
                                                     <circle cx="50" cy="50" r="50"/>
@@ -152,7 +133,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                        <a href="klasse" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                             <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                                 <clipPath id="a">
                                                     <circle cx="50" cy="50" r="50"/>
@@ -168,7 +149,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                        <a href="konstruktoren" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                             <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                                 <clipPath id="a">
                                                     <circle cx="50" cy="50" r="50"/>
@@ -184,7 +165,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                        <a href="vererbung" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                             <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                                 <clipPath id="a">
                                                     <circle cx="50" cy="50" r="50"/>
@@ -200,7 +181,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                        <a href="interfaces" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                             <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                                 <clipPath id="a">
                                                     <circle cx="50" cy="50" r="50"/>
@@ -216,7 +197,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                        <a href="exceptions" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                             <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                                 <clipPath id="a">
                                                     <circle cx="50" cy="50" r="50"/>
@@ -232,7 +213,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                        <a href="strings" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                             <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                                 <clipPath id="a">
                                                     <circle cx="50" cy="50" r="50"/>
@@ -248,7 +229,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                        <a href="enum" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                             <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                                 <clipPath id="a">
                                                     <circle cx="50" cy="50" r="50"/>
@@ -264,7 +245,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                        <a href="collections" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                             <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                                 <clipPath id="a">
                                                     <circle cx="50" cy="50" r="50"/>
@@ -280,7 +261,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                        <a href="filehandling" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                             <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                                 <clipPath id="a">
                                                     <circle cx="50" cy="50" r="50"/>
@@ -296,7 +277,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                        <a href="datum" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                             <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                                 <clipPath id="a">
                                                     <circle cx="50" cy="50" r="50"/>
@@ -312,7 +293,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                        <a href="lambada" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                             <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                                 <clipPath id="a">
                                                     <circle cx="50" cy="50" r="50"/>
@@ -328,7 +309,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                        <a href="swing" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
                                             <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                                 <clipPath id="a">
                                                     <circle cx="50" cy="50" r="50"/>
@@ -391,7 +372,7 @@
         <!-- Sidebar component, swap this element with another sidebar if you like -->
         <div class="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-white px-6 pb-4">
             <div class="flex h-16 shrink-0 items-center">
-                <a href="{{url('/')}}"> <span class="font-bold text-indigo-700"> MaxaBit</span> </a>
+                <a href="{{url('/')}}"> <h1 class="font-bold text-indigo-700"> MaxaBit</h1> </a>
             </div>
             <nav class="flex flex-1 flex-col">
                 <ul role="list" class="flex flex-1 flex-col gap-y-7">
@@ -449,7 +430,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/arrays" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
+                                <a href="arrays" class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-indigo-600">
 {{--                                    <span class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600">A</span>--}}
                                     <svg width="20px" height="20px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                                         <clipPath id="a">

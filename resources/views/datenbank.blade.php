@@ -6,41 +6,9 @@
 
     <title>Datenbank Kurs – Grundlagen der Datenbankverwaltung</title>
     <meta name="description" content="Erfahre alles über relationale Datenbanken, SQL und Datenbankdesign. Werde zum Experten für Datenbanken!">
-    <meta name="keywords" content="Java Schulung, Datenbankkurs, Algorithmus Training, IT Weiterbildung, Programmierkurs">
-    <meta name="robots" content="index, follow">
-
-    {{--    <img src="images/java-kurs.jpg" alt="Java Programmierung Kurs für Anfänger und Fortgeschrittene">--}}
-
-
-    <meta property="og:title" content="IT-Schulungen: Java, Datenbanken, Algorithmen  & Spring Boot | MaxaBit IT-Solutions Bonn">
-    <meta property="og:description" content="Verbessern Sie Ihre IT-Kenntnisse mit unseren spezialisierten Schulungen in Java, Datenbanken, Algorithmen  & Spring Boot">
-    {{--    <meta property="og:image" content="https://maxabit.de/images/og-image.jpg">--}}
-    <meta property="og:url" content={{ url()->current() }}>
-    <meta property="og:type" content="website">
-
-    <link rel="canonical" href={{ url()->current() }}>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Course",
-        "name": "Java Programmierung",
-        "description": "Lernen Sie die Grundlagen und fortgeschrittene Konzepte der Java-Programmierung in unserem umfassenden Kurs.",
-        "provider": {
-         "@type": "Organization",
-         "name": "MaxaBit IT-Solutions",
-         "sameAs": "https://maxabit.de"
-        }
-    }
-</script>
-
-{{--    <link rel="alternate" href="https://maxabit.de/" hreflang="de">--}}
+    <meta name="robots" content="noindex, follow">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
-
     <script src="https://cdn.tailwindcss.com"></script>
-
-
-
 </head>
 <body >
 <!-- Header -->
@@ -48,7 +16,7 @@
     <nav class="flex items-center justify-between p-6 lg:px-8 bg-gray-900 " aria-label="Global ">
         <div class="flex lg:flex-1">
             <a  href="{{ url('/') }}" class="">
-                <span class="text-blue-800 text-4xl font-serif font-extrabold"> MaxaBit</span>
+                <h1 class="text-blue-800 text-4xl font-serif font-extrabold"> MaxaBit</h1>
             </a>
         </div>
         <div class="flex lg:hidden">
@@ -97,8 +65,7 @@
                 <!-- Sidebar component, swap this element with another sidebar if you like -->
                 <div class="flex grow flex-col gap-y-5 overflow-y-auto bg-white px-6 pb-4">
                     <div class="flex h-16 shrink-0 items-center">
-{{--                        <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="Your Company">--}}
-                        <a href="{{url('/')}}"> <span class="font-bold text-indigo-700"> MaxaBit</span> </a>
+                        <a href="{{url('/')}}"> <h1 class="font-bold text-indigo-700"> MaxaBit</h1> </a>
                     </div>
                     <nav class="flex flex-1 flex-col">
                         <ul role="list" class="flex flex-1 flex-col gap-y-7">
@@ -280,7 +247,7 @@
         <!-- Sidebar component, swap this element with another sidebar if you like -->
         <div class="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-white px-6 pb-4">
             <div class="flex h-16 shrink-0 items-center">
-                <a href="{{url('/')}}"> <span class="font-bold text-indigo-700"> MaxaBit</span> </a>
+                <a href="{{url('/')}}"> <h1 class="font-bold text-indigo-700"> MaxaBit</h1> </a>
             </div>
             <nav class="flex flex-1 flex-col">
                 <ul role="list" class="flex flex-1 flex-col gap-y-7">

@@ -15,10 +15,10 @@
     <meta property="og:title" content="IT-Schulungen: Java, Datenbanken, Algorithmen  & Spring Boot | MaxaBit IT-Solutions Bonn">
     <meta property="og:description" content="Verbessern Sie Ihre IT-Kenntnisse mit unseren spezialisierten Schulungen in Java, Datenbanken, Algorithmen  & Spring Boot">
     {{--    <meta property="og:image" content="https://maxabit.de/images/og-image.jpg">--}}
-    <meta property="og:url" content={{ url()->current() }}>
+    <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:type" content="website">
 
-    <link rel="canonical" href={{ url()->current() }}>
+    <link rel="canonical" href="{{ url()->current() }}">
 
     <script type="application/ld+json">
     {
@@ -55,7 +55,7 @@
             </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-            <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home</a>
+{{--            <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home</a>--}}
             <a href="{{ url('/entwicklung')}}" class="text-sm/6 font-semibold text-white">Entwicklung</a>
             <a href="{{ url('/kurs') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
             <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
@@ -72,7 +72,6 @@
             <div class="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96" aria-hidden="true"></div>
             <div class="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
                 <div class="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-8 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
-                    <!-- <h1 class="max-w-2xl text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl lg:col-span-2 xl:col-auto">We’re changing the way people connect</h1> -->
                     <h1 class="max-w-2xl text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:col-span-2 xl:col-auto">
                         MaxaBit-IT Solutions in Bonn, Ihrem IT-Partner für umfassende Lösungen und Weiterbildung.
                     </h1>

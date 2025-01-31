@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Datenschutzbestimmungen</title>
-    <meta name="description" content="Erfahre, wie wir deine persönlichen Daten schützen und welche Maßnahmen wir für die Datensicherheit ergreifen."">
+    <meta name="description" content="Erfahre, wie wir deine persönlichen Daten schützen und welche Maßnahmen wir für die Datensicherheit ergreifen.">
     <meta name="keywords" content="Java Kurs, Spring Boot, Datenbankkurs, Algorithmus Training, IT Weiterbildung, Programmierkurs">
     <meta name="robots" content="noindex">
 
@@ -90,6 +90,6 @@
     </div>
 </footer>
 
-</div>
+
 </body>
-</html>
+
