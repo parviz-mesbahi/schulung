@@ -7,7 +7,7 @@
     <title>Algorithmus Kurs – Verstehe und meistere Algorithmen</title>
     <meta name="description" content="Tauche in die Welt der Algorithmen! Lerne, wie komplexe Probleme effizient zu lösen sind. Jetzt Kurs starten.">
     <meta name="robots" content="noindex, follow">
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="https://maxabit.de/favicon.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body >
