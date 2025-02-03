@@ -70,26 +70,26 @@
                     <path id="b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" d="M65.5697 118.507L65.8918 118.89C68.9503 116.314 71.367 113.253 73.1386 109.71C74.9162 106.155 75.8027 102.28 75.8027 98.0919C75.8027 94.237 75.16 90.6155 73.8708 87.2314C72.5851 83.8565 70.8137 80.9533 68.553 78.5292C66.4529 76.1079 63.9476 74.2482 61.0407 72.9536C58.2795 71.4949 55.276 70.767 52.0386 70.767C48.9935 70.767 46.4686 71.1668 44.4872 71.9924L44.4799 71.9955L44.4726 71.9988C42.7101 72.7999 41.1035 73.6831 39.6544 74.6492C38.2407 75.5916 36.8279 76.455 35.4159 77.2394L35.4047 77.2457L35.3938 77.2525C34.2318 77.9787 32.6713 78.3634 30.6736 78.3634C29.0405 78.3634 27.5131 77.2868 26.1274 74.8257C24.7483 72.2185 24.0519 69.2166 24.0519 65.8071C24.0519 60.0311 25.3782 54.4081 28.0373 48.9335C30.703 43.4454 34.3114 38.345 38.8667 33.6325C43.5812 28.761 49.0045 24.5159 55.1389 20.8979C60.1667 18.0071 65.4966 15.6179 71.1291 13.7305C73.8626 12.8145 75.8027 10.2968 75.8027 7.38572C75.8027 3.6497 72.6341 0.62247 68.8814 1.1527C61.1635 2.2432 53.7398 4.41426 46.6119 7.66522C37.5369 11.6459 29.5729 17.0612 22.7236 23.9105C16.0322 30.6019 10.618 38.4859 6.47981 47.558L6.47976 47.558L6.47682 47.5647C2.4901 56.6544 0.5 66.6148 0.5 77.4391C0.5 84.2996 1.61702 90.7679 3.85425 96.8404L3.8558 96.8445C6.08991 102.749 9.12394 108.02 12.959 112.654L12.959 112.654L12.9646 112.661C16.8027 117.138 21.2829 120.739 26.4034 123.459L26.4033 123.459L26.4144 123.465C31.5505 126.033 37.0873 127.316 43.0178 127.316C47.5035 127.316 51.6783 126.595 55.5376 125.148L55.5376 125.148L55.5477 125.144C59.5516 123.542 63.0052 121.456 65.9019 118.881L65.5697 118.507Z" />
                     <use href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" x="86" />
                 </svg>
-                <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Java Kurs – Praxisnah und Innovativ</h2>
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Algorithmen: Konzepte, Strategien und Anwendungen</h2>
                 <blockquote class="text-xl/4  text-gray-900 sm:text-2xl/9">
 
 
                     <p class="mx-auto mt-4 max-w-xl text-lg/8 text-gray-600">
-                        Die Zufriedenheit unserer Kursteilnehmer liegt uns besonders am Herzen. Unser Ziel ist es,
-                        Ihnen nicht nur Wissen zu vermitteln,
-                        sondern auch Ihre Fähigkeiten durch moderne und praxisnahe Ansätze nachhaltig zu verbessern.
-
-                        Wir setzen auf innovative Methoden, die Ihnen den Einstieg erleichtern und komplexe
-                        Themen verständlich machen.
-                        Durch praxisorientierte Übungen stellen wir sicher, dass Sie das Gelernte direkt anwenden können.
+                        In unserem Algorithmus-Kurs lernst du die Grundlagen und fortgeschrittenen Techniken zur
+                        Lösung komplexer Probleme in der Informatik. Der Kurs deckt grundlegende Algorithmen
+                        wie Sortier- und Suchverfahren ab, führt aber auch in anspruchsvollere Themen wie
+                        Graphenalgorithmen und dynamische Programmierung ein. Anhand praktischer Beispiele und
+                        Übungen entwickelst du ein tiefes Verständnis für effiziente Problemlösungsstrategien und
+                        deren Implementierung. Egal ob Einsteiger oder fortgeschrittener Programmierer – dieser Kurs
+                        bietet dir die Werkzeuge,
+                        um Algorithmen sicher zu beherrschen und deine Programmierfähigkeiten auf das nächste Level zu heben.
                     </p>
                     <p>
-{{--                    <p class="text-3xl  mb-2 mt-10 text-indigo-600">Kursformat:</p>--}}
-                    <p class="mt-10 text-lg/8 font-semibold text-gray-900">Kursformat:</p>
 
+                    <p class="mt-10 text-lg/8 font-semibold text-gray-900">Kursformat:</p>
                     <ul class="list-decimal pl-4 space-y-2">
                         <li class="mx-auto mt-4 max-w-xl text-lg/8 text-gray-500">
-                            <strong>Dauer:</strong> Abhängig vom Kursumfang beträgt die Dauer 3 bis 5 Tage.
+                            <strong>Dauer:</strong> Abhängig vom Kursumfang beträgt die Dauer 3 Tage.
                         </li>
                         <li class="mx-auto mt-4 max-w-xl text-lg/8 text-gray-500">
                             <strong>Format:</strong> Sowohl Online- als auch Präsenzteilnahme möglich
@@ -104,7 +104,7 @@
                             <strong>Zertifikat:</strong> Teilnahme- und Leistungsnachweis
                         </li>
                     </ul>
-                    <a href="{{url('/kurs/java/ueber-kurs')}}" aria-describedby="tier-hobby" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-indigo-500 ">
+                    <a href="{{url('/kurs/algorithmus/ueber-kurs')}}" aria-describedby="tier-hobby" class="mt-6 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-indigo-500 ">
                         Zum Kurs
                     </a>
                     </p>
@@ -125,9 +125,9 @@
         <div class="mx-auto max-w-3xl text-center">
             <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Inhalt des Kurses</h2>
             <p class="mx-auto mt-4 max-w-xl text-lg/8 text-gray-600">
-                Diese Java-Schulung vermittelt grundlegende und fortgeschrittene
-                Kenntnisse in der Java-Programmierung. Sie richtet sich an Einsteiger sowie an Entwickler,
-                die ihr Wissen vertiefen möchten.
+                Der Kurs vermittelt die Grundlagen und fortgeschrittene Konzepte von Algorithmen.
+                Durch praxisnahe Übungen lernen die Teilnehmer, effiziente Algorithmen
+                zu entwickeln und in realen Anwendungen einzusetzen.
             </p>
         </div>
         <dl class="mt-20 grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 lg:gap-x-8">
@@ -136,16 +136,11 @@
                     <svg class="absolute mt-1 size-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                     </svg>
-                    <p class="ml-10 text-lg/8 font-semibold text-gray-900">Einführung in Java</p>
+                    <p class="ml-10 text-lg/8 font-semibold text-gray-900">Grundlagen der Algorithmen</p>
                 </dt>
                 <dd class="ml-10 mt-2 text-base/7 text-gray-600">
-                    Die Schulung beginnt mit der Geschichte und den Einsatzgebieten von Java, gefolgt von der Installation
-                    einer Entwicklungsumgebung wie Eclipse, IntelliJ oder VS Code und den ersten Schritten in der Java-Programmierung.
-{{--                    <ul class="list-image-[url(/img/checkmark.png)]">--}}
-{{--                        <li>Geschichte und Einsatzgebiete.</li>--}}
-{{--                        <li>Installation der Entwicklungsumgebung.</li>--}}
-{{--                        <li>Erste Schritte mit Java.</li>--}}
-{{--                    </ul>--}}
+                    Einführung in Algorithmen, ihre Bedeutung und grundlegende Eigenschaften wie Korrektheit,
+                    Effizienz und Komplexität.
                 </dd>
             </div>
             <div class="relative">
@@ -154,12 +149,12 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                     </svg>
                     <p class="ml-10 text-lg/8 font-semibold text-gray-900">
-                        Grundlagen der Programmierung
+                        Sortier- Suchalgorithmen
                     </p>
                 </dt>
                 <dd class="ml-10 mt-2 text-base/7 text-gray-600">
-                    In der Schulung werden Variablen, Datentypen und Operatoren eingeführt,
-                    Kontrollstrukturen wie if-else, switch und Schleifen erläutert sowie Methoden und Funktionen behandelt.
+                    Wichtige Verfahren wie Bubble Sort, Quick Sort,
+                    Merge Sort sowie binäre und lineare Suche zur effizienten Datenverarbeitung.
                 </dd>
             </div>
             <div class="relative">
@@ -167,11 +162,10 @@
                     <svg class="absolute mt-1 size-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                     </svg>
-                    <p class="ml-10 text-lg/8 font-semibold text-gray-900">Objektorientierte Programmierung (OOP)</p>
+                    <p class="ml-10 text-lg/8 font-semibold text-gray-900">Rekursion und Divide-Conquer</p>
                 </dt>
                 <dd class="ml-10 mt-2 text-base/7 text-gray-600">
-                    In der Schulung werden Klassen und Objekte behandelt, gefolgt von
-                    den Konzepten der Vererbung, Polymorphie und Interfaces sowie der Kapselung und den Modifikatoren.
+                    Prinzipien der rekursiven Problemlösung und Algorithmen wie Mergesort und das Teile-und-Herrsche-Verfahren.
                 </dd>
             </div>
             <div class="relative">
@@ -179,11 +173,10 @@
                     <svg class="absolute mt-1 size-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                     </svg>
-                    <p class="ml-10 text-lg/8 font-semibold text-gray-900">Fehlermanagement und Debugging</p>
+                    <p class="ml-10 text-lg/8 font-semibold text-gray-900">Datenstrukturen und ihre Algorithmen</p>
                 </dt>
                 <dd class="ml-10 mt-2 text-base/7 text-gray-600">
-                    Die Schulung behandelt das Exception Handling, einschließlich try-catch und eigener
-                    Exceptions, sowie Logging- und Debugging-Techniken.
+                    Einführung in Arrays, Listen, Stapel, Warteschlangen, Hashtabellen und deren Algorithmen zur effizienten Nutzung.
                 </dd>
             </div>
             <div class="relative">
@@ -191,11 +184,11 @@
                     <svg class="absolute mt-1 size-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                     </svg>
-                    <p class="ml-10 text-lg/8 font-semibold text-gray-900">Datenverarbeitung in Java</p>
+                    <p class="ml-10 text-lg/8 font-semibold text-gray-900">Graphenalgorithmen</p>
                 </dt>
                 <dd class="ml-10 mt-2 text-base/7 text-gray-600">
-                    In der Schulung werden Collections, Arrays, Listen und Maps behandelt,
-                    einschließlich deren Sortierung und Ausgabe.
+                    Grundlagen von Graphen, Traversierungsalgorithmen
+                    wie Tiefen- und Breitensuche sowie kürzeste-Wege-Algorithmen (Dijkstra, A*).
                 </dd>
             </div>
             <div class="relative">
@@ -203,10 +196,10 @@
                     <svg class="absolute mt-1 size-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                     </svg>
-                    <p class="ml-10 text-lg/8 font-semibold text-gray-900">Moderne Java-Features</p>
+                    <p class="ml-10 text-lg/8 font-semibold text-gray-900">Dynamische Programmierung</p>
                 </dt>
                 <dd class="ml-10 mt-2 text-base/7 text-gray-600">
-                    Die Schulung behandelt Lambda-Ausdrücke und Streams sowie Konzepte zu Multithreading und Concurrency.
+                    Optimierungstechniken für komplexe Probleme, z. B. das Rucksackproblem und die Berechnung der Fibonacci-Zahlen.
                 </dd>
             </div>
             <div class="relative">
@@ -214,10 +207,11 @@
                     <svg class="absolute mt-1 size-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                     </svg>
-                    <p class="ml-10 text-lg/8 font-semibold text-gray-900">String und Stringbuilder</p>
+                    <p class="ml-10 text-lg/8 font-semibold text-gray-900">Greedy-Algorithmen</p>
                 </dt>
                 <dd class="ml-10 mt-2 text-base/7 text-gray-600">
-                    In der Schulung werden Java String und StringBuilder behandelt, zusammen mit den wichtigsten Funktionen, die sie bieten.
+                    Lösungsansätze, die durch lokale Optimierung zu global
+                    guten Lösungen führen, z. B. Prim- und Kruskal-Algorithmus für minimale Spannbäume.
                 </dd>
             </div>
             <div class="relative">
@@ -225,10 +219,10 @@
                     <svg class="absolute mt-1 size-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                     </svg>
-                    <p class="ml-10 text-lg/8 font-semibold text-gray-900">Datum und Zeit</p>
+                    <p class="ml-10 text-lg/8 font-semibold text-gray-900">Algorithmische Komplexität und O-Notation</p>
                 </dt>
                 <dd class="ml-10 mt-2 text-base/7 text-gray-600">
-                    Die Schulung behandelt Java’s Umgang mit Datum und Zeit sowie die verschiedenen dazugehörigen Funktionen.
+                    Analyse der Laufzeit und Effizienz von Algorithmen zur Bewertung ihrer Skalierbarkeit und Leistungsfähigkeit.
                 </dd>
             </div>
         </dl>

@@ -57,14 +57,15 @@ Route::get('/kurs/java', function () {
     return view('pagejava');
 });
 Route::get('/kurs/algorithmus', function () {
-    return redirect()->to('/kurs/algorithmus/ueber-kurs');
+    return view('pagealgorithm');
 });
 Route::get('/kurs/datenbank', function () {
-    return redirect()->to('/kurs/datenbank/ueber-kurs');
+    return view('pagedatenbank');
 });
 Route::get('/kurs/springboot', function () {
-    return redirect()->to('/kurs/springboot/ueber-kurs');
+    return view('pagespringboot');
 });
+
 Route::get('/kontakt', function () {
     return view('kontakt');
 });
