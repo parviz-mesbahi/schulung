@@ -7,7 +7,7 @@
     <title>Spring Boot Kurs – Modernes Java Framework meistern</title>
     <meta name="description" content="Lerne, wie mit Spring Boot leistungsstarke Java-Anwendungen entwickelt werden – effiziente Webanwendungen und Micorservices">
     <meta name="robots" content="noindex, follow">
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="https://maxabit.de/favicon.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body >

@@ -9,8 +9,9 @@
     <meta name="robots" content="noindex, follow">
 
 </script>
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="https://maxabit.de/favicon.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 
 <body>

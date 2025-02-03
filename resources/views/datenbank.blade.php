@@ -7,7 +7,7 @@
     <title>Datenbank Kurs – Grundlagen der Datenbankverwaltung</title>
     <meta name="description" content="Erfahre alles über relationale Datenbanken, SQL und Datenbankdesign. Werde zum Experten für Datenbanken!">
     <meta name="robots" content="noindex, follow">
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="https://maxabit.de/favicon.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body >
