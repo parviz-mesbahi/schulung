@@ -7,7 +7,7 @@
     <title>Algorithmus Kurs – Verstehe und meistere Algorithmen</title>
     <meta name="description" content="Tauche in die Welt der Algorithmen! Lerne, wie komplexe Probleme effizient zu lösen sind. Jetzt Kurs starten.">
     <meta name="robots" content="noindex, follow">
-    <link rel="icon" href="https://maxabit.de/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="{{ url('/favicon.svg') }}" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body >
@@ -30,7 +30,7 @@
         <div class="hidden lg:flex lg:gap-x-12">
 {{--            <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home</a>--}}
             <a href="{{ url('/entwicklung')}}" class="text-sm/6 font-semibold text-white">Entwicklung</a>
-            <a href="{{ url('/kurs') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
+            <a href="{{ url('/kurse') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
             <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">

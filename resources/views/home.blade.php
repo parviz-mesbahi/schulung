@@ -10,10 +10,10 @@
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="IT-Schulungen: Java, Datenbanken, Algorithmen  & Spring Boot | MaxaBit IT-Solutions Bonn">
     <meta property="og:description" content="Verbessern Sie Ihre IT-Kenntnisse mit unseren spezialisierten Schulungen in Java, Datenbanken, Algorithmen  & Spring Boot">
-    <meta property="og:url" content="{{ url()->current() }}">
+{{--    <meta property="og:url" content="{{ url()->current() }}">--}}
     <meta property="og:type" content="website">
 
-    <link rel="canonical" href="{{ url()->current() }}">
+{{--    <link rel="canonical" href="{{ url()->current() }}">--}}
 
     <script type="application/ld+json">
     {
@@ -28,9 +28,8 @@
         }
     }
 </script>
-
     <link rel="alternate" href="https://maxabit.de/" hreflang="de">
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="{{ url('/favicon.svg') }}" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
@@ -55,7 +54,7 @@
             <div class="hidden lg:flex lg:gap-x-12">
 {{--                <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home</a>--}}
                 <a href="{{ url('/entwicklung')}}" class="text-sm/6 font-semibold text-white">Entwicklung</a>
-                <a href="{{ url('/kurs') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
+                <a href="{{ url('/kurse') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
                 <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
                 <h1 class="">H3 Test </h1>
             </div>
@@ -137,7 +136,8 @@
                                 Warum Ihr Unternehmen von der Expertise unserer Dozenten profitiert.
                             </h2>
                             <p class="mt-4 text-gray-500">
-                            <ul class="list-image-[url(images/double_arrow_blue.svg)]">
+
+                            <ul class="list-image-[{{ url('images/double_arrow_blue.svg)') }}">
                                 <li>
                                     <strong class="text-gray-900"> Fachliche Exzellenz:</strong> Unsere Dozenten sind anerkannte Experten mit
                                     tiefgehender Erfahrung, die praxisnahe und aktuelle Schulungen bieten.</li> <br>

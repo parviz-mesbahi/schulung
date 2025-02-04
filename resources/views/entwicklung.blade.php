@@ -53,7 +53,7 @@
         <div class="hidden lg:flex lg:gap-x-12">
 {{--            <a href="{{ url('/') }}" class="text-sm/6 font-semibold text-white">Home</a>--}}
             <a href="{{ url('/entwicklung')}}" class="text-sm/6 font-semibold text-white">Entwicklung</a>
-            <a href="{{ url('/kurs') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
+            <a href="{{ url('/kurse') }}" class="text-sm/6 font-semibold text-white">Kurse</a>
             <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">

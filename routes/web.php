@@ -26,7 +26,7 @@ Route::get('/ueberuns', function () {
     return view('ueberuns');
 });
 
-Route::get('/kurs', function () {
+Route::get('/kurse', function () {
     return view('kurse');
 });
 
