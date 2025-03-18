@@ -55,7 +55,7 @@
             <a href="{{ url('/ueberuns') }}" class="text-sm/6 font-semibold text-white">Über uns</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="{{ url('/kontakt') }}" class="text-sm/6 font-semibold text-white">Kurs buchen </a>
+            <a href="#" class="text-sm/6 font-semibold text-white"> </a>
         </div>
     </nav>
 </header>
@@ -159,14 +159,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-8 flex justify-end">
-                        <button type="submit" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Send message</button>
-                    </div>
                     <div class="text-gray-400 mt-10 text-xs">
                         Informationen bezüglich der Verarbeitung deiner personenbezogener
-                        Daten findest du in unserer <a class="text-indigo-700" href="{{ url('/datenschutz') }}"> Datenschutzerklärung </a> . <br>
+                        Daten findest du in unserer <a class="text-indigo-700" href="{{ url('/datenschutz') }}"> Datenschutzerklärung </a> .
                         Deine E-Mail-Adresse, Vor- und Nachname wird nicht an Dritte weitergegeben
                         und zu keinem anderen Zweck als die Kontaktaufnahme zu dir verwendet.
+                    </div>
+                    <div class="mt-8 flex justify-end">
+                        <button type="submit" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Send message</button>
                     </div>
                 </div>
             </form>
@@ -200,7 +200,7 @@
                     </div>
                 </div>
                 <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-                    <p class="text-sm/6 text-gray-400 text-center">Copyright &copy; 2024 MaxaBit IT-Solutions, Inc. All rights reserved. In: Köln - Bonn - Frankfurt</p>
+                    <p class="text-sm/6 text-gray-400 text-center">Copyright &copy; 2024 MaxaBit IT-Solutions, Inc. All rights reserved.<br> Kurse in: Köln - Bonn - Frankfurt</p>
                 </div>
             </div>
         </footer>

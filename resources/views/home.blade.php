@@ -59,7 +59,7 @@
                 <h1 class="">H3 Test </h1>
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="{{ url('/kontakt') }}" class="text-sm/6 font-semibold text-white">Kurs buchen </a>
+                <a href="{{ url('/kontakt') }}" class="text-sm/6 font-semibold text-white">Kontakt </a>
             </div>
         </nav>
     </header>
@@ -557,7 +557,9 @@
                     </blockquote>
                     <figcaption class="mt-8 text-base">
 {{--                        <div class="font-semibold text-white">Hier eine Anfrage erstellen</div>--}}
-                        <div class="mt-1 text-indigo-600">Hier eine Anfrage erstellen</div>
+                        <div class="mt-1 text-indigo-600">
+                            <a href="{{ url('/kontakt') }}">Kontaktieren Sie uns für mehr Details</a>
+                        </div>
                     </figcaption>
                 </figure>
             </div>
@@ -802,7 +804,7 @@
                 </div>
             </div>
             <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-                <p class="text-sm/6 text-gray-400 text-center">Copyright &copy; 2024 MaxaBit IT-Solutions, Inc. All rights reserved. In: Köln - Bonn - Frankfurt</p>
+                <p class="text-sm/6 text-gray-400 text-center">Copyright &copy; 2024 MaxaBit IT-Solutions, Inc. All rights reserved. <br> Kurse in: Köln - Bonn - Frankfurt</p>
             </div>
         </div>
     </footer>

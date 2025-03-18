@@ -95,7 +95,7 @@
                             </p>
                         </blockquote>
                         <figcaption class="mt-8 flex gap-x-4">
-                            <img src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="mt-1 size-10 flex-none rounded-full bg-gray-50">
+                            <img src="images/ProfilBildParviz.jpg" alt="" class="mt-1 size-10 flex-none rounded-full bg-gray-50">
                             <div class="text-sm/6">
                                 <div class="font-semibold text-gray-900">Parviz Mesbahi</div>
                                 <div class="text-gray-600">info@maxabit.de</div>
@@ -178,6 +178,7 @@
                 </div>
             </div>
         </div>
+
         <!-- Footer -->
         <footer class="mt-32 bg-gray-900 sm:mt-56">
             <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
@@ -206,7 +207,7 @@
                     </div>
                 </div>
                 <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-                    <p class="text-sm/6 text-gray-400 text-center">Copyright &copy; 2024 MaxaBit IT-Solutions, Inc. All rights reserved. In: Köln - Bonn - Frankfurt</p>
+                    <p class="text-sm/6 text-gray-400 text-center">Copyright &copy; 2024 MaxaBit IT-Solutions, Inc. All rights reserved. <br> Kurse in: Köln - Bonn - Frankfurt</p>
                 </div>
             </div>
         </footer>
