@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title> Maxabit – Dein Partner für praxisnahe IT-Onlinekurse</title>
+    <title>Maxabit – Dein Partner für praxisnahe IT-Onlinekurse</title>
     <meta name="description" content="Entdecke maßgeschneiderte IT-Services und innovative Softwarelösungen für dein Unternehmen. Kontaktiere uns für eine unverbindliche Beratung.">
     <meta name="keywords" content="Java Kurs, Spring Boot, Datenbankkurs, Algorithmus Training, IT Weiterbildung, Programmierkurs">
     <meta name="robots" content="index, follow">
@@ -13,7 +13,7 @@
 {{--    <meta property="og:url" content="{{ url()->current() }}">--}}
     <meta property="og:type" content="website">
 
-{{--    <link rel="canonical" href="{{ url()->current() }}">--}}
+    <link rel="canonical" href="{{ url()->current() }}">
 
     <script type="application/ld+json">
     {
@@ -615,26 +615,18 @@
                                     Welche Vorkenntnisse sind für die Kurse erforderlich?
                                 </span>
                                 <span class="ml-6 flex h-7 items-center">
-                <!--
-                  Icon when question is collapsed.
 
-                  Item expanded: "hidden", Item collapsed: ""
-                -->
-                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                <svg id="svgPlus1" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="false" data-slot="icon">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
                 </svg>
-                                    <!--
-                                      Icon when question is expanded.
 
-                                      Item expanded: "", Item collapsed: "hidden"
-                                    -->
-                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                <svg id="svgMinus1" class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
                 </svg>
               </span>
                             </button>
                         </dt>
-                        <dd class="mt-2 pr-12" id="faq-0">
+                        <dd class="mt-2 pr-12" id="faq1">
                             <p class="text-base/7 text-gray-600">
                                 Unsere Kurse sind so konzipiert, dass sie sowohl für Einsteiger als auch
                                 für Fortgeschrittene geeignet sind. Einige Kurse, wie beispielsweise in
@@ -650,32 +642,22 @@
                 <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">
                     <div class="pt-6">
                         <dt>
-                            <!-- Expand/collapse question button -->
                             <button type="button" class="flex w-full items-start justify-between text-left text-gray-900" aria-controls="faq-0" aria-expanded="false">
                                 <span class="text-base/7 font-semibold">
                                     Wie lange dauert es, einen Kurs abzuschließen?
                                 </span>
                                 <span class="ml-6 flex h-7 items-center">
-                <!--
-                  Icon when question is collapsed.
 
-                  Item expanded: "hidden", Item collapsed: ""
-                -->
-                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                <svg id="svgPlus2" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
                 </svg>
-                                    <!--
-                                      Icon when question is expanded.
-
-                                      Item expanded: "", Item collapsed: "hidden"
-                                    -->
-                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                <svg id="svgMinus2" class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
                 </svg>
               </span>
                             </button>
                         </dt>
-                        <dd class="mt-2 pr-12" id="faq-0">
+                        <dd class="mt-2 pr-12" id="faq2">
                             <p class="text-base/7 text-gray-600">
                                 Die Dauer jedes Kurses variiert je nach Umfang und Komplexität. Sie
                                 können jedoch in Ihrem eigenen Tempo lernen, was Ihnen ermöglicht,
@@ -689,32 +671,23 @@
                 <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">
                     <div class="pt-6">
                         <dt>
-                            <!-- Expand/collapse question button -->
                             <button type="button" class="flex w-full items-start justify-between text-left text-gray-900" aria-controls="faq-0" aria-expanded="false">
                                 <span class="text-base/7 font-semibold">
                                    Sind die Kurse auch für Unternehmen geeignet?
                                 </span>
                                 <span class="ml-6 flex h-7 items-center">
-                <!--
-                  Icon when question is collapsed.
 
-                  Item expanded: "hidden", Item collapsed: ""
-                -->
-                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                <svg id="svgPlus3" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
                 </svg>
-                                    <!--
-                                      Icon when question is expanded.
 
-                                      Item expanded: "", Item collapsed: "hidden"
-                                    -->
-                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                <svg id="svgMinus3" class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
                 </svg>
               </span>
                             </button>
                         </dt>
-                        <dd class="mt-2 pr-12" id="faq-0">
+                        <dd class="mt-2 pr-12" id="faq3">
                             <p class="text-base/7 text-gray-600">
                                 Ja, unsere Kurse sind sowohl für Einzelpersonen als auch für
                                 Unternehmen geeignet. Wir bieten maßgeschneiderte Schulungen an,
@@ -735,26 +708,17 @@
                                     Erhalte ich ein Zertifikat nach dem Kurs?
                                 </span>
                                 <span class="ml-6 flex h-7 items-center">
-                <!--
-                  Icon when question is collapsed.
 
-                  Item expanded: "hidden", Item collapsed: ""
-                -->
-                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                <svg id="svgPlus4" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
                 </svg>
-                                    <!--
-                                      Icon when question is expanded.
-
-                                      Item expanded: "", Item collapsed: "hidden"
-                                    -->
-                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                <svg id="svgMinus4" class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
                 </svg>
               </span>
                             </button>
                         </dt>
-                        <dd class="mt-2 pr-12" id="faq-0">
+                        <dd class="mt-2 pr-12" id="faq4">
                             <p class="text-base/7 text-gray-600">
                                 Ja, nach erfolgreichem Abschluss eines Kurses erhalten Sie ein Teilnahmezertifikat,
                                 das Ihre neu erlernten Fähigkeiten und Kenntnisse dokumentiert und bestätigt.
@@ -767,32 +731,24 @@
                 <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">
                     <div class="pt-6">
                         <dt>
-                            <!-- Expand/collapse question button -->
+
                             <button type="button" class="flex w-full items-start justify-between text-left text-gray-900" aria-controls="faq-0" aria-expanded="false">
                                 <span class="text-base/7 font-semibold">
                                     Wie melde ich mich für einen Kurs an?
                                 </span>
                                 <span class="ml-6 flex h-7 items-center">
-                <!--
-                  Icon when question is collapsed.
 
-                  Item expanded: "hidden", Item collapsed: ""
-                -->
-                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                <svg id="svgPlus5" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
                 </svg>
-                                    <!--
-                                      Icon when question is expanded.
 
-                                      Item expanded: "", Item collapsed: "hidden"
-                                    -->
-                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                <svg id="svgMinus5" class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
                 </svg>
               </span>
                             </button>
                         </dt>
-                        <dd class="mt-2 pr-12" id="faq-0">
+                        <dd class="mt-2 pr-12" id="faq5">
                             <p class="text-base/7 text-gray-600">
                                 Die Anmeldung erfolgt ganz einfach über unsere Website. Wählen Sie den
                                 gewünschten Kurs aus, füllen Sie das Anmeldeformular aus und beginnen
@@ -811,10 +767,10 @@
 
 
     <!-- Footer -->
-    <footer class="mt-32 bg-gray-900 sm:mt-56">
+    <footer class="mt-32 bg-gray-900 sm:mt-6">
         <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
             <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-                <a href="{{ url('/') }}" class="h-9 text-blue-500"> MaxaBit IT-Solutions </a>
+                <div class="h-9 text-blue-500"> MaxaBit IT-Solutions </div>
                 <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
                     <div class="md:grid md:grid-cols-2 md:gap-8 ">
                         <div>
@@ -838,7 +794,7 @@
                 </div>
             </div>
             <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-                <p class="text-sm/6 text-gray-400 text-center">Copyright &copy; 2024 MaxaBit IT-Solutions, Inc. All rights reserved. <br> Kurse in: Köln - Bonn - Frankfurt</p>
+                <p class="text-sm/6 text-gray-400 text-center">Copyright &copy; 2024-2025 MaxaBit IT-Solutions, Inc. All rights reserved. <br> Kurse in: Köln - Bonn - Frankfurt</p>
             </div>
         </div>
     </footer>
@@ -859,6 +815,34 @@
         if(mobileDialog.style.visibility == "hidden") mobileDialog.style.visibility = "visible"
         else mobileDialog.style.visibility = "hidden"
     }
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        for (let i = 1; i <= 5; i++) {
+            const plus = document.getElementById(`svgPlus${i}`);
+            const minus = document.getElementById(`svgMinus${i}`);
+            const text = document.getElementById(`faq${i}`);
+
+            // Anfangszustand: Text und Minus-Icon verstecken
+            if (text) text.style.display = "none";
+            if (minus) minus.style.display = "none";
+
+            if (plus && minus && text) {
+                plus.addEventListener("click", function () {
+                    text.style.display = "block";
+                    plus.style.display = "none";
+                    minus.style.display = "inline";
+                });
+
+                minus.addEventListener("click", function () {
+                    text.style.display = "none";
+                    plus.style.display = "inline";
+                    minus.style.display = "none";
+                });
+            }
+        }
+    });
 </script>
 
 </html>

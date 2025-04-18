@@ -1,8 +1,13 @@
 User-agent: *
-Disallow: /
-Allow: /maxabit.de/
+Disallow: /kurs/java/*
+Disallow: /kurs/datenbank/*
+Disallow: /kurs/algorithmus/*
+Disallow: /kurs/springboot/*
+Allow: /kurs/java
+Allow: /kurs/datenbank
+Allow: /kurs/algorithmus
+Allow: /kurs/pringboot
 
-User-agent: ChatGPT-User
-Allow: /
 
 Sitemap: https://maxabit.de/sitemap.xml
+
