@@ -7,61 +7,62 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://maxabit.de/kontakt</loc>
+        <loc>https://www.maxabit.de/impressum</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://maxabit.de/datenschutz</loc>
+        <loc>https://www.maxabit.de/datenschutz</loc>
+        <lastmod>2025-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://www.maxabit.de/ueberuns</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://maxabit.de/impressum</loc>
+        <loc>https://www.maxabit.de/kontakt</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://maxabit.de/ueberuns</loc>
+        <loc>https://www.maxabit.de/entwicklung</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://maxabit.de/kurs</loc>
+        <loc>https://www.maxabit.de/kurs</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://maxabit.de/entwicklung</loc>
+        <loc>https://www.maxabit.de/kurs/java/ueber-kurs</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://maxabit.de/kurs/java/ueber-kurs</loc>
+        <loc>https://www.maxabit.de/kurs/algorithmus/ueber-kurs</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://maxabit.de/kurs/algorithmus/ueber-kurs</loc>
+        <loc>https://www.maxabit.de/kurs/datenbank/ueber-kurs</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://maxabit.de/kurs/datenbank/ueber-kurs</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://maxabit.de/kurs/springboot/ueber-kurs</loc>
+        <loc>https://www.maxabit.de/kurs/springboot/ueber-kurs</loc>
         <lastmod>2025-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
